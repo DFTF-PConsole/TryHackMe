@@ -1,3 +1,6 @@
+# Frequent Cmds
+
+```shell
 cd OneDrive/Ambiente\ de\ Trabalho/Outros\ Cursos/THM\ Try\ Hack\ Me/
 
 cd Materiais/KaliWordlists/
@@ -27,4 +30,4 @@ ip a
 
 
 git lfs track "*.*" # associate a file in your repository with Git LFS
-
+```
