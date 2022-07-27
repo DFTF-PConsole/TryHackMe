@@ -1,0 +1,520 @@
+Aguascalientes
+Ensenada
+Mexicali
+San Quintin
+Tecate
+Tijuana
+La Paz
+Campeche
+Ciudad del Carmen
+Casas Grandes Municipality
+Chihuahua
+Ciudad Cuauhtemoc
+Delicias
+Ciudad Juarez
+Nuevo Casas Grandes Municipality
+Palenque
+San Cristobal de las Casas
+Tapachula
+Tuxtla Gutierrez
+Ciudad Acuna
+Cuautla
+Monclova
+Piedras Negras
+Sabinas
+Saltillo
+San Pedro
+Torreon
+Colima
+Coyoacan
+Mexico City
+Tlalpan
+Durango
+Santiago Papasquiaro
+Acapulco
+Ciudad Altamirano
+Iguala
+Taxco
+Tlapa de Comonfort
+Zihuatanejo
+Celaya
+Guanajuato
+Irapuato
+Leon
+Moroleon
+Salamanca
+Salvatierra
+San Jose Iturbide
+San Miguel de Allende
+Atitalaquia
+Chapulhuacan
+Pachuca
+Tula
+Tulancingo
+Zacualtipan
+Zimapan
+Arandas
+Atotonilco El Alto
+Chapala
+El Salto
+Guadalajara
+Jocotepec
+Lagos de Moreno
+Magdalena Municipality
+Ocotlan
+Puerto Vallarta
+Tala
+Tepatitlan de Morelos
+Tlajomulco de Zuniga
+Zapopan
+Zapotlanejo
+Amecameca
+Ciudad Lopez Mateos
+Chalco de Diaz Covarrubias
+Coacalco
+Ecatepec
+Huixquilucan de Degollado
+Naucalpan
+Ciudad Nezahualcoyotl
+Ocoyoacac
+Tenancingo
+Tepotzotlan
+Texcoco
+Tlalnepantla de Baz
+Toluca
+Zumpango
+Ciudad Hidalgo
+La Piedad de Cabadas
+Morelia
+Patzcuaro
+Sahuayo
+Uruapan
+Zacapu
+Zamora
+Cuernavaca
+Jiutepec
+Tepoztlan
+Xochitepec
+Yautepec de Zaragoza
+Tepic
+Tuxpan
+Apodaca
+San Pedro Garza Garcia
+Guadalupe
+Montemorelos
+Monterrey
+Ramos Arizpe
+San Nicolas de los Garza
+Santa Catarina
+Heroica Ciudad de Huajuapan de Leon
+Oaxaca
+Atlixco
+San Andres Cholula
+Huauchinango
+Puebla
+San Martin Texmelucan de Labastida
+Tecamachalco
+Tehuacan
+Tepeaca
+Santiago de Queretaro
+Cancun
+Chetumal
+San Miguel de Cozumel
+Culiacan
+Guamuchil
+Guasave
+Los Mochis
+Mazatlan
+Ciudad Valles
+San Luis Potosi
+Agua Prieta
+Ciudad Obregon
+Guaymas
+Hermosillo
+Navojoa
+Nogales
+San Luis Rio Colorado
+Sonoyta
+Paraiso
+Tenosique
+Villahermosa
+Ciudad Camargo
+Ciudad Mante
+Ciudad Miguel Aleman
+Ciudad Victoria
+Matamoros
+Nuevo Laredo
+Reynosa
+Tampico
+Tula
+Tlaxcala
+Alamo Temapache
+Boca del Rio
+Cerro Azul
+Coatzacoalcos
+Cordoba
+Gutierrez Zamora
+Orizaba
+Poza Rica de Hidalgo
+San Andres Tuxtla
+Tierra Blanca
+Heroica Veracruz
+Xalapa
+Merida
+Valladolid
+Zacatecas
+Abasolo
+Acajete
+Acala
+Acaponeta
+Acatic
+Acayucan
+Actopan
+Acambaro
+Adolfo Ruiz Cortines
+Ajalpan
+Aldama
+Ciudad de Allende
+Allende
+Altamira
+Altotonga
+Alvarado
+Ameca
+Anenecuilco
+Anahuac
+Apan
+Apatzingan
+Apizaco
+Arcelia
+Arriaga
+Ascension
+Autlan
+Axochiapan
+Bacalar
+Balancan
+Cabo San Lucas
+Caborca
+Cadereyta de Montes
+Calkini
+Calpulalpan
+Calvillo
+Cananea
+Capilla de Guadalupe
+Casimiro Castillo
+Castanos Municipality
+Catemaco
+Cerritos
+Champoton
+Charcas
+Chemax
+Cheran
+Chicoloapan de Juarez
+Chignahuapan
+Chilpancingo
+Cihuatlan
+Ciudad Delicias
+Ciudad Guzman
+Ciudad de Armeria
+Huitzuco
+Coatepec
+Coatzintla
+Cocula
+Colotlan
+Comalcalco
+Comonfort
+Compostela
+Coquimatlan
+Cortazar
+Cosamaloapan
+Coscomatepec de Bravo
+Cosoleacaque
+Costa Rica
+Cuautitlan Izcalli
+Cueramaro
+Cuitlahuac
+Cunduacan
+Cardenas
+Degollado
+El Arenal
+El Colomo
+El Fuerte
+El Grullo
+Emiliano Zapata
+Empalme
+Escuinapa Municipality
+Etzatlan
+Felipe Carrillo Puerto
+Fresnillo
+Frontera
+Garcia
+Guadalupe Victoria
+Guerrero Negro
+Gomez Palacio
+Huamantla
+Huatabampo
+Huejotzingo
+Huejutla de Reyes
+Huimanguillo
+Huixtla
+Hunucma
+Ixmiquilpan
+Ixtapaluca
+Ixtlan del Rio
+Izamal
+Jalostotitlan
+Jalpa
+Jamay
+Jaral del Progreso
+Jiquilpan
+Jojutla de Juarez
+Juan Aldama
+Juchitan de Zaragoza
+Juventino Rosas
+Juarez
+Kanasin
+La Barca
+La Cruz
+Las Margaritas
+Las Rosas
+Las Varas
+Libres
+Linares
+Loma Bonita
+Loreto
+Macuspana
+Madera
+Maltrata
+Manzanillo
+Mapastepec
+Matamoros
+Matehuala
+Matias Romero Avendano
+Maxcanu
+Miacatlan
+Miguel Auza
+Minatitlan
+Miramar
+Misantla
+Mixquiahuala
+Motul
+Muna
+Santa Rosa de Muzquiz
+Nacozari de Garcia
+Nanchital
+Naranjos
+Nava Municipality
+Navolato
+Nogales
+Nueva Rosita
+Ojinaga
+Ojocaliente
+Oluta
+Ometepec
+Oxkutzcab
+Palau
+Paracho
+Parras de la Fuente
+Paso del Macho
+Perote
+Petatlan
+Peto
+Pijijiapan
+Playa del Carmen
+Poncitlan
+Progreso
+Puente de Ixtla
+Puerto Escondido
+Puerto Penasco
+Puruandiro
+Panuco
+Penjamo
+Quiroga
+Rincon de Romos
+Rioverde
+Romita
+Rosarito
+Ruiz
+Rio Bravo
+Rio Grande
+Sabinas Hidalgo
+Salina Cruz
+San Buenaventura
+San Felipe
+San Fernando
+San Francisco del Rincon
+San Jose El Alto
+San Jose del Cabo
+San Juan Bautista Tuxtepec
+San Juan de la Vega
+San Juan de los Lagos
+San Juan del Rio
+San Julian
+San Luis de la Paz
+San Marcos
+San Miguel el Alto
+Santa Ana
+Santa Anita
+Santa Barbara Municipality
+Santa Maria del Rio
+Santa Rosalia
+Santiago Ixcuintla
+Santiago Tuxtla
+Saucillo
+Sayula
+Silao
+Sombrerete
+Suchiapa
+Tamazunchale
+Tamuin
+Tantoyuca
+Tarimoro
+Teapa
+Tecoman
+Tecuala
+Tehuantepec
+Tekax de Alvaro Obregon
+Teloloapan
+Tenancingo Municipality
+Tenancingo
+Tenango de Arista
+Teocaltiche
+Tepalcatepec
+Tepalcingo
+Tepeji
+Tequila
+Tequisquiapan
+Teziutlan
+Ticul
+Tierra Colorada
+Tihuatlan
+Tixkokob
+Tixtla
+Tizayuca
+Tizimin
+Tlapacoyan
+Tlaxcalancingo
+Tlaxco
+Tlaxcoapan
+Tlaxiaco
+Tonala
+Torreón
+Totolapa
+Tototlan
+Tuxpan
+Uman
+Union Hidalgo
+Valle Hermoso
+Valle de Bravo
+Valle de Santiago
+Valparaiso
+Villa Union
+Villanueva
+Xonacatlan
+Yajalon
+Yuriria
+Yurecuaro
+Zacatlan
+Zapotiltic
+Zaragoza
+Zinacatepec
+Zitacuaro
+Ebano
+Aguascalientes
+Baja California
+Baja California Sur
+Campeche
+Chihuahua
+Chiapas
+Coahuila
+Colima
+Mexico City
+Durango
+Guerrero
+Guanajuato
+Hidalgo
+Jalisco
+State of Mexico
+Michoacan
+Morelos
+Nayarit
+Nuevo Leon
+Oaxaca
+Puebla
+Queretaro
+Quintana Roo
+Sinaloa
+San Luis Potosi
+Sonora
+Tabasco
+Tamaulipas
+Tlaxcala
+Veracruz
+Yucatan
+Zacatecas
+Mexico
+General Francisco Javier Mina International Airport
+Ciudad del Carmen International Airport
+Cancun International Airport
+Mexico City International Airport
+Monterrey International Airport
+Tijuana International Airport
+Azcapotzalco
+Cuajimalpa
+Gustavo A. Madero
+Iztacalco
+Iztapalapa
+Magdalena Contreras
+Alvaro Obregon
+Tlahuac
+Xochimilco
+Benito Juarez
+Cuauhtemoc
+Miguel Hidalgo
+Venustiano Carranza
+Milpa Alta
+Arcelia
+Ninos Heroes
+Etchojoa
+Guachochi
+Guadalajara
+Guadeloupe
+Huautla
+Ignacio Zaragoza
+La Piedad
+Lazaro Cardenas Municipality
+Los Cabos
+Mascota
+Buenaventura
+Choix
+Mocorito
+Navojoa
+Nextlalpan
+Quecholac
+Playas de Rosarito Municipality
+Salinas Victoria
+San Francisco del Oro
+San Luis Rio Colorado
+San Martin de las Piramides
+San Martin de Hidalgo
+San Pedro Cholula
+Atizapan de Zaragoza
+Cadereyta Jimenez
+Ciudad Mendoza
+Cuernavaca
+Dolores Hidalgo
+General Escobedo
+Isla Mujeres
+Ixmiquilpan
+La Piedad de Cabadas
+La Paz
+Mazatlan
+Navojoa
+Parral
+San Miguel
+Tampico
+Tantoyuca
+Toluca
+Tulum
+Tuxpam de Rodriguez Cano
+San Juan Bautista Tuxtepec
+Veracruz

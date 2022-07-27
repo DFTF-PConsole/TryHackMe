@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Thu Apr  7 21:17:27 2022 as: nmap -sV -sC -oA scans/initial 10.10.162.6
+Host: 10.10.162.6 ()	Status: Up
+Host: 10.10.162.6 ()	Ports: 22/closed/tcp//ssh///, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
+# Nmap done at Thu Apr  7 21:18:34 2022 -- 1 IP address (1 host up) scanned in 67.02 seconds

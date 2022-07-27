@@ -1,0 +1,4 @@
+rockyou.txt filter=lfs diff=lfs merge=lfs -text
+combination.txt filter=lfs diff=lfs merge=lfs -text
+numberphone.txt filter=lfs diff=lfs merge=lfs -text
+rockyou-sort.txt filter=lfs diff=lfs merge=lfs -text

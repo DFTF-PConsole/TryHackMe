@@ -1,0 +1,9 @@
+[2Kassets                  [Status: 301, Size: 178, Words: 6, Lines: 8]
+[2Kcontact                 [Status: 200, Size: 3108, Words: 747, Lines: 65]
+[2Kcustomers               [Status: 302, Size: 0, Words: 1, Lines: 1]
+[2Kdevelopment.log         [Status: 200, Size: 27, Words: 5, Lines: 1]
+[2Kmonthly                 [Status: 200, Size: 28, Words: 4, Lines: 1]
+[2Knews                    [Status: 200, Size: 2538, Words: 518, Lines: 51]
+[2Kprivate                 [Status: 301, Size: 178, Words: 6, Lines: 8]
+[2Krobots.txt              [Status: 200, Size: 46, Words: 4, Lines: 3]
+[2Ksitemap.xml             [Status: 200, Size: 1383, Words: 260, Lines: 43]
