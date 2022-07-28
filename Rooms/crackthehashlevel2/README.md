@@ -1,7 +1,9 @@
+# THM - Crack The Hash Level 2
+
+```shell
 haiti 741ebf5166b9ece4cca88a3868c44871e8370707cf19af3ceaa4a6fba006f224ae03f39153492853
 
 haiti 1aec7a56aa08b25b596057e1ccbcb6d768b770eaa0f355ccbd56aee5040e02ee
-
 
 python3 ./wordlistctl.py search rockyou
 
@@ -19,16 +21,18 @@ python3 ./wordlistctl.py list -g usernames
 
 
 john hash.txt --wordlist=/usr/share/wordlists/passwords/rockyou.txt rules=norajCommon02
+```
 
 /etc/john/
 
+```shell
 sudo nano /etc/john/john-local.conf
 
 sudo nano /etc/john/john.conf
 
 sudo nano /usr/share/john/john-local.conf
 
-john hash.txt --format=raw-sha1 --wordlist=../../Materiais/SecLists/Passwords/Common-Credentials/10k-most-common.txt --rules=THM01
+john hash.txt --format=raw-sha1 --wordlist=../../Materials/SecLists/Passwords/Common-Credentials/10k-most-common.txt --rules=THM01
 
 
 python3 ./wordlistctl.py fetch -l dogs -d fetch_term
@@ -118,7 +122,7 @@ john hash.txt --format=raw-md5 --wordlist=numberphone.txt
 
 haiti ba6e8f9cd4140ac8b8d2bf96c9acd2fb58c0827d556b78e331d1113fcbfe425ca9299fe917f6015978f7e1644382d1ea45fd581aed6298acde2fa01e7d83cdbd
 echo "ba6e8f9cd4140ac8b8d2bf96c9acd2fb58c0827d556b78e331d1113fcbfe425ca9299fe917f6015978f7e1644382d1ea45fd581aed6298acde2fa01e7d83cdbd" > hash.txt
-john hash.txt --format=raw-sha3 --wordlist=../../Materiais/KaliWordlists/rockyou.txt
+john hash.txt --format=raw-sha3 --wordlist=../../Materials/KaliWordlists/rockyou.txt
 
 
 haiti 9f7376709d3fe09b389a27876834a13c6f275ed9a806d4c8df78f0ce1aad8fb343316133e810096e0999eaf1d2bca37c336e1b7726b213e001333d636e896617
@@ -129,6 +133,6 @@ john hash.txt --format=Raw-Blake2 --wordlist=website.txt --rules=norajCommon04
 
 haiti $6$kI6VJ0a31.SNRsLR$Wk30X8w8iEC2FpasTo0Z5U7wke0TpfbDtSwayrNebqKjYWC4gjKoNEJxO/DkP.YFTLVFirQ5PEh4glQIHuKfA/
 echo "$6$kI6VJ0a31.SNRsLR$Wk30X8w8iEC2FpasTo0Z5U7wke0TpfbDtSwayrNebqKjYWC4gjKoNEJxO/DkP.YFTLVFirQ5PEh4glQIHuKfA/" > hash.txt
-john hash.txt --format=sha512crypt --wordlist=../../Materiais/KaliWordlists/rockyou.txt
-
+john hash.txt --format=sha512crypt --wordlist=../../Materials/KaliWordlists/rockyou.txt
+```
 
