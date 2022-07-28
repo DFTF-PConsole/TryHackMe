@@ -32,7 +32,7 @@ sudo nano /etc/john/john.conf
 
 sudo nano /usr/share/john/john-local.conf
 
-john hash.txt --format=raw-sha1 --wordlist=../../Materiais/SecLists/Passwords/Common-Credentials/10k-most-common.txt --rules=THM01
+john hash.txt --format=raw-sha1 --wordlist=../../Materials/SecLists/Passwords/Common-Credentials/10k-most-common.txt --rules=THM01
 
 
 python3 ./wordlistctl.py fetch -l dogs -d fetch_term
@@ -122,7 +122,7 @@ john hash.txt --format=raw-md5 --wordlist=numberphone.txt
 
 haiti ba6e8f9cd4140ac8b8d2bf96c9acd2fb58c0827d556b78e331d1113fcbfe425ca9299fe917f6015978f7e1644382d1ea45fd581aed6298acde2fa01e7d83cdbd
 echo "ba6e8f9cd4140ac8b8d2bf96c9acd2fb58c0827d556b78e331d1113fcbfe425ca9299fe917f6015978f7e1644382d1ea45fd581aed6298acde2fa01e7d83cdbd" > hash.txt
-john hash.txt --format=raw-sha3 --wordlist=../../Materiais/KaliWordlists/rockyou.txt
+john hash.txt --format=raw-sha3 --wordlist=../../Materials/KaliWordlists/rockyou.txt
 
 
 haiti 9f7376709d3fe09b389a27876834a13c6f275ed9a806d4c8df78f0ce1aad8fb343316133e810096e0999eaf1d2bca37c336e1b7726b213e001333d636e896617
@@ -133,6 +133,6 @@ john hash.txt --format=Raw-Blake2 --wordlist=website.txt --rules=norajCommon04
 
 haiti $6$kI6VJ0a31.SNRsLR$Wk30X8w8iEC2FpasTo0Z5U7wke0TpfbDtSwayrNebqKjYWC4gjKoNEJxO/DkP.YFTLVFirQ5PEh4glQIHuKfA/
 echo "$6$kI6VJ0a31.SNRsLR$Wk30X8w8iEC2FpasTo0Z5U7wke0TpfbDtSwayrNebqKjYWC4gjKoNEJxO/DkP.YFTLVFirQ5PEh4glQIHuKfA/" > hash.txt
-john hash.txt --format=sha512crypt --wordlist=../../Materiais/KaliWordlists/rockyou.txt
+john hash.txt --format=sha512crypt --wordlist=../../Materials/KaliWordlists/rockyou.txt
 ```
 
