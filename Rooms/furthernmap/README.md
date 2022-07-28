@@ -1,3 +1,6 @@
+# THM - Nmap
+
+```shell
 iptables -I INPUT -p tcp --dport <port> -j REJECT --reject-with tcp-reset
 
 ping 10.10.118.57
@@ -10,3 +13,4 @@ sudo nmap --script=ftp-anon -p21 10.10.118.57 -vv -Pn
 
 ftp 10.10.118.57
 	anonymous
+```
