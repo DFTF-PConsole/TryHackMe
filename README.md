@@ -13,7 +13,7 @@
 - [x] [`easyctf/`](Rooms/easyctf/) - **Simple CTF**: Beginner level ctf ([tryhackme.com](https://tryhackme.com/room/easyctf))
 - [x] [`furthernmap/`](Rooms/furthernmap/) - **Nmap**: An in depth look at scanning with Nmap, a powerful network scanning tool ([tryhackme.com](https://tryhackme.com/room/furthernmap))
 - [x] [`geolocatingimages/`](Rooms/geolocatingimages/) - **Geolocating Images**: Room to understand how to geolocate images ([tryhackme.com](https://tryhackme.com/room/geolocatingimages))
-- [x] [`hashingcrypto101/`](Rooms/hashingcrypto101/) - **AttackerKB**: ([tryhackme.com](https://tryhackme.com/room/hashingcrypto101))
+- [x] [`hashingcrypto101/`](Rooms/hashingcrypto101/) - **Hashing - Crypto 101**: An introduction to Hashing, as part of a series on crypto ([tryhackme.com](https://tryhackme.com/room/hashingcrypto101))
 - [x] [`hydra/`](Rooms/hydra/) - **Hydra**: Learn about and use Hydra, a fast network logon cracker, to bruteforce and obtain a website's credentials ([tryhackme.com](https://tryhackme.com/room/hydra))
 - [ ] [`ice/`](Rooms/ice/) - **Ice**: Deploy & hack into a Windows machine, exploiting a very poorly secured media server ([tryhackme.com](https://tryhackme.com/room/ice))
 - [x] [`introdigitalforensics/`](Rooms/introdigitalforensics/) - **Intro to Digital Forensics**: Learn about digital forensics and related processes and experiment with a practical example ([tryhackme.com](https://tryhackme.com/room/introdigitalforensics))
@@ -22,7 +22,7 @@
 - [x] [`ohsint/`](Rooms/ohsint/) - **OhSINT**: Are you able to use open source intelligence to solve this challenge? ([tryhackme.com](https://tryhackme.com/room/ohsint))
 - [x] [`rpmetasploit/`](Rooms/rpmetasploit/) - **Metasploit: Introduction**: An introduction to the main components of the Metasploit Framework ([tryhackme.com](https://tryhackme.com/room/rpmetasploit))
 - [x] [`source/`](Rooms/source/) - **Source**: Exploit a recent vulnerability and hack Webmin, a web-based system configuration tool ([tryhackme.com](https://tryhackme.com/room/source))
-- [x] [`subdomainenumeration/`](Rooms/subdomainenumeration/) - **AttackerKB**: ([tryhackme.com](https://tryhackme.com/room/subdomainenumeration))
+- [x] [`subdomainenumeration/`](Rooms/subdomainenumeration/) - **Subdomain Enumeration**: Learn the various ways of discovering subdomains to expand your attack surface of a target ([tryhackme.com](https://tryhackme.com/room/subdomainenumeration))
 - [ ] [`vulnversity/`](Rooms/vulnversity/) - **Vulnversity**: Learn about active recon, web app attacks and privilege escalation ([tryhackme.com](https://tryhackme.com/room/vulnversity))
 
 
