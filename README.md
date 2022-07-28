@@ -3,7 +3,7 @@
 
 <br />
 
-### [`Rooms/`](Rooms/)
+## [`Rooms/`](Rooms/)
 - [x] [`attackerkb/`](Rooms/attackerkb/) - **AttackerKB**: Learn how to leverage AttackerKB and learn about exploits in your workflow ([tryhackme.com](https://tryhackme.com/room/attackerkb))
 - [x] [`contentdiscovery/`](Rooms/contentdiscovery/) - **Content Discovery**: Learn the various ways of discovering hidden or private content on a webserver that could lead to new vulnerabilities ([tryhackme.com](https://tryhackme.com/room/contentdiscovery))
 - [x] [`cowboyhacker/`](Rooms/cowboyhacker/) - **AttackerKB**: ([tryhackme.com](https://tryhackme.com/room/cowboyhacker))
@@ -30,7 +30,7 @@
 
 <br />
 
-### [`Materials/`](Materials/)
+## [`Materials/`](Materials/)
 - [`KaliWordlists/`](Materials/KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
 - [metasploit.com](https://www.metasploit.com/) - **Metasploit**: provides information about security vulnerabilities and aids in penetration testing and IDS signature development
 - [nmap.org](https://nmap.org/) - **Nmap**: Nmap ("Network Mapper") is a free and open source utility for network discovery and security auditing
@@ -39,7 +39,7 @@
 
 <br />
 
-### Certificates ([Learning Paths](https://tryhackme.com/paths))
+## Certificates ([Learning Paths](https://tryhackme.com/paths))
 
 - [ ] [**Introduction to Cyber Security**](https://tryhackme.com/path/outline/introtocyber) - Careers in Cyber Security; Offensive Security: hacking your first application; Defensive Security: defending against a live cyber attack; Exploring security topics in the industry
 <!-- ![Certificate of Introduction to Cyber Security]() -->
