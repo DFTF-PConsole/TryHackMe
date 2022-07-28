@@ -1,6 +1,10 @@
+# THM - Metasploit
+
+```shell
 Powershell: wsl --shutdown
+```
 
-
+```shell
 sudo /etc/init.d/postgresql start
 
 # sudo msfdb init	  # sudo msfdb reinit
@@ -83,4 +87,4 @@ msfconsole
 	search server/socks
 
 	proxychains
-	
+```
