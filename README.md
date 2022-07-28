@@ -30,10 +30,20 @@
 <br />
 
 ## [`Materials/`](Materials/)
+- **CrackStation**: Free Password Hash Cracker ([crackstation.net](https://crackstation.net/))
+- **Curl**: curl is used in command lines or scripts to transfer data ([curl.se](https://curl.se/))
+- **Dirb**: DIRB is a Web Content Scanner ([kali.org](https://www.kali.org/tools/dirb/) | [sourceforge.net](https://dirb.sourceforge.net/))
+- **Ffuf**: ffuf is a fest web fuzzer written in Go that allows typical directory discovery, virtual host discovery (without DNS records) and GET and POST parameter fuzzing ([kali.org](https://www.kali.org/tools/ffuf/) | [github.com](https://github.com/ffuf/ffuf))
+- **Gobuster**: Gobuster is a tool used to brute-force URIs including directories and files as well as DNS subdomains ([kali.org](https://www.kali.org/tools/gobuster/) | [github.com](https://github.com/OJ/gobuster))
+- **Hashcat**: Hashcat supports five unique modes of attack for over 300 highly-optimized hashing algorithms ([kali.org](https://www.kali.org/tools/hashcat/) | [hashcat.net](https://hashcat.net/hashcat/))
+- **Hydra**: Hydra is a parallelized login cracker which supports numerous protocols to attack ([kali.org](https://www.kali.org/tools/hydra/) | [github.com](https://github.com/vanhauser-thc/thc-hydra))
+- **John the Ripper**: John the Ripper is a tool designed to help systems administrators to find weak (easy to guess or crack through brute force) passwords ([kali.org](https://www.kali.org/tools/john/) | [openwall.com](https://www.openwall.com/john/))
 - [`KaliWordlists/`](Materials/KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
-- [metasploit.com](https://www.metasploit.com/) - **Metasploit**: provides information about security vulnerabilities and aids in penetration testing and IDS signature development
-- [nmap.org](https://nmap.org/) - **Nmap**: Nmap ("Network Mapper") is a free and open source utility for network discovery and security auditing
-- [`SecLists/`](Materials/SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/))
+- **Metasploit**: The Metasploit Framework is an open source platform that supports vulnerability research, exploit development, and the creation of custom security tools ([kali.org](https://www.kali.org/tools/metasploit-framework/) | [metasploit.com](https://www.metasploit.com/))
+- **Nmap**: Nmap is a utility for network exploration or security auditing ([kali.org](https://www.kali.org/tools/nmap/) | [nmap.org](https://nmap.org/))
+- **OWASP favicon database**: favicon database in wiki format ([owasp.org](https://wiki.owasp.org/index.php/OWASP_favicon_database))
+- [`SecLists/`](Materials/SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
+- **TunnelsUP - Hash Analyzer**: Tool to identify hash types ([tunnelsup.com](https://www.tunnelsup.com/hash-analyzer/))
 
 
 
