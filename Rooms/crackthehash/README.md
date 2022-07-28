@@ -1,14 +1,16 @@
+# THM - Crack the hash
+
 https://crackstation.net/
 
 https://www.tunnelsup.com/hash-analyzer/
 
 
+```shell
 john -format=bcrypt hash.txt
 
 john -format=bcrypt -length=4 --wordlist=rockyou.txt hash.txt
 
 hashcat -m 3200 hash.txt rockyou.txt
-
 
 john -length=6 --wordlist=rockyou.txt hash.txt
 
@@ -20,4 +22,4 @@ hashcat -a 3 -m 160 -i --increment-min=12 --increment-max=12 hash.txt rockyou.tx
 hashcat -m 160 hash.txt rockyou.txt
 
 john -format=hmac-sha1 -mask:tryhackme -length=12 hash.txt
-
+```
