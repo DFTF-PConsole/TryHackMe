@@ -11,10 +11,10 @@ https://wiki.owasp.org/index.php/OWASP_favicon_database
 curl http://10.10.107.92 -v
 ```
 
-
+```text
 S3 Buckets
 http(s)://{name}.s3.amazonaws.com
-
+```
 
 ```shell
 ffuf -w ../../Materiais/SecLists/Discovery/Web-Content/common.txt -u http://10.10.107.92/FUZZ
