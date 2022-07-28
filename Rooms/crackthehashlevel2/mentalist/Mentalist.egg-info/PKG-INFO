@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Mentalist
+Version: 1.0
+Summary: Mentalist is a graphical tool for custom wordlist generation. It utilizes common human paradigms for constructing passwords and can output the full wordlist or rules.
+Home-page: UNKNOWN
+Author: sc0tfree
+Author-email: henry@sc0tfree.com
+License: MIT
+Keywords: wordlist wordlist-generator passwords
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
