@@ -1,7 +1,9 @@
+# THM - Crack The Hash Level 2
+
+```shell
 haiti 741ebf5166b9ece4cca88a3868c44871e8370707cf19af3ceaa4a6fba006f224ae03f39153492853
 
 haiti 1aec7a56aa08b25b596057e1ccbcb6d768b770eaa0f355ccbd56aee5040e02ee
-
 
 python3 ./wordlistctl.py search rockyou
 
@@ -19,9 +21,11 @@ python3 ./wordlistctl.py list -g usernames
 
 
 john hash.txt --wordlist=/usr/share/wordlists/passwords/rockyou.txt rules=norajCommon02
+```
 
 /etc/john/
 
+```shell
 sudo nano /etc/john/john-local.conf
 
 sudo nano /etc/john/john.conf
@@ -130,5 +134,5 @@ john hash.txt --format=Raw-Blake2 --wordlist=website.txt --rules=norajCommon04
 haiti $6$kI6VJ0a31.SNRsLR$Wk30X8w8iEC2FpasTo0Z5U7wke0TpfbDtSwayrNebqKjYWC4gjKoNEJxO/DkP.YFTLVFirQ5PEh4glQIHuKfA/
 echo "$6$kI6VJ0a31.SNRsLR$Wk30X8w8iEC2FpasTo0Z5U7wke0TpfbDtSwayrNebqKjYWC4gjKoNEJxO/DkP.YFTLVFirQ5PEh4glQIHuKfA/" > hash.txt
 john hash.txt --format=sha512crypt --wordlist=../../Materiais/KaliWordlists/rockyou.txt
-
+```
 
