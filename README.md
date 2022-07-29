@@ -65,11 +65,14 @@
 
 <br />
 
-## [`Materials/`](Materials/)
+## [`Materials/`](Materials/) [A](./#A)
+### A
+- **AttackerKB**: Community-driven information, analysis, and discussion of vulnerabilities and threats ([attackerkb.com](https://attackerkb.com/))
 - **Cewl**: CeWL (Custom Word List generator) is a ruby app which spiders a given URL, up to a specified depth, and returns a list of words which can then be used for password crackers such as John the Ripper ([kali.org](https://www.kali.org/tools/cewl/) | [github.com](https://github.com/digininja/CeWL))
 - **CrackStation**: Free Password Hash Cracker ([crackstation.net](https://crackstation.net/))
 - **Crt.sh**: a site where you could find all the SSL or TLS certificates of the particular targeted domain ([crt.sh](https://crt.sh/))
 - **Curl**: curl is used in command lines or scripts to transfer data ([curl.se](https://curl.se/))
+- **Devhints**: a "modest" collection of cheatsheets ([devhints.io](https://devhints.io/))
 - **Dirb**: DIRB is a Web Content Scanner ([kali.org](https://www.kali.org/tools/dirb/) | [sourceforge.net](https://dirb.sourceforge.net/))
 - [`Django-example/`](Materials/Django-example/) - **Basic Website template Django 2.2 Example + Python3**: Bare website skeleton written in Python Django for 'Introduction to Django' room on TryHackMe ([github.com](https://github.com/Swafox/Django-example))
 - **Dnsrecon**: DNS Enumeration Script ([kali.org](https://www.kali.org/tools/dnsrecon/) | [github.com](https://github.com/darkoperator/dnsrecon))
