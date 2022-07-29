@@ -1,6 +1,0 @@
-ADMIN
-admin
-root
-Administrator
-USERID
-guest

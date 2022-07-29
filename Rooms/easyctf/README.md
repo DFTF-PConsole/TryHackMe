@@ -12,7 +12,7 @@ ftp 10.10.56.179
 
 http://10.10.56.179/robots.txt
 
-gobuster dir -w KaliWordLists/dirbuster/directory-list-2.3-small.txt -u http://10.10.56.179
+gobuster dir -w ../../Materials/KaliWordLists/dirbuster/directory-list-2.3-small.txt -u http://10.10.56.179
 ```
 
 http://10.10.56.179/simple
