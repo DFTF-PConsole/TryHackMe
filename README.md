@@ -65,7 +65,7 @@
 
 <br />
 
-## [`Materials/`](Materials/) [A](./#A)
+## [`Materials/`](Materials/) [A](README.md/#A)
 ### A
 - **AttackerKB**: Community-driven information, analysis, and discussion of vulnerabilities and threats ([attackerkb.com](https://attackerkb.com/))
 - **Cewl**: CeWL (Custom Word List generator) is a ruby app which spiders a given URL, up to a specified depth, and returns a list of words which can then be used for password crackers such as John the Ripper ([kali.org](https://www.kali.org/tools/cewl/) | [github.com](https://github.com/digininja/CeWL))
