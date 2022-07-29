@@ -85,19 +85,19 @@
 - **John the Ripper**: John the Ripper is a tool designed to help systems administrators to find weak (easy to guess or crack through brute force) passwords ([kali.org](https://www.kali.org/tools/john/) | [openwall.com](https://www.openwall.com/john/))
 - **Kali Linux Metapackages**: metapackages allow for easy installation of certain tools in a specific field, or alternatively, for the installation of a full Kali suite ([kali.org](https://www.kali.org/blog/kali-linux-metapackages/))
 - [`KaliWordlists/`](Materials/KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
-- **Lyricpass**: Password wordlist generator using song lyrics for targeted bruteforce audits / attacks ([github.com](https://github.com/initstring/lyricpass)
-- **Mentalist**: Mentalist is a graphical tool for custom wordlist generation ([github.com](https://github.com/sc0tfree/mentalist))
+- [`lyricpass/`](Materials/lyricpass/) - **Lyricpass**: Password wordlist generator using song lyrics for targeted bruteforce audits / attacks ([github.com](https://github.com/initstring/lyricpass)
+- [`mentalist/`](Materials/mentalist/) - **Mentalist**: Mentalist is a graphical tool for custom wordlist generation ([github.com](https://github.com/sc0tfree/mentalist))
 - **Metasploit**: The Metasploit Framework is an open source platform that supports vulnerability research, exploit development, and the creation of custom security tools ([kali.org](https://www.kali.org/tools/metasploit-framework/) | [metasploit.com](https://www.metasploit.com/))
 - **Nmap**: Nmap is a utility for network exploration or security auditing ([kali.org](https://www.kali.org/tools/nmap/) | [nmap.org](https://nmap.org/))
 - **OWASP favicon database**: favicon database in wiki format ([owasp.org](https://wiki.owasp.org/index.php/OWASP_favicon_database))
-- **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
+- [`pnwgen/`](Materials/pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
 - [`SecLists/`](Materials/SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
 - **Sublist3r**: Fast subdomains enumeration tool for penetration testers ([kali.org](https://www.kali.org/tools/sublist3r/) | [github.com](https://github.com/aboul3la/Sublist3r))
 - **TTPassGen**: TTPassGen is a highly flexible and scriptable password dictionary generator base on Python, you can easily use various rules to generate the desired combination of words ([github.com](https://github.com/tp7309/TTPassGen))
 - **TunnelsUP - Hash Analyzer**: Tool to identify hash types ([tunnelsup.com](https://www.tunnelsup.com/hash-analyzer/))
 - **WiGLE**: Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers ([wigle.net](https://wigle.net/))
 - **Windows Subsystem for Linux**: Windows Subsystem for Linux (WSL) lets developers run a GNU/Linux environment - including most command-line tools, utilities, and applications - directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup ([microsoft.com](https://docs.microsoft.com/en-us/windows/wsl/))
-- **Wordlistctl**: Fetch, install and search wordlist archives from websites and torrent peers ([github.com](https://github.com/BlackArch/wordlistctl) | [blackarch.org](https://blackarch.org/tools.html))
+- [`wordlistctl/`](Materials/wordlistctl/) - **Wordlistctl**: Fetch, install and search wordlist archives from websites and torrent peers ([github.com](https://github.com/BlackArch/wordlistctl) | [blackarch.org](https://blackarch.org/tools.html))
 
 
 <br />
