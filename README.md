@@ -65,43 +65,79 @@
 
 <br />
 
-## [`Materials/`](Materials/) [A](README.md/#a)
+## [`Materials/`](Materials/)
+### [0](#0) [1](#1) [2](#2) [3](#3) [4](#4) [5](#5) [6](#6) [7](#7) [8](#8) [9](#9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z)
 ### A
+- **Internet Archive**: Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more ([archive.org](https://archive.org/))
 - **AttackerKB**: Community-driven information, analysis, and discussion of vulnerabilities and threats ([attackerkb.com](https://attackerkb.com/))
+### B
+- **BuiltWith**: Find out what websites are Built With ([builtwith.com](https://builtwith.com/))
+### C
 - **Cewl**: CeWL (Custom Word List generator) is a ruby app which spiders a given URL, up to a specified depth, and returns a list of words which can then be used for password crackers such as John the Ripper ([kali.org](https://www.kali.org/tools/cewl/) | [github.com](https://github.com/digininja/CeWL))
 - **CrackStation**: Free Password Hash Cracker ([crackstation.net](https://crackstation.net/))
 - **Crt.sh**: a site where you could find all the SSL or TLS certificates of the particular targeted domain ([crt.sh](https://crt.sh/))
 - **Curl**: curl is used in command lines or scripts to transfer data ([curl.se](https://curl.se/))
+### D
 - **Devhints**: a "modest" collection of cheatsheets ([devhints.io](https://devhints.io/))
 - **Dirb**: DIRB is a Web Content Scanner ([kali.org](https://www.kali.org/tools/dirb/) | [sourceforge.net](https://dirb.sourceforge.net/))
+- **Dirbuster**: DirBuster is a multi threaded java application designed to brute force directories and files names on web/application servers ([kali.org](https://www.kali.org/tools/dirbuster))
+- **Django**: Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design ([djangoproject.com](https://www.djangoproject.com/))
 - [`Django-example/`](Materials/Django-example/) - **Basic Website template Django 2.2 Example + Python3**: Bare website skeleton written in Python Django for 'Introduction to Django' room on TryHackMe ([github.com](https://github.com/Swafox/Django-example))
 - **Dnsrecon**: DNS Enumeration Script ([kali.org](https://www.kali.org/tools/dnsrecon/) | [github.com](https://github.com/darkoperator/dnsrecon))
+### E
+- **Enum4linux**: Enum4linux is a tool for enumerating information from Windows and Samba systems ([kali.org](https://www.kali.org/tools/enum4linux))
 - **ExifTool**: ExifTool is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files ([exiftool.org](https://exiftool.org/))
 - **Exploit Database**: The Exploit Database is a CVE compliant archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers ([exploit-db.com](https://www.exploit-db.com/))
+### F
 - **Ffuf**: ffuf is a fest web fuzzer written in Go that allows typical directory discovery, virtual host discovery (without DNS records) and GET and POST parameter fuzzing ([kali.org](https://www.kali.org/tools/ffuf/) | [github.com](https://github.com/ffuf/ffuf))
 - **FoxProxy**: FoxyProxy simplifies configuring browsers to access proxy-servers ([getfoxyproxy.org](https://getfoxyproxy.org/))
+### G
 - **Gobuster**: Gobuster is a tool used to brute-force URIs including directories and files as well as DNS subdomains ([kali.org](https://www.kali.org/tools/gobuster/) | [github.com](https://github.com/OJ/gobuster))
 - **GTFOBins**: GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems ([github.com](https://gtfobins.github.io/))
+### H
 - **HAITI**: A CLI tool (and library) to identify hash types (hash type identifier) ([github.com](https://noraj.github.io/haiti/#/))
 - **Hash-Identifier**: Software to identify the different types of hashes used to encrypt data and especially passwords ([kali.org](https://www.kali.org/tools/hash-identifier/) | [github.com](https://github.com/blackploit/hash-identifier))
 - **Hashcat**: Hashcat supports five unique modes of attack for over 300 highly-optimized hashing algorithms ([kali.org](https://www.kali.org/tools/hashcat/) | [hashcat.net](https://hashcat.net/hashcat/))
 - **Hydra**: Hydra is a parallelized login cracker which supports numerous protocols to attack ([kali.org](https://www.kali.org/tools/hydra/) | [github.com](https://github.com/vanhauser-thc/thc-hydra))
+### J
 - **John the Ripper**: John the Ripper is a tool designed to help systems administrators to find weak (easy to guess or crack through brute force) passwords ([kali.org](https://www.kali.org/tools/john/) | [openwall.com](https://www.openwall.com/john/))
+### K
 - **Kali Linux Metapackages**: metapackages allow for easy installation of certain tools in a specific field, or alternatively, for the installation of a full Kali suite ([kali.org](https://www.kali.org/blog/kali-linux-metapackages/))
 - [`KaliWordlists/`](Materials/KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
+### L
 - [`lyricpass/`](Materials/lyricpass/) - **Lyricpass**: Password wordlist generator using song lyrics for targeted bruteforce audits / attacks ([github.com](https://github.com/initstring/lyricpass)
+### M
 - [`mentalist/`](Materials/mentalist/) - **Mentalist**: Mentalist is a graphical tool for custom wordlist generation ([github.com](https://github.com/sc0tfree/mentalist))
 - **Metasploit**: The Metasploit Framework is an open source platform that supports vulnerability research, exploit development, and the creation of custom security tools ([kali.org](https://www.kali.org/tools/metasploit-framework/) | [metasploit.com](https://www.metasploit.com/))
+### N
+- **National Vulnerability Database**: The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP) ([nvd.nist.gov](https://nvd.nist.gov/vuln/search))
 - **Nmap**: Nmap is a utility for network exploration or security auditing ([kali.org](https://www.kali.org/tools/nmap/) | [nmap.org](https://nmap.org/))
+### O
+- **OpenVPN**: OpenVPN is a virtual private network system that implements techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities ([openvpn.net](https://openvpn.net/))
 - **OWASP favicon database**: favicon database in wiki format ([owasp.org](https://wiki.owasp.org/index.php/OWASP_favicon_database))
+### P
 - [`pnwgen/`](Materials/pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
+- **PythonAnywhere**: PythonAnywhere makes it easy to create and run Python programs in the cloud ([pythonanywhere.com](https://www.pythonanywhere.com/))
+### R
+- **Rawsec's CyberSecurity Inventory**: An inventory of tools and resources about CyberSecurity ([inventory.raw.pm](https://inventory.raw.pm/))
+- **RegExr**: RegExr is a HTML/JS based tool for creating, testing, and learning about Regular Expressions ([regexr.com](https://regexr.com/))
+### S
 - [`SecLists/`](Materials/SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
 - **Sublist3r**: Fast subdomains enumeration tool for penetration testers ([kali.org](https://www.kali.org/tools/sublist3r/) | [github.com](https://github.com/aboul3la/Sublist3r))
+### T
+- **Tmux**: tmux enables a number of terminals (or windows) to be accessed and controlled from a single terminal like screen ([kali.org](https://www.kali.org/tools/tmux/) | [github.com](https://github.com/tmux/tmux/wiki))
+- **Tor**: Tor Browser prevents someone watching your connection from knowing what websites you visit ([torproject.org](https://www.torproject.org/))
 - **TTPassGen**: TTPassGen is a highly flexible and scriptable password dictionary generator base on Python, you can easily use various rules to generate the desired combination of words ([github.com](https://github.com/tp7309/TTPassGen))
 - **TunnelsUP - Hash Analyzer**: Tool to identify hash types ([tunnelsup.com](https://www.tunnelsup.com/hash-analyzer/))
+### W
+- **Wappalyzer**: Find out the technology stack of any website ([wappalyzer.com](https://www.wappalyzer.com/))
+- **Web.dev - Measure**: Measure page quality ([web.dev](https://web.dev/measure/))
+- **Well-known Ports**: table of the 1024 common ports ([vmaxx.net](http://www.vmaxx.net/techinfo/ports.htm))
 - **WiGLE**: Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers ([wigle.net](https://wigle.net/))
 - **Windows Subsystem for Linux**: Windows Subsystem for Linux (WSL) lets developers run a GNU/Linux environment - including most command-line tools, utilities, and applications - directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup ([microsoft.com](https://docs.microsoft.com/en-us/windows/wsl/))
 - [`wordlistctl/`](Materials/wordlistctl/) - **Wordlistctl**: Fetch, install and search wordlist archives from websites and torrent peers ([github.com](https://github.com/BlackArch/wordlistctl) | [blackarch.org](https://blackarch.org/tools.html))
+### Y
+- **Yandex Images**: search for images online ([yandex.com](https://yandex.com/images/))
 
 
 <br />
