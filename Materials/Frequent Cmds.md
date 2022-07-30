@@ -1,17 +1,17 @@
 # Frequent Cmds
 
 ```shell
-cd OneDrive/Ambiente\ de\ Trabalho/Outros\ Cursos/THM\ Try\ Hack\ Me/
+cd Documentos/GitHub/TryHackMe/
 
-cd Materiais/KaliWordlists/
+cd Materials/KaliWordlists/
 
-cd Materiais/KaliWordlists/rockyou.txt
+cd Materials/KaliWordlists/rockyou.txt
 
-cd Materiais/KaliWordlists/dirbuster/directory-list-2.3-small.txt
+cd Materials/KaliWordlists/dirbuster/directory-list-2.3-small.txt
 
-cd Materiais/SecLists/Discovery/Web-Content/common.txt
+cd Materials/SecLists/Discovery/Web-Content/common.txt
 
-cd Materiais/SecLists/Passwords/Common-Credentials/10k-most-common.txt
+cd Materials/SecLists/Passwords/Common-Credentials/10k-most-common.txt
 
 sudo apt-get update
 sudo apt-get upgrade
