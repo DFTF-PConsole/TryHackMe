@@ -7,12 +7,14 @@
 - [x] [`attackerkb/`](Rooms/attackerkb/) - **AttackerKB**: Learn how to leverage AttackerKB and learn about exploits in your workflow ([tryhackme.com](https://tryhackme.com/room/attackerkb))
 - [x] [`bashscripting/`](Rooms/bashscripting/) - **Bash Scripting**: A Walkthrough room to teach you the basics of bash scripting ([tryhackme.com](https://tryhackme.com/room/bashscripting))
 - [x] [`beginnerpathintro/`](Rooms/beginnerpathintro/) - **Learning Cyber Security**: Get a short introduction to a few of the security topics you'll be learning about ([tryhackme.com](https://tryhackme.com/room/beginnerpathintro))
+- [x] [`careersincyber/`](Rooms/careersincyber/) - **Careers in Cyber**: Learn about the different careers in cyber security ([tryhackme.com](https://tryhackme.com/room/careersincyber))
 - [x] [`catregex/`](Rooms/catregex/) - **Regular expressions**: Learn and practise using regular expressions ([tryhackme.com](https://tryhackme.com/room/catregex))
 - [x] [`contentdiscovery/`](Rooms/contentdiscovery/) - **Content Discovery**: Learn the various ways of discovering hidden or private content on a webserver that could lead to new vulnerabilities ([tryhackme.com](https://tryhackme.com/room/contentdiscovery))
 - [x] [`cowboyhacker/`](Rooms/cowboyhacker/) - **Bounty Hacker**: You talked a big game about being the most elite hacker in the solar system. Prove it and claim your right to the status of Elite Bounty Hacker ([tryhackme.com](https://tryhackme.com/room/cowboyhacker))
 - [x] [`crackthehash/`](Rooms/crackthehash/) - **Crack the hash**: Cracking hashes challenges ([tryhackme.com](https://tryhackme.com/room/crackthehash))
 - [x] [`crackthehashlevel2/`](Rooms/crackthehashlevel2/) - **Crack The Hash Level 2**: Advanced cracking hashes challenges and wordlist generation ([tryhackme.com](https://tryhackme.com/room/crackthehashlevel2))
 - [x] [`cryptographyfordummies/`](Rooms/cryptographyfordummies/) - **Cryptography for Dummies**: Become familiar with cryptography ([tryhackme.com](https://tryhackme.com/room/cryptographyfordummies))
+- [x] [`defensivesecurity/`](Rooms/defensivesecurity/) - **Intro to Defensive Security**: Introducing defensive security and related topics, such as threat intelligence, SOC, DFIR, and SIEM ([tryhackme.com](https://tryhackme.com/room/defensivesecurity))
 - [x] [`django/`](Rooms/django/) - **Introduction to Django**: How it works and why should I learn it? ([tryhackme.com](https://tryhackme.com/room/django))
 - [x] [`dnsindetail/`](Rooms/dnsindetail/) - **DNS in detail**: Learn how DNS works and how it helps you access internet services ([tryhackme.com](https://tryhackme.com/room/dnsindetail))
 - [x] [`easyctf/`](Rooms/easyctf/) - **Simple CTF**: Beginner level ctf ([tryhackme.com](https://tryhackme.com/room/easyctf))
@@ -30,10 +32,12 @@
 - [x] [`hydra/`](Rooms/hydra/) - **Hydra**: Learn about and use Hydra, a fast network logon cracker, to bruteforce and obtain a website's credentials ([tryhackme.com](https://tryhackme.com/room/hydra))
 - [ ] [`ice/`](Rooms/ice/) - **Ice**: Deploy & hack into a Windows machine, exploiting a very poorly secured media server ([tryhackme.com](https://tryhackme.com/room/ice))
 - [x] [`introdigitalforensics/`](Rooms/introdigitalforensics/) - **Intro to Digital Forensics**: Learn about digital forensics and related processes and experiment with a practical example ([tryhackme.com](https://tryhackme.com/room/introdigitalforensics))
+- [x] [`intronetworksecurity/`](Rooms/intronetworksecurity/) - **Network Security**: Learn about network security, understand attack methodology, and practice hacking into a target server ([tryhackme.com](https://tryhackme.com/room/intronetworksecurity))
 - [x] [`introtolan/`](Rooms/introtolan/) - **Intro to LAN**: Learn about some of the technologies and designs that power private networks ([tryhackme.com](https://tryhackme.com/room/introtolan))
 - [x] [`introtonetworking/`](Rooms/introtonetworking/) - **Introductory Networking**: An introduction to networking theory and basic networking tools ([tryhackme.com](https://tryhackme.com/room/introtonetworking))
 - [x] [`introtooffensivesecurity/`](Rooms/introtooffensivesecurity/) - **Intro to Offensive Security**: Hack your first website (legally in a safe environment) and experience an ethical hacker's job ([tryhackme.com](https://tryhackme.com/room/introtooffensivesecurity))
 - [x] [`introtoresearch/`](Rooms/introtoresearch/) - **Introductory Researching**: A brief introduction to research skills for pentesting ([tryhackme.com](https://tryhackme.com/room/introtoresearch))
+- [x] [`introwebapplicationsecurity/`](Rooms/introwebapplicationsecurity/) - **Web Application Security**: Learn about web applications and explore some of their common security issues ([tryhackme.com](https://tryhackme.com/room/introwebapplicationsecurity))
 - [x] [`jupyter101/`](Rooms/jupyter101/) - **Jupyter 101**: A friendly introduction into using the Jupyter Notebook environment. Learn to process and visualise data ([tryhackme.com](https://tryhackme.com/room/jupyter101))
 - [x] [`linuxfundamentalspart1/`](Rooms/linuxfundamentalspart1/) - **Linux Fundamentals Part 1**: Embark on the journey of learning the fundamentals of Linux. Learn to run some of the first essential commands on an interactive terminal ([tryhackme.com](https://tryhackme.com/room/linuxfundamentalspart1))
 - [x] [`linuxfundamentalspart2/`](Rooms/linuxfundamentalspart2/) - **Linux Fundamentals Part 2**: Continue your learning Linux journey with part two. You will be learning how to log in to a Linux machine using SSH, how to advance your commands, file system interaction ([tryhackme.com](https://tryhackme.com/room/linuxfundamentalspart2))
@@ -41,6 +45,7 @@
 - [x] [`mrrobot/`](Rooms/mrrobot/) - **Mr Robot CTF**: Based on the Mr. Robot show, can you root this box? ([tryhackme.com](https://tryhackme.com/room/mrrobot))
 - [x] [`ohsint/`](Rooms/ohsint/) - **OhSINT**: Are you able to use open source intelligence to solve this challenge? ([tryhackme.com](https://tryhackme.com/room/ohsint))
 - [x] [`openvpn/`](Rooms/openvpn/) - **OpenVPN**: A guide to connecting to our network using OpenVPN ([tryhackme.com](https://tryhackme.com/room/openvpn))
+- [x] [`operatingsystemsecurity/`](Rooms/operatingsystemsecurity/) - **Operating System Security**: This room introduces users to operating system security and demonstrates SSH authentication on Linux ([tryhackme.com](https://tryhackme.com/room/operatingsystemsecurity))
 - [x] [`osimodelzi/`](Rooms/osimodelzi/) - **OSI Model**: Learn about the fundamental networking framework that determines the various stages in which data is handled across a network ([tryhackme.com](https://tryhackme.com/room/osimodelzi))
 - [x] [`packetsframes/`](Rooms/packetsframes/) - **Packets & Frames**: Understand how data is divided into smaller pieces and transmitted across a network to another device ([tryhackme.com](https://tryhackme.com/room/packetsframes))
 - [x] [`pentestingfundamentals/`](Rooms/pentestingfundamentals/) - **Pentesting Fundamentals**: Learn the important ethics and methodologies behind every pentest ([tryhackme.com](https://tryhackme.com/room/pentestingfundamentals))
@@ -49,6 +54,7 @@
 - [x] [`pythonbasics/`](Rooms/pythonbasics/) - **Python Basics**: Using a web-based code editor, learn the basics of Python and put your knowledge into practice by eventually coding a short Bitcoin investment project ([tryhackme.com](https://tryhackme.com/room/pythonbasics))
 - [x] [`rpmetasploit/`](Rooms/rpmetasploit/) - **Metasploit**: Learn to use Metasploit, a tool to probe and exploit vulnerabilities on networks and servers ([tryhackme.com](https://tryhackme.com/room/rpmetasploit))
 - [x] [`rptmux/`](Rooms/rptmux/) - **tmux**: Learn to use tmux, one of the most powerful multi-tasking tools on linux ([tryhackme.com](https://tryhackme.com/room/rptmux))
+- [x] [`securityoperations/`](Rooms/securityoperations/) - **Security Operations**: Learn about Security Operations Center (SOC): its responsibilities, services, and data sources ([tryhackme.com](https://tryhackme.com/room/securityoperations))
 - [x] [`source/`](Rooms/source/) - **Source**: Exploit a recent vulnerability and hack Webmin, a web-based system configuration tool ([tryhackme.com](https://tryhackme.com/room/source))
 - [x] [`startingoutincybersec/`](Rooms/startingoutincybersec/) - **Starting Out In Cyber Sec**: Learn about the different career paths in Cyber Security and how TryHackMe can help ([tryhackme.com](https://tryhackme.com/room/startingoutincybersec))
 - [x] [`subdomainenumeration/`](Rooms/subdomainenumeration/) - **Subdomain Enumeration**: Learn the various ways of discovering subdomains to expand your attack surface of a target ([tryhackme.com](https://tryhackme.com/room/subdomainenumeration))
@@ -67,9 +73,9 @@
 <br />
 
 ## [`Materials/`](Materials/)
-### 0 1 2 3 4 5 6 7 8 9 [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) I [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) Q [R](#r) [S](#s) [T](#t) U V [W](#w) X [Y](#y) Z
+### 0 1 2 3 4 5 6 7 8 9 [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) Q [R](#r) [S](#s) [T](#t) U V [W](#w) X [Y](#y) Z
 ### A
-- **Internet Archive**: Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more ([archive.org](https://archive.org/))
+- **AbuseIPDB**: Our mission is to help make Web safer by providing a central blacklist for webmasters, system administrators, and other interested parties to report and find IP addresses that have been associated with malicious activity online ([abuseipdb.com](https://www.abuseipdb.com/))
 - **AttackerKB**: Community-driven information, analysis, and discussion of vulnerabilities and threats ([attackerkb.com](https://attackerkb.com/))
 ### B
 - **BeEF**: BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser ([beefproject.com](https://beefproject.com/))
@@ -77,6 +83,7 @@
 - **Burp Suite**: Burp Suite is an integrated platform/graphical tool for performing security testing of web applications ([portswigger.net](https://portswigger.net/burp))
 ### C
 - **Cewl**: CeWL (Custom Word List generator) is a ruby app which spiders a given URL, up to a specified depth, and returns a list of words which can then be used for password crackers such as John the Ripper ([kali.org](https://www.kali.org/tools/cewl/) | [github.com](https://github.com/digininja/CeWL))
+- **Cisco Talos Intelligence Group**: Search by IP, domain, or network owner for real-time threat data; File Reputation; Email & Spam Data ([talosintelligence.com](https://www.talosintelligence.com/))
 - **CrackStation**: Free Password Hash Cracker ([crackstation.net](https://crackstation.net/))
 - **Crt.sh**: a site where you could find all the SSL or TLS certificates of the particular targeted domain ([crt.sh](https://crt.sh/))
 - **Curl**: curl is used in command lines or scripts to transfer data ([curl.se](https://curl.se/))
@@ -106,6 +113,8 @@
 - **hashID**: hashID is a tool written in Python 3 which supports the identification of over 220 unique hash types using regular expressions ([pypi.org](https://pypi.org/project/hashID/) | [github.com](https://github.com/psypanda/hashID))
 - **Hunter**: Get the email addresses behind any website ([hunter.io](https://hunter.io/))
 - **Hydra**: Hydra is a parallelized login cracker which supports numerous protocols to attack ([kali.org](https://www.kali.org/tools/hydra/) | [github.com](https://github.com/vanhauser-thc/thc-hydra))
+### I
+- **Internet Archive**: Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more ([archive.org](https://archive.org/))
 ### J
 - **John the Ripper**: John the Ripper is a tool designed to help systems administrators to find weak (easy to guess or crack through brute force) passwords ([kali.org](https://www.kali.org/tools/john/) | [openwall.com](https://www.openwall.com/john/))
 ### K
@@ -165,8 +174,8 @@
 
 ## Certificates ([Learning Paths](https://tryhackme.com/paths))
 
-- [ ] [**Introduction to Cyber Security**](https://tryhackme.com/path/outline/introtocyber) - Careers in Cyber Security; Offensive Security: hacking your first application; Defensive Security: defending against a live cyber attack; Exploring security topics in the industry
-<!-- ![Certificate of Introduction to Cyber Security]() -->
+- [x] [**Introduction to Cyber Security**](https://tryhackme.com/path/outline/introtocyber) - Careers in Cyber Security; Offensive Security: hacking your first application; Defensive Security: defending against a live cyber attack; Exploring security topics in the industry
+![Certificate of Introduction to Cyber Security](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-YJRDBXJTKN.png)
 
 <br />
 
