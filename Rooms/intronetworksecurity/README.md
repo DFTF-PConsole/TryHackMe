@@ -1,4 +1,4 @@
-# Network Security
+# THM - Network Security
 
 ## Task 1
 
