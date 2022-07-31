@@ -1,6 +1,9 @@
 # THM | TryHackMe
 
-<script src="https://tryhackme.com/badge/827205"></script>
+<br />
+
+![TryHackMe Badge - DFTF@PConsole# (DFTFPConsole)](https://tryhackme-badges.s3.amazonaws.com/DFTFPConsole.png)
+
 
 <br />
 
