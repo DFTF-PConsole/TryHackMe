@@ -1,4 +1,4 @@
-# Operating System Security
+# THM - Operating System Security
 
 ## Task 3
 
