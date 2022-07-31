@@ -1,5 +1,6 @@
 # THM | TryHackMe
 
+<script src="https://tryhackme.com/badge/827205"></script>
 
 <br />
 
