@@ -36,6 +36,7 @@
 - [x] [`httpindetail/`](Rooms/httpindetail/) - **HTTP in detail**: Learn about how you request content from a web server using the HTTP protocol ([tryhackme.com](https://tryhackme.com/room/httpindetail))
 - [x] [`hydra/`](Rooms/hydra/) - **Hydra**: Learn about and use Hydra, a fast network logon cracker, to bruteforce and obtain a website's credentials ([tryhackme.com](https://tryhackme.com/room/hydra))
 - [ ] [`ice/`](Rooms/ice/) - **Ice**: Deploy & hack into a Windows machine, exploiting a very poorly secured media server ([tryhackme.com](https://tryhackme.com/room/ice))
+- [x] [`idor/`](Rooms/idor/) - **IDOR**: Learn how to find and exploit IDOR vulnerabilities in a web application giving you access to data that you shouldn't have ([tryhackme.com](https://tryhackme.com/room/idor))
 - [x] [`introdigitalforensics/`](Rooms/introdigitalforensics/) - **Intro to Digital Forensics**: Learn about digital forensics and related processes and experiment with a practical example ([tryhackme.com](https://tryhackme.com/room/introdigitalforensics))
 - [x] [`intronetworksecurity/`](Rooms/intronetworksecurity/) - **Network Security**: Learn about network security, understand attack methodology, and practice hacking into a target server ([tryhackme.com](https://tryhackme.com/room/intronetworksecurity))
 - [x] [`introtolan/`](Rooms/introtolan/) - **Intro to LAN**: Learn about some of the technologies and designs that power private networks ([tryhackme.com](https://tryhackme.com/room/introtolan))
