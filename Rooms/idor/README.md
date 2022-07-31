@@ -1,12 +1,14 @@
 # THM - IDOR
 
+<br>
+
 ## Task 1
 
 ### Task 1.1
 
 > Insecure Direct Object Reference
 
-
+<br>
 
 ## Task 2
 
@@ -14,7 +16,7 @@
 
 > THM{IDOR-VULN-FOUND}
 
-
+<br>
 
 ## Task 3
 
@@ -22,7 +24,7 @@
 
 > base64
 
-
+<br>
 
 ## Task 4
 
@@ -30,7 +32,7 @@
 
 > md5
 
-
+<br>
 
 ## Task 5
 
@@ -38,7 +40,7 @@
 
 > 2
 
-
+<br>
 
 ## Task 7
 
