@@ -9,6 +9,7 @@
 
 ## [`Rooms/`](Rooms/)
 - [x] [`attackerkb/`](Rooms/attackerkb/) - **AttackerKB**: Learn how to leverage AttackerKB and learn about exploits in your workflow ([tryhackme.com](https://tryhackme.com/room/attackerkb))
+- [x] [`authenticationbypass/`](Rooms/authenticationbypass/) - **Authentication Bypass**: Learn how to defeat logins and other authentication mechanisms to allow you access to unpermitted areas ([tryhackme.com](https://tryhackme.com/room/authenticationbypass))
 - [x] [`bashscripting/`](Rooms/bashscripting/) - **Bash Scripting**: A Walkthrough room to teach you the basics of bash scripting ([tryhackme.com](https://tryhackme.com/room/bashscripting))
 - [x] [`beginnerpathintro/`](Rooms/beginnerpathintro/) - **Learning Cyber Security**: Get a short introduction to a few of the security topics you'll be learning about ([tryhackme.com](https://tryhackme.com/room/beginnerpathintro))
 - [x] [`careersincyber/`](Rooms/careersincyber/) - **Careers in Cyber**: Learn about the different careers in cyber security ([tryhackme.com](https://tryhackme.com/room/careersincyber))
