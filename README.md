@@ -53,6 +53,7 @@
 - [x] [`ohsint/`](Rooms/ohsint/) - **OhSINT**: Are you able to use open source intelligence to solve this challenge? ([tryhackme.com](https://tryhackme.com/room/ohsint))
 - [x] [`openvpn/`](Rooms/openvpn/) - **OpenVPN**: A guide to connecting to our network using OpenVPN ([tryhackme.com](https://tryhackme.com/room/openvpn))
 - [x] [`operatingsystemsecurity/`](Rooms/operatingsystemsecurity/) - **Operating System Security**: This room introduces users to operating system security and demonstrates SSH authentication on Linux ([tryhackme.com](https://tryhackme.com/room/operatingsystemsecurity))
+- [x] [`oscommandinjection/`](Rooms/oscommandinjection/) - **Command Injection**: Learn about a vulnerability allowing you to execute commands through a vulnerable app, and its remediations ([tryhackme.com](https://tryhackme.com/room/oscommandinjection))
 - [x] [`osimodelzi/`](Rooms/osimodelzi/) - **OSI Model**: Learn about the fundamental networking framework that determines the various stages in which data is handled across a network ([tryhackme.com](https://tryhackme.com/room/osimodelzi))
 - [x] [`packetsframes/`](Rooms/packetsframes/) - **Packets & Frames**: Understand how data is divided into smaller pieces and transmitted across a network to another device ([tryhackme.com](https://tryhackme.com/room/packetsframes))
 - [x] [`pentestingfundamentals/`](Rooms/pentestingfundamentals/) - **Pentesting Fundamentals**: Learn the important ethics and methodologies behind every pentest ([tryhackme.com](https://tryhackme.com/room/pentestingfundamentals))
@@ -92,6 +93,7 @@
 ### C
 - **Cewl**: CeWL (Custom Word List generator) is a ruby app which spiders a given URL, up to a specified depth, and returns a list of words which can then be used for password crackers such as John the Ripper ([kali.org](https://www.kali.org/tools/cewl/) | [github.com](https://github.com/digininja/CeWL))
 - **Cisco Talos Intelligence Group**: Search by IP, domain, or network owner for real-time threat data; File Reputation; Email & Spam Data ([talosintelligence.com](https://www.talosintelligence.com/))
+- **Command Injection Payload List**: Cheat sheet/List ([github.com](https://github.com/payloadbox/command-injection-payload-list))
 - **CrackStation**: Free Password Hash Cracker ([crackstation.net](https://crackstation.net/))
 - **Crt.sh**: a site where you could find all the SSL or TLS certificates of the particular targeted domain ([crt.sh](https://crt.sh/))
 - **Curl**: curl is used in command lines or scripts to transfer data ([curl.se](https://curl.se/))
