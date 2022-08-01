@@ -24,6 +24,7 @@
 - [x] [`dnsindetail/`](Rooms/dnsindetail/) - **DNS in detail**: Learn how DNS works and how it helps you access internet services ([tryhackme.com](https://tryhackme.com/room/dnsindetail))
 - [x] [`easyctf/`](Rooms/easyctf/) - **Simple CTF**: Beginner level ctf ([tryhackme.com](https://tryhackme.com/room/easyctf))
 - [x] [`extendingyournetwork/`](Rooms/extendingyournetwork/) - **Extending Your Network**: Learn about some of the technologies used to extend networks out onto the Internet and the motivations for this ([tryhackme.com](https://tryhackme.com/room/extendingyournetwork))
+- [x] [`fileinc/`](Rooms/fileinc/) - **File Inclusion**: This room introduces file inclusion vulnerabilities, including Local File Inclusion (LFI), Remote File Inclusion (RFI), and directory traversal ([tryhackme.com](https://tryhackme.com/room/fileinc))
 - [x] [`furthernmap/`](Rooms/furthernmap/) - **Nmap**: An in depth look at scanning with Nmap, a powerful network scanning tool ([tryhackme.com](https://tryhackme.com/room/furthernmap))
 - [x] [`geolocatingimages/`](Rooms/geolocatingimages/) - **Geolocating Images**: Room to understand how to geolocate images ([tryhackme.com](https://tryhackme.com/room/geolocatingimages))
 - [x] [`gettingstarted/`](Rooms/gettingstarted/) - **Getting Started**: Get started with TryHackMe by hacking a fake social media website ([tryhackme.com](https://tryhackme.com/room/gettingstarted))
