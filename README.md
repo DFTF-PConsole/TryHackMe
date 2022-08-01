@@ -62,6 +62,7 @@
 - [x] [`rptmux/`](Rooms/rptmux/) - **tmux**: Learn to use tmux, one of the most powerful multi-tasking tools on linux ([tryhackme.com](https://tryhackme.com/room/rptmux))
 - [x] [`securityoperations/`](Rooms/securityoperations/) - **Security Operations**: Learn about Security Operations Center (SOC): its responsibilities, services, and data sources ([tryhackme.com](https://tryhackme.com/room/securityoperations))
 - [x] [`source/`](Rooms/source/) - **Source**: Exploit a recent vulnerability and hack Webmin, a web-based system configuration tool ([tryhackme.com](https://tryhackme.com/room/source))
+- [x] [`ssrfqi/`](Rooms/ssrfqi/) - **SSRF**: Learn how to exploit Server-Side Request Forgery (SSRF) vulnerabilities, allowing you to access internal server resources ([tryhackme.com](https://tryhackme.com/room/ssrfqi))
 - [x] [`startingoutincybersec/`](Rooms/startingoutincybersec/) - **Starting Out In Cyber Sec**: Learn about the different career paths in Cyber Security and how TryHackMe can help ([tryhackme.com](https://tryhackme.com/room/startingoutincybersec))
 - [x] [`subdomainenumeration/`](Rooms/subdomainenumeration/) - **Subdomain Enumeration**: Learn the various ways of discovering subdomains to expand your attack surface of a target ([tryhackme.com](https://tryhackme.com/room/subdomainenumeration))
 - [x] [`tickets2/`](Rooms/tickets2/) - **Learn and win prizes #2**: Complete rooms, win tickets. Get 3 of the same tickets and win a prize ([tryhackme.com](https://tryhackme.com/room/tickets2))
@@ -151,6 +152,7 @@
 ### R
 - **Rawsec's CyberSecurity Inventory**: An inventory of tools and resources about CyberSecurity ([inventory.raw.pm](https://inventory.raw.pm/))
 - **RegExr**: RegExr is a HTML/JS based tool for creating, testing, and learning about Regular Expressions ([regexr.com](https://regexr.com/))
+- **RequestBin**: RequestBin gives you a URL that will collect requests made to it and let you inspect them in a human-friendly way ([requestbin.com](https://requestbin.com/))
 - **RexEgg**: Regular Expressions Tutorial. Comprehensive resource covering basic to advanced uses of regex. Includes regex cheat sheet, tools, books and tricks ([rexegg.com](https://www.rexegg.com/))
 ### S
 - **Scapy**: Scapy is a Python program that enables the user to send, sniff and dissect and forge network packets ([scapy.readthedocs.io](https://scapy.readthedocs.io/en/latest/) | [github.com](https://github.com/secdev/scapy))
