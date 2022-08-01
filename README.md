@@ -2,7 +2,7 @@
 
 <br />
 
-![TryHackMe Badge - DFTF@PConsole# (DFTFPConsole)](https://tryhackme-badges.s3.amazonaws.com/DFTFPConsole.pn)
+![TryHackMe Badge - DFTF@PConsole# (DFTFPConsole)](https://tryhackme-badges.s3.amazonaws.com/DFTFPConsole.png)
 
 
 <br />
