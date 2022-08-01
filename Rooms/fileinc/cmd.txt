@@ -1,0 +1,1 @@
+<?PHP print exec('hostname'); ?>
