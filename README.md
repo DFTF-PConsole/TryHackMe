@@ -2,7 +2,7 @@
 
 <br />
 
-![TryHackMe Badge - DFTF@PConsole# (DFTFPConsole)](https://tryhackme-badges.s3.amazonaws.com/DFTFPConsole.png)
+![TryHackMe Badge - DFTF@PConsole# (DFTFPConsole)](https://tryhackme-badges.s3.amazonaws.com/DFTFPConsole.png?)
 
 
 <br />
@@ -77,12 +77,13 @@
 - [x] [`windowsfundamentals1xbx/`](Rooms/windowsfundamentals1xbx/) - **Windows Fundamentals 1**: In part 1 of the Windows Fundamentals module, we'll start our journey learning about the Windows desktop, the NTFS file system, UAC, the Control Panel, and more... ([tryhackme.com](https://tryhackme.com/room/windowsfundamentals1xbx))
 - [x] [`windowsfundamentals2x0x/`](Rooms/windowsfundamentals2x0x/) - **Windows Fundamentals 2**: In part 2 of the Windows Fundamentals module, discover more about System Configuration, UAC Settings, Resource Monitoring, the Windows Registry and more... ([tryhackme.com](https://tryhackme.com/room/windowsfundamentals2x0x))
 - [x] [`windowsfundamentals3xzx/`](Rooms/windowsfundamentals3xzx/) - **Windows Fundamentals 3**: In part 3 of the Windows Fundamentals module, learn about the built-in Microsoft tools that help keep the device secure, such as Windows Updates, Windows Security, BitLocker, and more... ([tryhackme.com](https://tryhackme.com/room/windowsfundamentals3xzx))
+- [x] [`xssgi/`](Rooms/xssgi/) - **Cross-site Scripting**: Learn how to detect and exploit XSS vulnerabilities, giving you control of other visitor's browsers ([tryhackme.com](https://tryhackme.com/room/xssgi))
 
 
 <br />
 
 ## [`Materials/`](Materials/)
-### 0 1 2 3 4 5 6 7 8 9 [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) Q [R](#r) [S](#s) [T](#t) U V [W](#w) X [Y](#y) Z
+### 0 1 2 3 4 5 6 7 8 9 [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) Q [R](#r) [S](#s) [T](#t) U V [W](#w) [X](#x) [Y](#y) Z
 ### A
 - **AbuseIPDB**: to help make Web safer by providing a central blacklist for webmasters, system administrators, and other interested parties to report and find IP addresses that have been associated with malicious activity online ([abuseipdb.com](https://www.abuseipdb.com/))
 - **AttackerKB**: Community-driven information, analysis, and discussion of vulnerabilities and threats ([attackerkb.com](https://attackerkb.com/))
@@ -177,6 +178,8 @@
 - **WiGLE**: Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers ([wigle.net](https://wigle.net/))
 - **Windows Subsystem for Linux**: Windows Subsystem for Linux (WSL) lets developers run a GNU/Linux environment - including most command-line tools, utilities, and applications - directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup ([microsoft.com](https://docs.microsoft.com/en-us/windows/wsl/))
 - [`wordlistctl/`](Materials/wordlistctl/) - **Wordlistctl**: Fetch, install and search wordlist archives from websites and torrent peers ([github.com](https://github.com/BlackArch/wordlistctl) | [blackarch.org](https://blackarch.org/tools.html))
+### X
+- **XSS Hunter**: XSS Hunter allows you to find all kinds of cross-site scripting vulnerabilities, including the often-missed blind XSS ([xsshunter.com](https://xsshunter.com/))
 ### Y
 - **Yandex Images**: search for images online ([yandex.com](https://yandex.com/images/))
 
