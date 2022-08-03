@@ -12,6 +12,7 @@
 - [x] [`authenticationbypass/`](Rooms/authenticationbypass/) - **Authentication Bypass**: Learn how to defeat logins and other authentication mechanisms to allow you access to unpermitted areas ([tryhackme.com](https://tryhackme.com/room/authenticationbypass))
 - [x] [`bashscripting/`](Rooms/bashscripting/) - **Bash Scripting**: A Walkthrough room to teach you the basics of bash scripting ([tryhackme.com](https://tryhackme.com/room/bashscripting))
 - [x] [`beginnerpathintro/`](Rooms/beginnerpathintro/) - **Learning Cyber Security**: Get a short introduction to a few of the security topics you'll be learning about ([tryhackme.com](https://tryhackme.com/room/beginnerpathintro))
+- [x] [`burpsuitebasics/`](Rooms/burpsuitebasics/) - **Burp Suite: The Basics**: An introduction to using Burp Suite for Web Application pentesting ([tryhackme.com](https://tryhackme.com/room/burpsuitebasics))
 - [x] [`careersincyber/`](Rooms/careersincyber/) - **Careers in Cyber**: Learn about the different careers in cyber security ([tryhackme.com](https://tryhackme.com/room/careersincyber))
 - [x] [`catregex/`](Rooms/catregex/) - **Regular expressions**: Learn and practise using regular expressions ([tryhackme.com](https://tryhackme.com/room/catregex))
 - [x] [`contentdiscovery/`](Rooms/contentdiscovery/) - **Content Discovery**: Learn the various ways of discovering hidden or private content on a webserver that could lead to new vulnerabilities ([tryhackme.com](https://tryhackme.com/room/contentdiscovery))
@@ -129,6 +130,8 @@
 - **Internet Archive**: Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more ([archive.org](https://archive.org/))
 ### J
 - **John the Ripper**: John the Ripper is a tool designed to help systems administrators to find weak (easy to guess or crack through brute force) passwords ([kali.org](https://www.kali.org/tools/john/) | [openwall.com](https://www.openwall.com/john/))
+- **JRuby**: JRuby is a high performance, stable, fully threaded Java implementation of the Ruby programming language ([jruby.org](https://www.jruby.org/))
+- **Jython**: The Jython project provides implementations of Python in Java, providing to Python the benefits of running on the JVM and access to classes written in Java ([jython.org](https://www.jython.org/))
 ### K
 - **Kali Linux Metapackages**: metapackages allow for easy installation of certain tools in a specific field, or alternatively, for the installation of a full Kali suite ([kali.org](https://www.kali.org/blog/kali-linux-metapackages/))
 - [`KaliWordlists/`](Materials/KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
