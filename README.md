@@ -96,6 +96,7 @@
 ### 0 1 2 3 4 5 6 7 8 9 [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) Q [R](#r) [S](#s) [T](#t) U V [W](#w) [X](#x) [Y](#y) Z
 ### A
 - **AbuseIPDB**: to help make Web safer by providing a central blacklist for webmasters, system administrators, and other interested parties to report and find IP addresses that have been associated with malicious activity online ([abuseipdb.com](https://www.abuseipdb.com/))
+- **ASCII Table**: ASCII Character Codes, HTML, Octal, Hex, Decimal ([asciitable.com](https://www.asciitable.com/))
 - **AttackerKB**: Community-driven information, analysis, and discussion of vulnerabilities and threats ([attackerkb.com](https://attackerkb.com/))
 ### B
 - **BeEF**: BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser ([beefproject.com](https://beefproject.com/))
@@ -109,6 +110,7 @@
 - **Crt.sh**: a site where you could find all the SSL or TLS certificates of the particular targeted domain ([crt.sh](https://crt.sh/))
 - **Curl**: curl is used in command lines or scripts to transfer data ([curl.se](https://curl.se/))
 - **CVE**: CVE is a list of publicly disclosed cybersecurity vulnerabilities ([cve.org](https://www.cve.org/) | [cve.mitre.org](https://cve.mitre.org/cve/search_cve_list.html))
+- **CyberChef**: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis ([github.io](https://gchq.github.io/CyberChef/))
 ### D
 - **Devhints**: a "modest" collection of cheatsheets ([devhints.io](https://devhints.io/))
 - **Dirb**: DIRB is a Web Content Scanner ([kali.org](https://www.kali.org/tools/dirb/) | [sourceforge.net](https://dirb.sourceforge.net/))
