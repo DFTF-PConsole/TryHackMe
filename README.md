@@ -73,6 +73,7 @@
 - [x] [`hashingcrypto101/`](Rooms/hashingcrypto101/) - **Hashing - Crypto 101**: An introduction to Hashing, as part of a series on crypto ([tryhackme.com](https://tryhackme.com/room/hashingcrypto101))
 - [x] [`hello/`](Rooms/hello/) - **Welcome**: Learn how to use a TryHackMe room to start your upskilling in cyber security ([tryhackme.com](https://tryhackme.com/room/hello))
 - [ ] [`historyofmalware/`](Rooms/historyofmalware/) - **History of Malware**: Join this room to learn about the first forms of malware and how they turned into the malicious code we see today ([tryhackme.com](https://tryhackme.com/room/historyofmalware))
+- [ ] [`hololive/`](Rooms/hololive/) - **Holo**: Holo is an Active Directory (AD) and Web-App attack lab that aims to teach core web attack vectors and more advanced AD attack techniques. This network simulates an external penetration test on a corporate network ([tryhackme.com](https://tryhackme.com/room/hololive))
 - [x] [`howtousetryhackme/`](Rooms/howtousetryhackme/) - **How to use TryHackMe**: Start and access your first machine ([tryhackme.com](https://tryhackme.com/room/howtousetryhackme))
 - [x] [`howwebsiteswork/`](Rooms/howwebsiteswork/) - **How websites work**: To exploit a website, you first need to know how they are created ([tryhackme.com](https://tryhackme.com/room/howwebsiteswork))
 - [x] [`httpindetail/`](Rooms/httpindetail/) - **HTTP in detail**: Learn about how you request content from a web server using the HTTP protocol ([tryhackme.com](https://tryhackme.com/room/httpindetail))
