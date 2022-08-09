@@ -103,6 +103,7 @@
 
 ### P
 - **PeopleFinder**: Police Records, Background Checks, Social Media, Photos, Assets, Contact Information and Much More ([peoplefinder.com](https://www.peoplefinder.com/))
+- **Pentestmonkey**: Cheat sheets, Web shells, User Enumeration, Audit, etc. ([github.com](https://github.com/pentestmonkey) | [pentestmonkey.net](https://pentestmonkey.net/category/tools))
 - [**`pnwgen/`**](pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
 - **PowerShell**: PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models ([docs.microsoft.com](https://docs.microsoft.com/en-us/powershell/) | [github.com](https://github.com/PowerShell/PowerShell))
 - **Pwntools**: pwntools is a CTF framework and exploit development library ([docs.pwntools.com](https://docs.pwntools.com/en/stable/) | [github.com](https://github.com/Gallopsled/pwntools))
