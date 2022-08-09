@@ -43,7 +43,7 @@
 - **Dirb**: DIRB is a Web Content Scanner ([kali.org](https://www.kali.org/tools/dirb/) | [sourceforge.net](https://dirb.sourceforge.net/))
 - **Dirbuster**: DirBuster is a multi threaded java application designed to brute force directories and files names on web/application servers ([kali.org](https://www.kali.org/tools/dirbuster))
 - **Django**: Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design ([djangoproject.com](https://www.djangoproject.com/))
-- [`Django-example/`](Tools/Django-example/) - **Basic Website template Django 2.2 Example + Python3**: Bare website skeleton written in Python Django for 'Introduction to Django' room on TryHackMe ([github.com](https://github.com/Swafox/Django-example))
+- [`Django-example/`](Django-example/) - **Basic Website template Django 2.2 Example + Python3**: Bare website skeleton written in Python Django for 'Introduction to Django' room on TryHackMe ([github.com](https://github.com/Swafox/Django-example))
 - **Dnsrecon**: DNS Enumeration Script ([kali.org](https://www.kali.org/tools/dnsrecon/) | [github.com](https://github.com/darkoperator/dnsrecon))
 
 ### E
@@ -78,16 +78,16 @@
 
 ### K
 - **Kali Linux Metapackages**: metapackages allow for easy installation of certain tools in a specific field, or alternatively, for the installation of a full Kali suite ([kali.org](https://www.kali.org/blog/kali-linux-metapackages/))
-- [`KaliWordlists/`](Tools/KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
+- [`KaliWordlists/`](KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
 
 ### L
 - **Linux man pages**: The Linux man pages documents the Linux kernel and C library interfaces that are employed by user-space programs ([linux.die.net](https://linux.die.net/man/))
 - **LOLBAS project**: The goal of the LOLBAS project is to document every binary, script, and library that can be used for Living Off The Land techniques ([lolbas-project.github.io](https://lolbas-project.github.io/))
-- [`lyricpass/`](Tools/lyricpass/) - **Lyricpass**: Password wordlist generator using song lyrics for targeted bruteforce audits / attacks ([github.com](https://github.com/initstring/lyricpass))
+- [`lyricpass/`](lyricpass/) - **Lyricpass**: Password wordlist generator using song lyrics for targeted bruteforce audits / attacks ([github.com](https://github.com/initstring/lyricpass))
 
 ### M
 - **MD5 Collision Demo**: Collisions in the MD5 cryptographic hash function ([mscs.dal.ca](https://www.mscs.dal.ca/~selinger/md5collision/))
-- [`mentalist/`](Tools/mentalist/) - **Mentalist**: Mentalist is a graphical tool for custom wordlist generation ([github.com](https://github.com/sc0tfree/mentalist))
+- [`mentalist/`](mentalist/) - **Mentalist**: Mentalist is a graphical tool for custom wordlist generation ([github.com](https://github.com/sc0tfree/mentalist))
 - **Metasploit**: The Metasploit Framework is an open source platform that supports vulnerability research, exploit development, and the creation of custom security tools ([kali.org](https://www.kali.org/tools/metasploit-framework/) | [metasploit.com](https://www.metasploit.com/))
 
 ### N
@@ -101,7 +101,7 @@
 
 ### P
 - **PeopleFinder**: Police Records, Background Checks, Social Media, Photos, Assets, Contact Information and Much More ([peoplefinder.com](https://www.peoplefinder.com/))
-- [`pnwgen/`](Tools/pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
+- [`pnwgen/`](pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
 - **PowerShell**: PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models ([docs.microsoft.com](https://docs.microsoft.com/en-us/powershell/) | [github.com](https://github.com/PowerShell/PowerShell))
 - **Pwntools**: pwntools is a CTF framework and exploit development library ([docs.pwntools.com](https://docs.pwntools.com/en/stable/) | [github.com](https://github.com/Gallopsled/pwntools))
 - **Python Package Index**: The Python Package Index (PyPI) is a repository of software for the Python programming language ([pypi.org](https://pypi.org/))
@@ -115,7 +115,7 @@
 
 ### S
 - **Scapy**: Scapy is a Python program that enables the user to send, sniff and dissect and forge network packets ([scapy.readthedocs.io](https://scapy.readthedocs.io/en/latest/) | [github.com](https://github.com/secdev/scapy))
-- [`SecLists/`](Tools/SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
+- [`SecLists/`](SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
 - **SHAttered**: SHA-1 Collision Attacks (File tester) ([shattered.io](https://shattered.io/))
 - **Snort**: Snort is a free open source network intrusion detection system (IDS) and intrusion prevention system (IPS) ([snort.org](https://www.snort.org/))
 - **Sublist3r**: Fast subdomains enumeration tool for penetration testers ([kali.org](https://www.kali.org/tools/sublist3r/) | [github.com](https://github.com/aboul3la/Sublist3r))
@@ -135,7 +135,7 @@
 - **Whois**: The Whois database contains details such as the registration date of the domain name, when it expires, ownership and contact information, nameserver information of the domain, the registrar via which the domain was purchased, etc ([whois.com](https://www.whois.com/whois/))
 - **WiGLE**: Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers ([wigle.net](https://wigle.net/))
 - **Windows Subsystem for Linux**: Windows Subsystem for Linux (WSL) lets developers run a GNU/Linux environment - including most command-line tools, utilities, and applications - directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup ([microsoft.com](https://docs.microsoft.com/en-us/windows/wsl/))
-- [`wordlistctl/`](Tools/wordlistctl/) - **Wordlistctl**: Fetch, install and search wordlist archives from websites and torrent peers ([github.com](https://github.com/BlackArch/wordlistctl) | [blackarch.org](https://blackarch.org/tools.html))
+- [`wordlistctl/`](wordlistctl/) - **Wordlistctl**: Fetch, install and search wordlist archives from websites and torrent peers ([github.com](https://github.com/BlackArch/wordlistctl) | [blackarch.org](https://blackarch.org/tools.html))
 
 ### X
 - **XSS Hunter**: XSS Hunter allows you to find all kinds of cross-site scripting vulnerabilities, including the often-missed blind XSS ([xsshunter.com](https://xsshunter.com/))
