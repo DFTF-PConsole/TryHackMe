@@ -1,4 +1,4 @@
-# THM | TryHackMe: [Main](README.md)
+# THM | TryHackMe: [`Main`](README.md)
 
 <br>
 
