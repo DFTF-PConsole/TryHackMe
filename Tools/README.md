@@ -246,7 +246,7 @@ git lfs track "*.*"
 
 <br>
 
-## 🔙 [Main](../)
+## 🔙 [Main](../README.md)
 
 ### [`../Rooms/`](../Rooms/)
 
