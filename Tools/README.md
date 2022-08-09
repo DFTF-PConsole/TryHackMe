@@ -96,6 +96,7 @@
 
 ### O
 - **OpenVPN**: OpenVPN is a virtual private network system that implements techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities ([openvpn.net](https://openvpn.net/))
+- [**`openvpn-troubleshooting/`**](openvpn-troubleshooting/) - **TryHackMe OpenVPN Troubleshooting Script**: Script to troubleshoot connectivity to the TryHackMe network using OpenVPN on Linux ([github.com](https://github.com/tryhackme/openvpn-troubleshooting))
 - **OWASP**: The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software ([owasp.org](https://owasp.org/))
 - **OWASP favicon database**: favicon database in wiki format ([owasp.org](https://wiki.owasp.org/index.php/OWASP_favicon_database))
 
