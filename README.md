@@ -11,14 +11,14 @@
 
 <br>
 
-## [`Rooms/`](Rooms/)
+## [`Rooms/`](Rooms/)[`README.md`](Rooms/README.md)
 
 Rooms are virtual classrooms dedicated to particular cyber security topics.
 
 
 <br>
 
-## [`Tools/`](Tools/)
+## [`Tools/`](Tools/)[`README.md`](Tools/README.md)
 
 Compilation of tools covered along the learning paths.
 
