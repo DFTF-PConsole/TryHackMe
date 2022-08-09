@@ -57,6 +57,7 @@
 
 ### G
 - **Gobuster**: Gobuster is a tool used to brute-force URIs including directories and files as well as DNS subdomains ([kali.org](https://www.kali.org/tools/gobuster/) | [github.com](https://github.com/OJ/gobuster))
+- **Google Hacking Database**: The GHDB is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers ([exploit-db.com](https://www.exploit-db.com/google-hacking-database))
 - **GTFOBins**: GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems ([gtfobins.github.io](https://gtfobins.github.io/))
 
 ### H
