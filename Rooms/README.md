@@ -297,7 +297,7 @@
 
 ## 🔙 [Main](../README.md)
 
-### [`../Tools/`](../Tools/) [`README.md`](Tools/README.md)
+### [`../Tools/`](../Tools/) [`README.md`](../Tools/README.md)
 
 Compilation of tools covered along the learning paths.
 
