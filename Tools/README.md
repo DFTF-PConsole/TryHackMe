@@ -194,34 +194,34 @@ ifconfig
 ```
 
 ### Primary Prompt String (`PS1`)
-```shell
+```console
 dftfpconsole@PC-DFTF-PConsole:/mnt/c/Users/dftf$ export PS1="\[$(tput bold)\]\[\033[38;5;34m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;34m\]\h\[$(tput sgr0)\]:\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
-```shell
+```console
 [12:30:01] PC-DFTF-PConsole:dftf$ export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;40m\]\h\[$(tput sgr0)\]:\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\W\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
-```shell
+```console
 [12:30:01] $ export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput bold)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
-```shell
+```console
 [12:30:01] /mnt/c/Users/dftf$ export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
-```shell
+```console
 /mnt/c/Users/dftf$ export PS1="\[$(tput bold)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
-```shell
+```console
 dftf$ export PS1="\[$(tput bold)\]\[\033[38;5;27m\]\W\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
-```shell
+```console
 [12:30:01] 0$ export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;13m\]\l\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
-```shell
+```console
 [12:30:01] dftf$ export PS1="[\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\W\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
-```shell
+```console
 dftfpconsole:/mnt/c/Users/dftf$ export PS1="\[$(tput bold)\]\[\033[38;5;2m\]\u\[$(tput sgr0)\]:\[$(tput sgr0)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
-```shell
+```console
 ┌──(dftfpconsole)──[/mnt/c/Users/dftf] 0
 └─$ export PS1="\n\[$(tput sgr0)\]\[\033[38;5;2m\]┌──(\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\u\[$(tput sgr0)\]\[\033[38;5;2m\])──[\[$(tput sgr0)\]\[$(tput bold)\]\w\[$(tput sgr0)\]\[\033[38;5;2m\]]\[$(tput sgr0)\] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;13m\]\l\[$(tput sgr0)\]\n\[$(tput sgr0)\]\[\033[38;5;2m\]└─\[$(tput sgr0)\]\[$(tput bold)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 ```
