@@ -248,7 +248,7 @@ git lfs track "*.*"
 
 ## 🔙 [Main](../README.md)
 
-### [`../Rooms/`](../Rooms/)
+### [`../Rooms/`](../Rooms/) [`README.md`](Rooms/README.md)
 
 Rooms are virtual classrooms dedicated to particular cyber security topics.
 
