@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-	<a href="https://tryhackme.com/p/DFTFPConsole">
+	<a target="_blank" href="https://tryhackme.com/p/DFTFPConsole">
 		<img src="https://tryhackme-badges.s3.amazonaws.com/DFTFPConsole.png?" alt="TryHackMe Badge - DFTF@PConsole# (DFTFPConsole)"/>
 	</a>
 </p>
