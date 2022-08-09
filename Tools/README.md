@@ -78,7 +78,7 @@
 
 ### K
 - **Kali Linux Metapackages**: metapackages allow for easy installation of certain tools in a specific field, or alternatively, for the installation of a full Kali suite ([kali.org](https://www.kali.org/blog/kali-linux-metapackages/))
-- [`KaliWordlists/`](KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
+- [**`KaliWordlists/`**](KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
 
 ### L
 - **Linux man pages**: The Linux man pages documents the Linux kernel and C library interfaces that are employed by user-space programs ([linux.die.net](https://linux.die.net/man/))
