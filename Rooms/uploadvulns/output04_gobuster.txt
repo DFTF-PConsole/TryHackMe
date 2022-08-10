@@ -1,0 +1,16 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://magic.uploadvulns.thm/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                ../../Tools/KaliWordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/08/10 18:02:54 Starting gobuster in directory enumeration mode
+===============================================================
+/graphics             (Status: 301) [Size: 333] [--> http://magic.uploadvulns.thm/graphics/]
+/assets               (Status: 301) [Size: 331] [--> http://magic.uploadvulns.thm/assets/]  
