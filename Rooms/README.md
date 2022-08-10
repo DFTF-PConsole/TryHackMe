@@ -35,6 +35,7 @@
 - [x] [**`beginnerpathintro/`**](beginnerpathintro/) - **Learning Cyber Security**: Get a short introduction to a few of the security topics you'll be learning about ([tryhackme.com](https://tryhackme.com/room/beginnerpathintro))
 - [ ] [**`binex/`**](binex/) - **Binex**: Escalate your privileges by exploiting vulnerable binaries ([tryhackme.com](https://tryhackme.com/room/binex))
 - [ ] [**`blaster/`**](blaster/) - **Blaster**: A blast from the past ([tryhackme.com](https://tryhackme.com/room/blaster))
+- [ ] [**`blog/`**](blog/) - **Blog**: Billy Joel made a Wordpress blog ([tryhackme.com](https://tryhackme.com/room/blog))
 - [ ] [**`blue/`**](blue/) - **Blue**: Deploy & hack into a Windows machine, leveraging common misconfigurations issues ([tryhackme.com](https://tryhackme.com/room/blue))
 - [ ] [**`bof1/`**](bof1/) - **Buffer Overflows**: Learn how to get started with basic Buffer Overflows ([tryhackme.com](https://tryhackme.com/room/bof1))
 - [ ] [**`bpvolatility/`**](bpvolatility/) - **Volatility**: Learn how to perform memory forensics with Volatility ([tryhackme.com](https://tryhackme.com/room/bpvolatility))
@@ -76,6 +77,7 @@
 
 ### E
 - [x] [**`easyctf/`**](easyctf/) - **Simple CTF**: Beginner level ctf ([tryhackme.com](https://tryhackme.com/room/easyctf))
+- [ ] [**`easypeasyctf/`**](easypeasyctf/) - **Easy Peasy**: Practice using tools such as Nmap and GoBuster to locate a hidden directory to get initial access to a vulnerable machine. Then escalate your privileges through a vulnerable cronjob ([tryhackme.com](https://tryhackme.com/room/easypeasyctf))
 - [ ] [**`encryptioncrypto101/`**](encryptioncrypto101/) - **Encryption - Crypto 101**: An introduction to encryption, as part of a series on crypto ([tryhackme.com](https://tryhackme.com/room/encryptioncrypto101))
 - [ ] [**`exploitingad/`**](exploitingad/) - **Exploiting Active Directory**: Learn common AD exploitation techniques that can allow you to reach your goal in an AD environment ([tryhackme.com](https://tryhackme.com/room/exploitingad))
 - [ ] [**`exploitingavulnerabilityv2/`**](exploitingavulnerabilityv2/) - **Exploit Vulnerabilities**: Learn about some of the tools, techniques and resources to exploit vulnerabilities ([tryhackme.com](https://tryhackme.com/room/exploitingavulnerabilityv2))
@@ -248,6 +250,7 @@
 - [x] [**`tickets2/`**](tickets2/) - **Learn and win prizes #2**: Complete rooms, win tickets. Get 3 of the same tickets and win a prize ([tryhackme.com](https://tryhackme.com/room/tickets2))
 - [x] [**`tmuxremux/`**](tmuxremux/) - **REmux The Tmux**: Updated, how to use tmux guide. Defaults and customize your workflow ([tryhackme.com](https://tryhackme.com/room/tmuxremux))
 - [ ] [**`tomghost/`**](tomghost/) - **tomghost**: Identify recent vulnerabilities to try exploit the system or read files that you should not have access to ([tryhackme.com](https://tryhackme.com/room/tomghost))
+- [ ] [**`toolsrus/`**](toolsrus/) - **ToolsRus**: Practise using tools such as dirbuster, hydra, nmap, nikto and metasploit ([tryhackme.com](https://tryhackme.com/room/toolsrus))
 - [x] [**`torforbeginners/`**](torforbeginners/) - **Tor**: A beginner orienteered guide on using the Tor network ([tryhackme.com](https://tryhackme.com/room/torforbeginners))
 - [x] [**`tutorial/`**](tutorial/) - **Tutorial**: Learn how to use a TryHackMe room to start your upskilling in cyber security ([tryhackme.com](https://tryhackme.com/room/tutorial))
 
@@ -262,6 +265,7 @@
 ### W
 - [x] [**`walkinganapplication/`**](walkinganapplication/) - **Walking An Application**: Manually review a web application for security issues using only your browsers developer tools. Hacking with just your browser, no tools or scripts ([tryhackme.com](https://tryhackme.com/room/walkinganapplication))
 - [ ] [**`weaponization/`**](weaponization/) - **Weaponization**: Understand and explore common red teaming weaponization techniques. You will learn to build custom payloads using common methods seen in the industry to get initial access ([tryhackme.com](https://tryhackme.com/room/weaponization))
+- [ ] [**`webenumerationv2/`**](webenumerationv2/) - **Web Enumeration**: Learn the methodology of enumerating websites by using tools such as Gobuster, Nikto and WPScan ([tryhackme.com](https://tryhackme.com/room/webenumerationv2))
 - [x] [**`whatisnetworking/`**](whatisnetworking/) - **What is Networking?**: Begin learning the fundamentals of computer networking in this bite-sized and interactive module ([tryhackme.com](https://tryhackme.com/room/whatisnetworking))
 - [ ] [**`wifihacking101/`**](wifihacking101/) - **Wifi Hacking 101**: Learn to attack WPA(2) networks! Ideally you'll want a smartphone with you for this, preferably one that supports hosting wifi hotspots so you can follow along ([tryhackme.com](https://tryhackme.com/room/wifihacking101))
 - [ ] [**`win64assembly/`**](win64assembly/) - **Windows x64 Assembly**: Introduction to x64 Assembly on Windows ([tryhackme.com](https://tryhackme.com/room/win64assembly))
