@@ -197,7 +197,7 @@
 - [ ] [**`phishingemails4gkxh/`**](phishingemails4gkxh/) - **Phishing Emails 4**: Learn how to defend against phishing emails ([tryhackme.com](https://tryhackme.com/room/phishingemails4gkxh))
 - [ ] [**`phishingemails5fgjlzxc/`**](phishingemails5fgjlzxc/) - **Phishing Emails 5**: Use the knowledge attained to analyze a malicious email ([tryhackme.com](https://tryhackme.com/room/phishingemails5fgjlzxc))
 - [ ] [**`phishingyl/`**](phishingyl/) - **Phishing**: Learn what phishing is and why it's important to a red team engagement. You will set up phishing infrastructure, write a convincing phishing email and try to trick your target into opening your email in a real-world simulation ([tryhackme.com](https://tryhackme.com/room/phishingyl))
-- [ ] [**`picklerick/`**](picklerick/) - **Pickle Rick**: A Rick and Morty CTF. Help turn Rick back into a human! ([tryhackme.com](https://tryhackme.com/room/picklerick))
+- [x] [**`picklerick/`**](picklerick/) - **Pickle Rick**: A Rick and Morty CTF. Help turn Rick back into a human! ([tryhackme.com](https://tryhackme.com/room/picklerick))
 - [ ] [**`postexploit/`**](postexploit/) - **Post-Exploitation Basics**: Learn the basics of post-exploitation and maintaining access with mimikatz, bloodhound, powerview and msfvenom ([tryhackme.com](https://tryhackme.com/room/postexploit))
 - [ ] [**`powershell/`**](powershell/) - **Hacking with PowerShell**: Learn the basics of PowerShell and PowerShell Scripting ([tryhackme.com](https://tryhackme.com/room/powershell))
 - [ ] [**`powershellforpentesters/`**](powershellforpentesters/) - **PowerShell for Pentesters**: This room covers the principle uses of PowerShell in Penetration Tests. Interacting with files, scanning the network and system enumeration are covered ([tryhackme.com](https://tryhackme.com/room/powershellforpentesters))
@@ -255,7 +255,7 @@
 - [x] [**`tutorial/`**](tutorial/) - **Tutorial**: Learn how to use a TryHackMe room to start your upskilling in cyber security ([tryhackme.com](https://tryhackme.com/room/tutorial))
 
 ### U
-- [ ] [**`uploadvulns/`**](uploadvulns/) - **Upload Vulnerabilities**: Tutorial room exploring some basic file-upload vulnerabilities in websites ([tryhackme.com](https://tryhackme.com/room/uploadvulns))
+- [x] [**`uploadvulns/`**](uploadvulns/) - **Upload Vulnerabilities**: Tutorial room exploring some basic file-upload vulnerabilities in websites ([tryhackme.com](https://tryhackme.com/room/uploadvulns))
 
 ### V
 - [ ] [**`vulnerabilities101/`**](vulnerabilities101/) - **Vulnerabilities 101**: Understand the flaws of an application and apply your researching skills on some vulnerability databases ([tryhackme.com](https://tryhackme.com/room/vulnerabilities101))
