@@ -303,7 +303,7 @@
 
 ### [`../Tools/`](../Tools/) [`README.md`](../Tools/README.md)
 
-Compilation of tools covered along the learning paths. ([^2])
+Compilation of tools covered along the learning paths. (Rooms[^2])
 
 <br>
 
