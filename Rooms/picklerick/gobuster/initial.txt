@@ -1,0 +1,20 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.165.149/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                ../../Tools/KaliWordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Extensions:              html,js,css,sh,txt,cgi,py,php
+[+] Timeout:                 10s
+===============================================================
+2022/08/11 21:59:31 Starting gobuster in directory enumeration mode
+===============================================================
+/index.html           (Status: 200) [Size: 1062]
+/login.php            (Status: 200) [Size: 882] 
+/assets               (Status: 301) [Size: 315] [--> http://10.10.165.149/assets/]
+/portal.php           (Status: 302) [Size: 0] [--> /login.php]                    
+/robots.txt           (Status: 200) [Size: 17]                                    
