@@ -90,6 +90,7 @@
 - **MD5 Collision Demo**: Collisions in the MD5 cryptographic hash function ([mscs.dal.ca](https://www.mscs.dal.ca/~selinger/md5collision/))
 - [**`mentalist/`**](mentalist/) - **Mentalist**: Mentalist is a graphical tool for custom wordlist generation ([github.com](https://github.com/sc0tfree/mentalist))
 - **Metasploit**: The Metasploit Framework is an open source platform that supports vulnerability research, exploit development, and the creation of custom security tools ([kali.org](https://www.kali.org/tools/metasploit-framework/) | [metasploit.com](https://www.metasploit.com/))
+- **MSFvenom - Metasploit Unleashed**: MSFvenom is a combination of Msfpayload and Msfencode, putting both of these tools into a single Framework instance ([offensive-security.com](https://www.offensive-security.com/metasploit-unleashed/msfvenom/))
 
 ### N
 - **National Vulnerability Database**: The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP) ([nvd.nist.gov](https://nvd.nist.gov/vuln/search))
@@ -103,6 +104,7 @@
 - **OWASP favicon database**: favicon database in wiki format ([owasp.org](https://wiki.owasp.org/index.php/OWASP_favicon_database))
 
 ### P
+- **Payloads All The Things - swisskyrepo**: A list of useful payloads and bypass for Web Application Security and Pentest/CTF ([github.com](https://github.com/swisskyrepo/PayloadsAllTheThings))
 - **PeopleFinder**: Police Records, Background Checks, Social Media, Photos, Assets, Contact Information and Much More ([peoplefinder.com](https://www.peoplefinder.com/))
 - **Pentestmonkey**: Cheat sheets, Web shells, User Enumeration, Audit, etc. ([github.com](https://github.com/pentestmonkey) | [pentestmonkey.net](https://pentestmonkey.net/category/tools))
 - [**`pnwgen/`**](pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
@@ -122,6 +124,7 @@
 - [**`SecLists/`**](SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
 - **SHAttered**: SHA-1 Collision Attacks (File tester) ([shattered.io](https://shattered.io/))
 - **Snort**: Snort is a free open source network intrusion detection system (IDS) and intrusion prevention system (IPS) ([snort.org](https://www.snort.org/))
+- **Socat**: Socat (for SOcket CAT) establishes two bidirectional byte streams and transfers data between them ([kali.org](https://www.kali.org/tools/socat/))
 - **Sublist3r**: Fast subdomains enumeration tool for penetration testers ([kali.org](https://www.kali.org/tools/sublist3r/) | [github.com](https://github.com/aboul3la/Sublist3r))
 
 ### T
