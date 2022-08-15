@@ -146,6 +146,7 @@
 
 ### X
 - **XSS Hunter**: XSS Hunter allows you to find all kinds of cross-site scripting vulnerabilities, including the often-missed blind XSS ([xsshunter.com](https://xsshunter.com/))
+- **XSS Payloads**: The wonderland of JavaScript unexpected usages, and more ([xss-payloads.com](http://www.xss-payloads.com/))
 
 ### Y
 - **Yandex Images**: search for images online ([yandex.com](https://yandex.com/images/))
