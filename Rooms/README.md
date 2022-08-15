@@ -287,6 +287,7 @@
 - [ ] [**`wreath/`**](wreath/) - **Wreath**: Learn how to pivot through a network by compromising a public facing web machine and tunnelling your traffic to access other machines in Wreath's network ([tryhackme.com](https://tryhackme.com/room/wreath))
 
 ### X
+- [ ] [**`xss/`**](xss/) - **Cross-site Scripting**: Understand how cross-site scripting occurs and how to exploit it ([tryhackme.com](https://tryhackme.com/room/xss))
 - [x] ♻️[^1] [**`xssgi/`**](xssgi/) - **Cross-site Scripting**: Learn how to detect and exploit XSS vulnerabilities, giving you control of other visitor's browsers ([tryhackme.com](https://tryhackme.com/room/xssgi))
 
 ### Y
