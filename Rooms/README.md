@@ -138,6 +138,7 @@
 
 ### L
 - [ ] [**`lateralmovementandpivoting/`**](lateralmovementandpivoting/) - **Lateral Movement and Pivoting**: Learn about common techniques used to move laterally across a Windows network ([tryhackme.com](https://tryhackme.com/room/lateralmovementandpivoting))
+- [ ] [**`learncyberin25days/`**](learncyberin25days/) - **25 Days of Cyber Security**: Get started with Cyber Security in 25 Days - Learn the basics by doing a new, beginner friendly security challenge every day ([tryhackme.com](https://tryhackme.com/room/learncyberin25days))
 - [ ] [**`learnowaspzap/`**](learnowaspzap/) - **Introduction to OWASP ZAP**: Learn how to use OWASP ZAP from the ground up. An alternative to BurpSuite ([tryhackme.com](https://tryhackme.com/room/learnowaspzap))
 - [ ] [**`linprivesc/`**](linprivesc/) - **Linux PrivEsc**: Learn the fundamentals of Linux privilege escalation. From enumeration to exploitation, get hands-on with over 8 different privilege escalation techniques ([tryhackme.com](https://tryhackme.com/room/linprivesc))
 - [x] ♻️[^1] [**`linuxfundamentalspart1/`**](linuxfundamentalspart1/) - **Linux Fundamentals Part 1**: Embark on the journey of learning the fundamentals of Linux. Learn to run some of the first essential commands on an interactive terminal ([tryhackme.com](https://tryhackme.com/room/linuxfundamentalspart1))
