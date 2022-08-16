@@ -36,6 +36,7 @@
 - **Crt.sh**: a site where you could find all the SSL or TLS certificates of the particular targeted domain ([crt.sh](https://crt.sh/))
 - **Curl**: curl is used in command lines or scripts to transfer data ([curl.se](https://curl.se/))
 - **CVE**: CVE is a list of publicly disclosed cybersecurity vulnerabilities ([cve.org](https://www.cve.org/) | [cve.mitre.org](https://cve.mitre.org/cve/search_cve_list.html))
+- **CVE Details**: CVE security vulnerability database (Security vulnerabilities, exploits, references) ([cvedetails.com](https://www.cvedetails.com/))
 - **CyberChef**: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis ([github.io](https://gchq.github.io/CyberChef/))
 
 ### D
@@ -47,7 +48,7 @@
 - **Dnsrecon**: DNS Enumeration Script ([kali.org](https://www.kali.org/tools/dnsrecon/) | [github.com](https://github.com/darkoperator/dnsrecon))
 
 ### E
-- **Enum4linux**: Enum4linux is a tool for enumerating information from Windows and Samba systems ([kali.org](https://www.kali.org/tools/enum4linux))
+- **Enum4linux**: Enum4linux is a tool for enumerating information from Windows and Samba systems ([kali.org](https://www.kali.org/tools/enum4linux) | [github.com](https://github.com/CiscoCXSecurity/enum4linux))
 - **ExifTool**: ExifTool is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files ([exiftool.org](https://exiftool.org/))
 - **Exploit Database**: The Exploit Database is a CVE compliant archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers ([exploit-db.com](https://www.exploit-db.com/))
 
@@ -120,6 +121,7 @@
 - **RexEgg**: Regular Expressions Tutorial. Comprehensive resource covering basic to advanced uses of regex. Includes regex cheat sheet, tools, books and tricks ([rexegg.com](https://www.rexegg.com/))
 
 ### S
+- **Samba**: Samba is the standard Windows interoperability suite of programs for Linux and Unix. Running on a Unix system, it allows Windows to share files and printers on the Unix host, and it also allows Unix users to access resources shared by Windows systems ([samba.org](https://www.samba.org/))
 - **Scapy**: Scapy is a Python program that enables the user to send, sniff and dissect and forge network packets ([scapy.readthedocs.io](https://scapy.readthedocs.io/en/latest/) | [github.com](https://github.com/secdev/scapy))
 - [**`SecLists/`**](SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
 - **SHAttered**: SHA-1 Collision Attacks (File tester) ([shattered.io](https://shattered.io/))
