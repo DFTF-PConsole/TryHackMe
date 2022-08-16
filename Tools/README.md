@@ -36,6 +36,7 @@
 - **Crt.sh**: a site where you could find all the SSL or TLS certificates of the particular targeted domain ([crt.sh](https://crt.sh/))
 - **Curl**: curl is used in command lines or scripts to transfer data ([curl.se](https://curl.se/))
 - **CVE**: CVE is a list of publicly disclosed cybersecurity vulnerabilities ([cve.org](https://www.cve.org/) | [cve.mitre.org](https://cve.mitre.org/cve/search_cve_list.html))
+- **CVE Details**: CVE security vulnerability database (Security vulnerabilities, exploits, references) ([cvedetails.com](https://www.cvedetails.com/))
 - **CyberChef**: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis ([github.io](https://gchq.github.io/CyberChef/))
 
 ### D
