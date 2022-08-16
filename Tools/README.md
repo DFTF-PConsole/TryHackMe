@@ -121,6 +121,7 @@
 - **RexEgg**: Regular Expressions Tutorial. Comprehensive resource covering basic to advanced uses of regex. Includes regex cheat sheet, tools, books and tricks ([rexegg.com](https://www.rexegg.com/))
 
 ### S
+- **Samba**: Samba is the standard Windows interoperability suite of programs for Linux and Unix. Running on a Unix system, it allows Windows to share files and printers on the Unix host, and it also allows Unix users to access resources shared by Windows systems ([samba.org](https://www.samba.org/))
 - **Scapy**: Scapy is a Python program that enables the user to send, sniff and dissect and forge network packets ([scapy.readthedocs.io](https://scapy.readthedocs.io/en/latest/) | [github.com](https://github.com/secdev/scapy))
 - [**`SecLists/`**](SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
 - **SHAttered**: SHA-1 Collision Attacks (File tester) ([shattered.io](https://shattered.io/))
