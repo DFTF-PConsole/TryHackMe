@@ -47,7 +47,7 @@
 - **Dnsrecon**: DNS Enumeration Script ([kali.org](https://www.kali.org/tools/dnsrecon/) | [github.com](https://github.com/darkoperator/dnsrecon))
 
 ### E
-- **Enum4linux**: Enum4linux is a tool for enumerating information from Windows and Samba systems ([kali.org](https://www.kali.org/tools/enum4linux))
+- **Enum4linux**: Enum4linux is a tool for enumerating information from Windows and Samba systems ([kali.org](https://www.kali.org/tools/enum4linux) | [github.com](https://github.com/CiscoCXSecurity/enum4linux))
 - **ExifTool**: ExifTool is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files ([exiftool.org](https://exiftool.org/))
 - **Exploit Database**: The Exploit Database is a CVE compliant archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers ([exploit-db.com](https://www.exploit-db.com/))
 
