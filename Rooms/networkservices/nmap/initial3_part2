@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Wed Aug 17 22:55:59 2022 as: nmap -sV -oN nmap/initial3_part2 -p- 10.10.66.175
+Nmap scan report for 10.10.66.175
+Host is up (0.056s latency).
+Not shown: 65533 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 2.0.8 or later
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+Service Info: Host: Welcome
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 17 22:56:43 2022 -- 1 IP address (1 host up) scanned in 44.67 seconds
