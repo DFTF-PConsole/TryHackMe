@@ -1,0 +1,42 @@
+# Nmap 7.92 scan initiated Thu Aug 18 13:21:17 2022 as: nmap -A -oN nmap/initial -p- 10.10.35.226
+Nmap scan report for 10.10.35.226
+Host is up (0.059s latency).
+Not shown: 65528 closed tcp ports (conn-refused)
+PORT      STATE SERVICE  VERSION
+22/tcp    open  ssh      OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 73:92:8e:04:de:40:fb:9c:90:f9:cf:42:70:c8:45:a7 (RSA)
+|   256 6d:63:d6:b8:0a:67:fd:86:f1:22:30:2b:2d:27:1e:ff (ECDSA)
+|_  256 bd:08:97:79:63:0f:80:7c:7f:e8:50:dc:59:cf:39:5e (ED25519)
+111/tcp   open  rpcbind  2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100003  3           2049/udp   nfs
+|   100003  3           2049/udp6  nfs
+|   100003  3,4         2049/tcp   nfs
+|   100003  3,4         2049/tcp6  nfs
+|   100005  1,2,3      38505/udp6  mountd
+|   100005  1,2,3      50063/tcp6  mountd
+|   100005  1,2,3      52300/udp   mountd
+|   100005  1,2,3      53427/tcp   mountd
+|   100021  1,3,4      39343/tcp6  nlockmgr
+|   100021  1,3,4      41658/udp   nlockmgr
+|   100021  1,3,4      43075/udp6  nlockmgr
+|   100021  1,3,4      45799/tcp   nlockmgr
+|   100227  3           2049/tcp   nfs_acl
+|   100227  3           2049/tcp6  nfs_acl
+|   100227  3           2049/udp   nfs_acl
+|_  100227  3           2049/udp6  nfs_acl
+2049/tcp  open  nfs_acl  3 (RPC #100227)
+45799/tcp open  nlockmgr 1-4 (RPC #100021)
+53427/tcp open  mountd   1-3 (RPC #100005)
+58329/tcp open  mountd   1-3 (RPC #100005)
+59163/tcp open  mountd   1-3 (RPC #100005)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 18 13:22:15 2022 -- 1 IP address (1 host up) scanned in 58.19 seconds
