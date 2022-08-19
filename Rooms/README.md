@@ -168,7 +168,7 @@
 - [ ] [**`nax/`**](nax/) - **Nax**: Identify the critical security flaw in the most powerful and trusted network monitoring software on the market, that allows an user authenticated execute remote code execution ([tryhackme.com](https://tryhackme.com/room/nax))
 - [ ] [**`netsecchallenge/`**](netsecchallenge/) - **Net Sec Challenge**: Practice the skills you have learned in the Network Security module ([tryhackme.com](https://tryhackme.com/room/netsecchallenge))
 - [x] [**`networkservices/`**](networkservices/) - **Network Services**: Learn about, then enumerate and exploit a variety of network services and misconfigurations ([tryhackme.com](https://tryhackme.com/room/networkservices))
-- [ ] [**`networkservices2/`**](networkservices2/) - **Network Services 2**: Enumerating and Exploiting More Common Network Services & Misconfigurations ([tryhackme.com](https://tryhackme.com/room/networkservices2))
+- [x] [**`networkservices2/`**](networkservices2/) - **Network Services 2**: Enumerating and Exploiting More Common Network Services & Misconfigurations ([tryhackme.com](https://tryhackme.com/room/networkservices2))
 - [ ] [**`nmap01/`**](nmap01/) - **Nmap Live Host Discovery**: Learn how to use Nmap to discover live hosts using ARP scan, ICMP scan, and TCP/UDP ping scan ([tryhackme.com](https://tryhackme.com/room/nmap01))
 - [ ] [**`nmap02/`**](nmap02/) - **Nmap Basic Port Scans**: Learn in-depth how nmap TCP connect scan, TCP SYN port scan, and UDP port scan work ([tryhackme.com](https://tryhackme.com/room/nmap02))
 - [ ] [**`nmap03/`**](nmap03/) - **Nmap Advanced Port Scans**: Learn advanced techniques such as null, FIN, Xmas, and idle (zombie) scans, spoofing, in addition to FW and IDS evasion ([tryhackme.com](https://tryhackme.com/room/nmap03))
