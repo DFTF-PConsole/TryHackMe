@@ -125,6 +125,7 @@
 - **Scapy**: Scapy is a Python program that enables the user to send, sniff and dissect and forge network packets ([scapy.readthedocs.io](https://scapy.readthedocs.io/en/latest/) | [github.com](https://github.com/secdev/scapy))
 - [**`SecLists/`**](SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
 - **SHAttered**: SHA-1 Collision Attacks (File tester) ([shattered.io](https://shattered.io/))
+- **Smtp-User-Enum**: Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO ([kali.org](https://www.kali.org/tools/smtp-user-enum/) | [pentestmonkey.net](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum))
 - **Snort**: Snort is a free open source network intrusion detection system (IDS) and intrusion prevention system (IPS) ([snort.org](https://www.snort.org/))
 - **Socat**: Socat (for SOcket CAT) establishes two bidirectional byte streams and transfers data between them ([kali.org](https://www.kali.org/tools/socat/))
 - **Sublist3r**: Fast subdomains enumeration tool for penetration testers ([kali.org](https://www.kali.org/tools/sublist3r/) | [github.com](https://github.com/aboul3la/Sublist3r))
