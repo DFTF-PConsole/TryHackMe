@@ -365,7 +365,7 @@ mysql -h 10.10.15.100 -u root -p
 	exit
 msfconsole
 	search mysql_sql
-	use 0
+	use auxiliary/admin/mysql/mysql_sql
 		show options
 ```
 
@@ -399,7 +399,7 @@ msfconsole
 
 ```shell
 		search mysql_schemadump
-	use 0
+	use auxiliary/scanner/mysql/mysql_schemadump
 ```
 
 > auxiliary/scanner/mysql/mysql_schemadump
@@ -420,7 +420,7 @@ msfconsole
 
 ```shell
 		search mysql_hashdump
-	use 0
+	use auxiliary/scanner/mysql/mysql_hashdump
 ```
 
 > auxiliary/scanner/mysql/mysql_hashdump
