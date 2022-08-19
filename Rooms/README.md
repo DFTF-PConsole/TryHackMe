@@ -158,7 +158,7 @@
 - [ ] [**`malstrings/`**](malstrings/) - **MAL: Strings**: Investigating "strings" within an application and why these values are important ([tryhackme.com](https://tryhackme.com/room/malstrings))
 - [ ] [**`marketplace/`**](marketplace/) - **The Marketplace**: Can you take over The Marketplace's infrastructure? ([tryhackme.com](https://tryhackme.com/room/marketplace))
 - [ ] [**`metasploitexploitation/`**](metasploitexploitation/) - **Metasploit: Exploitation**: Using Metasploit for scanning, vulnerability assessment and exploitation ([tryhackme.com](https://tryhackme.com/room/metasploitexploitation))
-- [ ] [**`metasploitintro/`**](metasploitintro/) - **Metasploit: Introduction**: An introduction to the main components of the Metasploit Framework ([tryhackme.com](https://tryhackme.com/room/metasploitintro))
+- [x] [**`metasploitintro/`**](metasploitintro/) - **Metasploit: Introduction**: An introduction to the main components of the Metasploit Framework ([tryhackme.com](https://tryhackme.com/room/metasploitintro))
 - [ ] [**`meterpreter/`**](meterpreter/) - **Metasploit: Meterpreter**: Take a deep dive into Meterpreter, and see how in-memory payloads can be used for post-exploitation ([tryhackme.com](https://tryhackme.com/room/meterpreter))
 - [ ] [**`misp/`**](misp/) - **MISP**: Walkthrough on the use of MISP as a Threat Sharing Platform ([tryhackme.com](https://tryhackme.com/room/misp))
 - [ ] [**`mitre/`**](mitre/) - **MITRE**: This room will discuss the various resources MITRE has made available for the cybersecurity community ([tryhackme.com](https://tryhackme.com/room/mitre))
