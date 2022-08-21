@@ -40,7 +40,7 @@
 - [ ] [**`binex/`**](binex/) - **Binex**: Escalate your privileges by exploiting vulnerable binaries ([tryhackme.com](https://tryhackme.com/room/binex))
 - [ ] [**`blaster/`**](blaster/) - **Blaster**: A blast from the past ([tryhackme.com](https://tryhackme.com/room/blaster))
 - [ ] [**`blog/`**](blog/) - **Blog**: Billy Joel made a Wordpress blog ([tryhackme.com](https://tryhackme.com/room/blog))
-- [ ] [**`blue/`**](blue/) - **Blue**: Deploy & hack into a Windows machine, leveraging common misconfigurations issues ([tryhackme.com](https://tryhackme.com/room/blue))
+- [x] [**`blue/`**](blue/) - **Blue**: Deploy & hack into a Windows machine, leveraging common misconfigurations issues ([tryhackme.com](https://tryhackme.com/room/blue))
 - [ ] [**`bof1/`**](bof1/) - **Buffer Overflows**: Learn how to get started with basic Buffer Overflows ([tryhackme.com](https://tryhackme.com/room/bof1))
 - [ ] [**`bpvolatility/`**](bpvolatility/) - **Volatility**: Learn how to perform memory forensics with Volatility ([tryhackme.com](https://tryhackme.com/room/bpvolatility))
 - [ ] [**`brainpan/`**](brainpan/) - **Brainpan 1**: Reverse engineer a Windows executable, find a buffer overflow and exploit it on a Linux machine ([tryhackme.com](https://tryhackme.com/room/brainpan))
