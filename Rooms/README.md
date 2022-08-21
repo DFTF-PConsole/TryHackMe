@@ -20,7 +20,7 @@
 ### 2
 - [ ] [**`25daysofchristmas/`**](25daysofchristmas/) - **Advent of Cyber 1 [2019]**: Get started with Cyber Security in 25 Days - Learn the basics by doing a new, beginner friendly security challenge every day leading up to Christmas ([tryhackme.com](https://tryhackme.com/room/25daysofchristmas))
 ### A
-- [ ] [**`activedirectorybasics/`**](activedirectorybasics/) - **Active Directory Basics**: Learn the basics of Active Directory and how it is used in the real world today ([tryhackme.com](https://tryhackme.com/room/activedirectorybasics))
+- [x] [**`activedirectorybasics/`**](activedirectorybasics/) - **Active Directory Basics**: Learn the basics of Active Directory and how it is used in the real world today ([tryhackme.com](https://tryhackme.com/room/activedirectorybasics))
 - [ ] [**`activerecon/`**](activerecon/) - **Active Reconnaissance**: Learn how to use simple tools such as traceroute, ping, telnet, and a web browser to gather information ([tryhackme.com](https://tryhackme.com/room/activerecon))
 - [ ] [**`adenumeration/`**](adenumeration/) - **Enumerating Active Directory**: This room covers various Active Directory enumeration techniques, their use cases as well as drawbacks ([tryhackme.com](https://tryhackme.com/room/adenumeration))
 - [ ] [**`adventofcyber2/`**](adventofcyber2/) - **Advent of Cyber 2 [2020]**: Get started with Cyber Security in 25 Days - Learn the basics by doing a new, beginner friendly security challenge every day leading up to Christmas ([tryhackme.com](https://tryhackme.com/room/adventofcyber2))
@@ -40,7 +40,7 @@
 - [ ] [**`binex/`**](binex/) - **Binex**: Escalate your privileges by exploiting vulnerable binaries ([tryhackme.com](https://tryhackme.com/room/binex))
 - [ ] [**`blaster/`**](blaster/) - **Blaster**: A blast from the past ([tryhackme.com](https://tryhackme.com/room/blaster))
 - [ ] [**`blog/`**](blog/) - **Blog**: Billy Joel made a Wordpress blog ([tryhackme.com](https://tryhackme.com/room/blog))
-- [ ] [**`blue/`**](blue/) - **Blue**: Deploy & hack into a Windows machine, leveraging common misconfigurations issues ([tryhackme.com](https://tryhackme.com/room/blue))
+- [x] [**`blue/`**](blue/) - **Blue**: Deploy & hack into a Windows machine, leveraging common misconfigurations issues ([tryhackme.com](https://tryhackme.com/room/blue))
 - [ ] [**`bof1/`**](bof1/) - **Buffer Overflows**: Learn how to get started with basic Buffer Overflows ([tryhackme.com](https://tryhackme.com/room/bof1))
 - [ ] [**`bpvolatility/`**](bpvolatility/) - **Volatility**: Learn how to perform memory forensics with Volatility ([tryhackme.com](https://tryhackme.com/room/bpvolatility))
 - [ ] [**`brainpan/`**](brainpan/) - **Brainpan 1**: Reverse engineer a Windows executable, find a buffer overflow and exploit it on a Linux machine ([tryhackme.com](https://tryhackme.com/room/brainpan))
@@ -113,7 +113,7 @@
 - [x] ♻️[^1] [**`hydra/`**](hydra/) - **Hydra**: Learn about and use Hydra, a fast network logon cracker, to bruteforce and obtain a website's credentials ([tryhackme.com](https://tryhackme.com/room/hydra))
 
 ### I
-- [ ] [**`ice/`**](ice/) - **Ice**: Deploy & hack into a Windows machine, exploiting a very poorly secured media server ([tryhackme.com](https://tryhackme.com/room/ice))
+- [x] [**`ice/`**](ice/) - **Ice**: Deploy & hack into a Windows machine, exploiting a very poorly secured media server ([tryhackme.com](https://tryhackme.com/room/ice))
 - [x] ♻️[^1] [**`idor/`**](idor/) - **IDOR**: Learn how to find and exploit IDOR vulnerabilities in a web application giving you access to data that you shouldn't have ([tryhackme.com](https://tryhackme.com/room/idor))
 - [ ] [**`internal/`**](internal/) - **Internal**: Penetration Testing Challenge ([tryhackme.com](https://tryhackme.com/room/internal))
 - [ ] [**`intro2windows/`**](intro2windows/) - **Intro to Windows**: An introduction to Windows ([tryhackme.com](https://tryhackme.com/room/intro2windows))

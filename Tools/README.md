@@ -91,6 +91,7 @@
 - **MD5 Collision Demo**: Collisions in the MD5 cryptographic hash function ([mscs.dal.ca](https://www.mscs.dal.ca/~selinger/md5collision/))
 - [**`mentalist/`**](mentalist/) - **Mentalist**: Mentalist is a graphical tool for custom wordlist generation ([github.com](https://github.com/sc0tfree/mentalist))
 - **Metasploit**: The Metasploit Framework is an open source platform that supports vulnerability research, exploit development, and the creation of custom security tools ([kali.org](https://www.kali.org/tools/metasploit-framework/) | [metasploit.com](https://www.metasploit.com/))
+- **Mimikatz**: Mimikatz uses admin rights on Windows to display passwords of currently logged in users in plaintext ([kali.org](https://www.kali.org/tools/mimikatz/) | [blog.gentilkiwi.com](https://blog.gentilkiwi.com/mimikatz))
 - **MSFvenom - Metasploit Unleashed**: MSFvenom is a combination of Msfpayload and Msfencode, putting both of these tools into a single Framework instance ([offensive-security.com](https://www.offensive-security.com/metasploit-unleashed/msfvenom/))
 
 ### N
