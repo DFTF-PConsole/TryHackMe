@@ -187,7 +187,7 @@
 - [ ] [**`overpass/`**](overpass/) - **Overpass**: What happens when some broke CompSci students make a password manager? ([tryhackme.com](https://tryhackme.com/room/overpass))
 - [ ] [**`overpass2hacked/`**](overpass2hacked/) - **Overpass 2 - Hacked**: Overpass has been hacked! Can you analyse the attacker's actions and hack back in? ([tryhackme.com](https://tryhackme.com/room/overpass2hacked))
 - [ ] [**`overpass3hosting/`**](overpass3hosting/) - **Overpass 3 - Hosting**: You know them, you love them, your favourite group of broke computer science students have another business venture! Show them that they probably should hire someone for security... ([tryhackme.com](https://tryhackme.com/room/overpass3hosting))
-- [ ] [**`owaspjuiceshop/`**](owaspjuiceshop/) - **OWASP Juice Shop**: This room uses the Juice Shop vulnerable web application to learn how to identify and exploit common web application vulnerabilities ([tryhackme.com](https://tryhackme.com/room/owaspjuiceshop))
+- [x] [**`owaspjuiceshop/`**](owaspjuiceshop/) - **OWASP Juice Shop**: This room uses the Juice Shop vulnerable web application to learn how to identify and exploit common web application vulnerabilities ([tryhackme.com](https://tryhackme.com/room/owaspjuiceshop))
 - [x] [**`owasptop10/`**](owasptop10/) - **OWASP Top 10**: Learn about and exploit each of the OWASP Top 10 vulnerabilities; the 10 most critical web security risks ([tryhackme.com](https://tryhackme.com/room/owasptop10))
 
 ### P
