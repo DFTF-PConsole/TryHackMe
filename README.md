@@ -62,7 +62,7 @@ Compilation of tools covered along the learning paths.
 
 <br />
 
-- [ ] [**Web Fundamentals**](https://tryhackme.com/path/outline/web) - Understand web fundamentals; Major vulnerabilities explained; Learn industry-used tools; Web application assessments
-<!-- ![Certificate of Web Fundamentals]() -->
+- [x] [**Web Fundamentals**](https://tryhackme.com/path/outline/web) - Understand web fundamentals; Major vulnerabilities explained; Learn industry-used tools; Web application assessments
+![Certificate of Web Fundamentals](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-GJLY9INGPW.png)
 
 
