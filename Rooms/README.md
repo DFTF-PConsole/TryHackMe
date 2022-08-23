@@ -149,7 +149,7 @@
 - [x] ♻️[^1] [**`linuxfundamentalspart2/`**](linuxfundamentalspart2/) - **Linux Fundamentals Part 2**: Continue your learning Linux journey with part two. You will be learning how to log in to a Linux machine using SSH, how to advance your commands, file system interaction ([tryhackme.com](https://tryhackme.com/room/linuxfundamentalspart2))
 - [x] ♻️[^1] [**`linuxfundamentalspart3/`**](linuxfundamentalspart3/) - **Linux Fundamentals Part 3**: Power-up your Linux skills and get hands-on with some common utilities that you are likely to use day-to-day ([tryhackme.com](https://tryhackme.com/room/linuxfundamentalspart3))
 - [ ] [**`linuxmodules/`**](linuxmodules/) - **Linux Modules**: Learn linux modules in a fun way ([tryhackme.com](https://tryhackme.com/room/linuxmodules))
-- [ ] [**`linuxprivesc/`**](linuxprivesc/) - **Linux PrivEsc**: Practice your Linux Privilege Escalation skills on an intentionally misconfigured Debian VM with multiple ways to get root! SSH is available. Credentials: user:password321 ([tryhackme.com](https://tryhackme.com/room/linuxprivesc))
+- [x] [**`linuxprivesc/`**](linuxprivesc/) - **Linux PrivEsc**: Practice your Linux Privilege Escalation skills on an intentionally misconfigured Debian VM with multiple ways to get root! SSH is available. Credentials: user:password321 ([tryhackme.com](https://tryhackme.com/room/linuxprivesc))
 - [ ] [**`lookingglass/`**](lookingglass/) - **Looking Glass**: Step through the looking glass. A sequel to the Wonderland challenge room ([tryhackme.com](https://tryhackme.com/room/lookingglass))
 
 ### M
