@@ -250,10 +250,14 @@ cat flag.txt
 ### Task 11.1
 
 ```shell
+ssh2john idrsa.id_rsa > id_rsa_hash.txt
 
+cat id_rsa_hash.txt
+
+john --wordlist=../../Tools/KaliWordlists/rockyou.txt id_rsa_hash.txt
 ```
 
-> 
+> mango
 
 <br>
 
