@@ -52,7 +52,7 @@
 - **Exploit Database**: is a CVE compliant archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers ([exploit-db.com](https://www.exploit-db.com/))
 
 ### F
-- **Ffuf**: ffuf is a fest web fuzzer written in Go that allows typical directory discovery, virtual host discovery (without DNS records) and GET and POST parameter fuzzing ([kali.org](https://www.kali.org/tools/ffuf/) | [github.com](https://github.com/ffuf/ffuf))
+- **Ffuf**: is a fest web fuzzer written in Go that allows typical directory discovery, virtual host discovery (without DNS records) and GET and POST parameter fuzzing ([kali.org](https://www.kali.org/tools/ffuf/) | [github.com](https://github.com/ffuf/ffuf))
 - **FoxProxy**: simplifies configuring browsers to access proxy-servers ([getfoxyproxy.org](https://getfoxyproxy.org/))
 - [**`fuzzdb/`**](fuzzdb/) - **FuzzDB**: Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery ([github.com](https://github.com/fuzzdb-project/fuzzdb))
 
