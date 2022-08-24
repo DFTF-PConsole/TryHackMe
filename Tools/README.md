@@ -24,59 +24,59 @@
 - **AttackerKB**: Community-driven information, analysis, and discussion of vulnerabilities and threats ([attackerkb.com](https://attackerkb.com/))
 
 ### B
-- **BeEF**: BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser ([beefproject.com](https://beefproject.com/))
+- **BeEF**: is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser ([beefproject.com](https://beefproject.com/))
 - **BuiltWith**: Find out what websites are Built With ([builtwith.com](https://builtwith.com/))
-- **Burp Suite**: Burp Suite is an integrated platform/graphical tool for performing security testing of web applications ([portswigger.net](https://portswigger.net/burp))
+- **Burp Suite**: is an integrated platform/graphical tool for performing security testing of web applications ([portswigger.net](https://portswigger.net/burp))
 
 ### C
-- **Cewl**: CeWL (Custom Word List generator) is a ruby app which spiders a given URL, up to a specified depth, and returns a list of words which can then be used for password crackers such as John the Ripper ([kali.org](https://www.kali.org/tools/cewl/) | [github.com](https://github.com/digininja/CeWL))
+- **CeWL**: Custom Word List generator is a ruby app which spiders a given URL, up to a specified depth, and returns a list of words which can then be used for password crackers such as John the Ripper ([kali.org](https://www.kali.org/tools/cewl/) | [github.com](https://github.com/digininja/CeWL))
 - **Cisco Talos Intelligence Group**: Search by IP, domain, or network owner for real-time threat data; File Reputation; Email & Spam Data ([talosintelligence.com](https://www.talosintelligence.com/))
 - **Command Injection Payload List**: Cheat sheet/List ([github.com](https://github.com/payloadbox/command-injection-payload-list))
 - **CrackStation**: Free Password Hash Cracker ([crackstation.net](https://crackstation.net/))
 - **Crt.sh**: a site where you could find all the SSL or TLS certificates of the particular targeted domain ([crt.sh](https://crt.sh/))
-- **Curl**: curl is used in command lines or scripts to transfer data ([curl.se](https://curl.se/))
-- **CVE**: CVE is a list of publicly disclosed cybersecurity vulnerabilities ([cve.org](https://www.cve.org/) | [cve.mitre.org](https://cve.mitre.org/cve/search_cve_list.html))
+- **Curl**: is used in command lines or scripts to transfer data ([curl.se](https://curl.se/))
+- **CVE**: is a list of publicly disclosed cybersecurity vulnerabilities ([cve.org](https://www.cve.org/) | [cve.mitre.org](https://cve.mitre.org/cve/search_cve_list.html))
 - **CVE Details**: CVE security vulnerability database (Security vulnerabilities, exploits, references) ([cvedetails.com](https://www.cvedetails.com/))
-- **CyberChef**: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis ([github.io](https://gchq.github.io/CyberChef/))
+- **CyberChef**: The Cyber Swiss Army Knife; a web app for encryption, encoding, compression and data analysis ([github.io](https://gchq.github.io/CyberChef/))
 
 ### D
 - **Devhints**: a "modest" collection of cheatsheets ([devhints.io](https://devhints.io/))
-- **Dirb**: DIRB is a Web Content Scanner ([kali.org](https://www.kali.org/tools/dirb/) | [sourceforge.net](https://dirb.sourceforge.net/))
-- **Dirbuster**: DirBuster is a multi threaded java application designed to brute force directories and files names on web/application servers ([kali.org](https://www.kali.org/tools/dirbuster))
-- **Django**: Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design ([djangoproject.com](https://www.djangoproject.com/))
-- [**`Django-example/`**](Django-example/) - **Basic Website template Django 2.2 Example + Python3**: Bare website skeleton written in Python Django for 'Introduction to Django' room on TryHackMe ([github.com](https://github.com/Swafox/Django-example))
+- **DIRB**: is a Web Content Scanner ([kali.org](https://www.kali.org/tools/dirb/) | [sourceforge.net](https://dirb.sourceforge.net/))
+- **Dirbuster**: is a multi threaded java application designed to brute force directories and files names on web/application servers ([kali.org](https://www.kali.org/tools/dirbuster))
+- **Django**: is a high-level Python web framework that encourages rapid development and clean, pragmatic design ([djangoproject.com](https://www.djangoproject.com/))
 - **Dnsrecon**: DNS Enumeration Script ([kali.org](https://www.kali.org/tools/dnsrecon/) | [github.com](https://github.com/darkoperator/dnsrecon))
 
 ### E
-- **Enum4linux**: Enum4linux is a tool for enumerating information from Windows and Samba systems ([kali.org](https://www.kali.org/tools/enum4linux) | [github.com](https://github.com/CiscoCXSecurity/enum4linux))
-- **ExifTool**: ExifTool is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files ([exiftool.org](https://exiftool.org/))
-- **Exploit Database**: The Exploit Database is a CVE compliant archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers ([exploit-db.com](https://www.exploit-db.com/))
+- **Enum4linux**: is a tool for enumerating information from Windows and Samba systems ([kali.org](https://www.kali.org/tools/enum4linux) | [github.com](https://github.com/CiscoCXSecurity/enum4linux))
+- **ExifTool**: is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files ([exiftool.org](https://exiftool.org/))
+- **Exploit Database**: is a CVE compliant archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers ([exploit-db.com](https://www.exploit-db.com/))
 
 ### F
 - **Ffuf**: ffuf is a fest web fuzzer written in Go that allows typical directory discovery, virtual host discovery (without DNS records) and GET and POST parameter fuzzing ([kali.org](https://www.kali.org/tools/ffuf/) | [github.com](https://github.com/ffuf/ffuf))
-- **FoxProxy**: FoxyProxy simplifies configuring browsers to access proxy-servers ([getfoxyproxy.org](https://getfoxyproxy.org/))
+- **FoxProxy**: simplifies configuring browsers to access proxy-servers ([getfoxyproxy.org](https://getfoxyproxy.org/))
 - [**`fuzzdb/`**](fuzzdb/) - **FuzzDB**: Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery ([github.com](https://github.com/fuzzdb-project/fuzzdb))
 
 ### G
-- **Gobuster**: Gobuster is a tool used to brute-force URIs including directories and files as well as DNS subdomains ([kali.org](https://www.kali.org/tools/gobuster/) | [github.com](https://github.com/OJ/gobuster))
+- **Gobuster**: is a tool used to brute-force URIs including directories and files as well as DNS subdomains ([kali.org](https://www.kali.org/tools/gobuster/) | [github.com](https://github.com/OJ/gobuster))
 - **Google Hacking Database**: The GHDB is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers ([exploit-db.com](https://www.exploit-db.com/google-hacking-database))
-- **GTFOBins**: GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems ([gtfobins.github.io](https://gtfobins.github.io/))
+- **GTFOBins**: is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems ([gtfobins.github.io](https://gtfobins.github.io/))
 
 ### H
 - **HAITI**: A CLI tool (and library) to identify hash types (hash type identifier) ([noraj.github.io](https://noraj.github.io/haiti/#/))
 - **Hash-Identifier**: Software to identify the different types of hashes used to encrypt data and especially passwords ([kali.org](https://www.kali.org/tools/hash-identifier/) | [github.com](https://github.com/blackploit/hash-identifier))
-- **Hashcat**: Hashcat supports five unique modes of attack for over 300 highly-optimized hashing algorithms ([kali.org](https://www.kali.org/tools/hashcat/) | [hashcat.net](https://hashcat.net/hashcat/))
+- **Hashcat**: supports five unique modes of attack for over 300 highly-optimized hashing algorithms ([kali.org](https://www.kali.org/tools/hashcat/) | [hashcat.net](https://hashcat.net/hashcat/))
 - **Hashcat - Example hashes**: a list of hashes ([hashcat.net](https://hashcat.net/wiki/doku.php?id=example_hashes))
-- **hashID**: hashID is a tool written in Python 3 which supports the identification of over 220 unique hash types using regular expressions ([pypi.org](https://pypi.org/project/hashID/) | [github.com](https://github.com/psypanda/hashID))
+- **Hashes.com**: is a hash lookup service. This allows you to input an hash and search for its corresponding plaintext in our database of already-cracked hashes ([hashes.com](https://hashes.com/))
+- **hashID**: is a tool written in Python 3 which supports the identification of over 220 unique hash types using regular expressions ([pypi.org](https://pypi.org/project/hashID/) | [github.com](https://github.com/psypanda/hashID))
 - **Hunter**: Get the email addresses behind any website ([hunter.io](https://hunter.io/))
-- **Hydra**: Hydra is a parallelized login cracker which supports numerous protocols to attack ([kali.org](https://www.kali.org/tools/hydra/) | [github.com](https://github.com/vanhauser-thc/thc-hydra))
+- **Hydra**: is a parallelized login cracker which supports numerous protocols to attack ([kali.org](https://www.kali.org/tools/hydra/) | [github.com](https://github.com/vanhauser-thc/thc-hydra))
 
 ### I
-- **Internet Archive**: Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more ([archive.org](https://archive.org/))
+- **Internet Archive**: is a non-profit library of millions of free books, movies, software, music, websites, and more ([archive.org](https://archive.org/))
 
 ### J
-- **John the Ripper**: John the Ripper is a tool designed to help systems administrators to find weak (easy to guess or crack through brute force) passwords ([kali.org](https://www.kali.org/tools/john/) | [openwall.com](https://www.openwall.com/john/))
-- [**`JRuby/`**](JRuby/) - **JRuby**: JRuby is a high performance, stable, fully threaded Java implementation of the Ruby programming language ([jruby.org](https://www.jruby.org/))
+- **John the Ripper**: is a tool designed to help systems administrators to find weak (easy to guess or crack through brute force) passwords ([kali.org](https://www.kali.org/tools/john/) | [openwall.com](https://www.openwall.com/john/))
+- [**`JRuby/`**](JRuby/) - **JRuby**: is a high performance, stable, fully threaded Java implementation of the Ruby programming language ([jruby.org](https://www.jruby.org/))
 - [**`JythonStandalone/`**](JythonStandalone/) - **Jython**: The Jython project provides implementations of Python in Java, providing to Python the benefits of running on the JVM and access to classes written in Java ([jython.org](https://www.jython.org/))
 
 ### K
@@ -84,26 +84,26 @@
 - [**`KaliWordlists/`**](KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
 
 ### L
-- **Linux man pages**: The Linux man pages documents the Linux kernel and C library interfaces that are employed by user-space programs ([linux.die.net](https://linux.die.net/man/))
+- **Linux man pages**: documents the Linux kernel and C library interfaces that are employed by user-space programs ([linux.die.net](https://linux.die.net/man/))
 - **LOLBAS project**: The goal of the LOLBAS project is to document every binary, script, and library that can be used for Living Off The Land techniques ([lolbas-project.github.io](https://lolbas-project.github.io/))
 - [**`lyricpass/`**](lyricpass/) - **Lyricpass**: Password wordlist generator using song lyrics for targeted bruteforce audits / attacks ([github.com](https://github.com/initstring/lyricpass))
 
 ### M
 - **MD5 Collision Demo**: Collisions in the MD5 cryptographic hash function ([mscs.dal.ca](https://www.mscs.dal.ca/~selinger/md5collision/))
-- [**`mentalist/`**](mentalist/) - **Mentalist**: Mentalist is a graphical tool for custom wordlist generation ([github.com](https://github.com/sc0tfree/mentalist))
-- **Metasploit**: The Metasploit Framework is an open source platform that supports vulnerability research, exploit development, and the creation of custom security tools ([kali.org](https://www.kali.org/tools/metasploit-framework/) | [metasploit.com](https://www.metasploit.com/))
-- **Mimikatz**: Mimikatz uses admin rights on Windows to display passwords of currently logged in users in plaintext ([kali.org](https://www.kali.org/tools/mimikatz/) | [blog.gentilkiwi.com](https://blog.gentilkiwi.com/mimikatz))
-- **MSFvenom - Metasploit Unleashed**: MSFvenom is a combination of Msfpayload and Msfencode, putting both of these tools into a single Framework instance ([offensive-security.com](https://www.offensive-security.com/metasploit-unleashed/msfvenom/))
+- [**`mentalist/`**](mentalist/) - **Mentalist**: is a graphical tool for custom wordlist generation ([github.com](https://github.com/sc0tfree/mentalist))
+- **Metasploit Framework**: is an open source platform that supports vulnerability research, exploit development, and the creation of custom security tools ([kali.org](https://www.kali.org/tools/metasploit-framework/) | [metasploit.com](https://www.metasploit.com/))
+- **Mimikatz**: uses admin rights on Windows to display passwords of currently logged in users in plaintext ([kali.org](https://www.kali.org/tools/mimikatz/) | [blog.gentilkiwi.com](https://blog.gentilkiwi.com/mimikatz))
+- **MSFvenom**: is a combination of Msfpayload and Msfencode, putting both of these tools into a single Framework instance ([offensive-security.com](https://www.offensive-security.com/metasploit-unleashed/msfvenom/))
 
 ### N
 - **National Vulnerability Database**: The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP) ([nvd.nist.gov](https://nvd.nist.gov/vuln/search))
-- **Nikto**: Nikto is a pluggable web server and CGI scanner written in Perl, using rfp’s LibWhisker to perform fast security or informational checks ([kali.org](https://www.kali.org/tools/nikto/) | [github.com](https://github.com/sullo/nikto))
-- **Nmap**: Nmap is a utility for network exploration or security auditing ([kali.org](https://www.kali.org/tools/nmap/) | [nmap.org](https://nmap.org/))
+- **Nikto**: is a pluggable web server and CGI scanner written in Perl, using rfp’s LibWhisker to perform fast security or informational checks ([kali.org](https://www.kali.org/tools/nikto/) | [github.com](https://github.com/sullo/nikto))
+- **Nmap**: is a utility for network exploration or security auditing ([kali.org](https://www.kali.org/tools/nmap/) | [nmap.org](https://nmap.org/))
 
 ### O
-- **OpenVPN**: OpenVPN is a virtual private network system that implements techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities ([openvpn.net](https://openvpn.net/))
+- **OpenVPN**: is a virtual private network system that implements techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities ([openvpn.net](https://openvpn.net/))
 - [**`openvpn-troubleshooting/`**](openvpn-troubleshooting/) - **TryHackMe OpenVPN Troubleshooting Script**: Script to troubleshoot connectivity to the TryHackMe network using OpenVPN on Linux ([github.com](https://github.com/tryhackme/openvpn-troubleshooting))
-- **OWASP**: The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software ([owasp.org](https://owasp.org/))
+- **OWASP**: The Open Web Application Security Project is a nonprofit foundation that works to improve the security of software ([owasp.org](https://owasp.org/))
 - **OWASP favicon database**: favicon database in wiki format ([owasp.org](https://wiki.owasp.org/index.php/OWASP_favicon_database))
 
 ### P
@@ -111,46 +111,46 @@
 - **PeopleFinder**: Police Records, Background Checks, Social Media, Photos, Assets, Contact Information and Much More ([peoplefinder.com](https://www.peoplefinder.com/))
 - **Pentestmonkey**: Cheat sheets, Web shells, User Enumeration, Audit, etc. ([github.com](https://github.com/pentestmonkey) | [pentestmonkey.net](https://pentestmonkey.net/category/tools))
 - [**`pnwgen/`**](pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
-- **PowerShell**: PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models ([docs.microsoft.com](https://docs.microsoft.com/en-us/powershell/) | [github.com](https://github.com/PowerShell/PowerShell))
-- **Pwntools**: pwntools is a CTF framework and exploit development library ([docs.pwntools.com](https://docs.pwntools.com/en/stable/) | [github.com](https://github.com/Gallopsled/pwntools))
-- **Python Package Index**: The Python Package Index (PyPI) is a repository of software for the Python programming language ([pypi.org](https://pypi.org/))
-- **PythonAnywhere**: PythonAnywhere makes it easy to create and run Python programs in the cloud ([pythonanywhere.com](https://www.pythonanywhere.com/))
+- **PowerShell**: is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models ([docs.microsoft.com](https://docs.microsoft.com/en-us/powershell/) | [github.com](https://github.com/PowerShell/PowerShell))
+- **Pwntools**: is a CTF framework and exploit development library ([docs.pwntools.com](https://docs.pwntools.com/en/stable/) | [github.com](https://github.com/Gallopsled/pwntools))
+- **Python Package Index**: PyPI is a repository of software for the Python programming language ([pypi.org](https://pypi.org/))
+- **PythonAnywhere**: makes it easy to create and run Python programs in the cloud ([pythonanywhere.com](https://www.pythonanywhere.com/))
 
 ### R
 - **Rawsec's CyberSecurity Inventory**: An inventory of tools and resources about CyberSecurity ([inventory.raw.pm](https://inventory.raw.pm/))
-- **RegExr**: RegExr is a HTML/JS based tool for creating, testing, and learning about Regular Expressions ([regexr.com](https://regexr.com/))
-- **RequestBin**: RequestBin gives you a URL that will collect requests made to it and let you inspect them in a human-friendly way ([requestbin.com](https://requestbin.com/))
+- **RegExr**: is a HTML/JS based tool for creating, testing, and learning about Regular Expressions ([regexr.com](https://regexr.com/))
+- **RequestBin**: gives you a URL that will collect requests made to it and let you inspect them in a human-friendly way ([requestbin.com](https://requestbin.com/))
 - **RexEgg**: Regular Expressions Tutorial. Comprehensive resource covering basic to advanced uses of regex. Includes regex cheat sheet, tools, books and tricks ([rexegg.com](https://www.rexegg.com/))
 
 ### S
-- **Samba**: Samba is the standard Windows interoperability suite of programs for Linux and Unix. Running on a Unix system, it allows Windows to share files and printers on the Unix host, and it also allows Unix users to access resources shared by Windows systems ([samba.org](https://www.samba.org/))
-- **Scapy**: Scapy is a Python program that enables the user to send, sniff and dissect and forge network packets ([scapy.readthedocs.io](https://scapy.readthedocs.io/en/latest/) | [github.com](https://github.com/secdev/scapy))
-- [**`SecLists/`**](SecLists/) - **SecLists**: SecLists is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
+- **Samba**: is the standard Windows interoperability suite of programs for Linux and Unix. Running on a Unix system, it allows Windows to share files and printers on the Unix host, and it also allows Unix users to access resources shared by Windows systems ([samba.org](https://www.samba.org/))
+- **Scapy**: is a Python program that enables the user to send, sniff and dissect and forge network packets ([scapy.readthedocs.io](https://scapy.readthedocs.io/en/latest/) | [github.com](https://github.com/secdev/scapy))
+- [**`SecLists/`**](SecLists/) - **SecLists**: is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
 - **SHAttered**: SHA-1 Collision Attacks (File tester) ([shattered.io](https://shattered.io/))
 - **Smtp-User-Enum**: Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO ([kali.org](https://www.kali.org/tools/smtp-user-enum/) | [pentestmonkey.net](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum))
-- **Snort**: Snort is a free open source network intrusion detection system (IDS) and intrusion prevention system (IPS) ([snort.org](https://www.snort.org/))
-- **Socat**: Socat (for SOcket CAT) establishes two bidirectional byte streams and transfers data between them ([kali.org](https://www.kali.org/tools/socat/))
+- **Snort**: is a free open source network intrusion detection system (IDS) and intrusion prevention system (IPS) ([snort.org](https://www.snort.org/))
+- **Socat**: (for SOcket CAT) establishes two bidirectional byte streams and transfers data between them ([kali.org](https://www.kali.org/tools/socat/))
 - **Sublist3r**: Fast subdomains enumeration tool for penetration testers ([kali.org](https://www.kali.org/tools/sublist3r/) | [github.com](https://github.com/aboul3la/Sublist3r))
 
 ### T
-- **Tmux**: tmux enables a number of terminals (or windows) to be accessed and controlled from a single terminal like screen ([kali.org](https://www.kali.org/tools/tmux/) | [github.com](https://github.com/tmux/tmux/wiki))
-- **Tor**: Tor Browser prevents someone watching your connection from knowing what websites you visit ([torproject.org](https://www.torproject.org/))
-- **TTPassGen**: TTPassGen is a highly flexible and scriptable password dictionary generator base on Python, you can easily use various rules to generate the desired combination of words ([github.com](https://github.com/tp7309/TTPassGen))
+- **Tmux**: enables a number of terminals (or windows) to be accessed and controlled from a single terminal like screen ([kali.org](https://www.kali.org/tools/tmux/) | [github.com](https://github.com/tmux/tmux/wiki))
+- **Tor Browser**: prevents someone watching your connection from knowing what websites you visit ([torproject.org](https://www.torproject.org/))
+- **TTPassGen**: is a highly flexible and scriptable password dictionary generator base on Python, you can easily use various rules to generate the desired combination of words ([github.com](https://github.com/tp7309/TTPassGen))
 - **TunnelsUP - Hash Analyzer**: Tool to identify hash types ([tunnelsup.com](https://www.tunnelsup.com/hash-analyzer/))
 
 ### W
 - **Wappalyzer**: Find out the technology stack of any website ([wappalyzer.com](https://www.wappalyzer.com/))
 - **Web.dev - Measure**: Measure page quality ([web.dev](https://web.dev/measure/))
 - **Well-known Ports**: table of the 1024 common ports ([vmaxx.net](http://www.vmaxx.net/techinfo/ports.htm))
-- **Wfuzz**: Wfuzz is a tool designed for bruteforcing Web Applications ([kali.org](https://www.kali.org/tools/wfuzz/) | [edge-security.com](http://www.edge-security.com/wfuzz.php))
+- **Wfuzz**: is a tool designed for bruteforcing Web Applications ([kali.org](https://www.kali.org/tools/wfuzz/) | [edge-security.com](http://www.edge-security.com/wfuzz.php))
 - **Who.is**: Large database of whois information, DNS, domain names, name servers, IPs, and tools for searching and monitoring domain names ([who.is](https://who.is/))
 - **Whois**: The Whois database contains details such as the registration date of the domain name, when it expires, ownership and contact information, nameserver information of the domain, the registrar via which the domain was purchased, etc ([whois.com](https://www.whois.com/whois/))
 - **WiGLE**: Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers ([wigle.net](https://wigle.net/))
-- **Windows Subsystem for Linux**: Windows Subsystem for Linux (WSL) lets developers run a GNU/Linux environment - including most command-line tools, utilities, and applications - directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup ([microsoft.com](https://docs.microsoft.com/en-us/windows/wsl/))
+- **Windows Subsystem for Linux**: WSL lets developers run a GNU/Linux environment - including most command-line tools, utilities, and applications - directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup ([microsoft.com](https://docs.microsoft.com/en-us/windows/wsl/))
 - [**`wordlistctl/`**](wordlistctl/) - **Wordlistctl**: Fetch, install and search wordlist archives from websites and torrent peers ([github.com](https://github.com/BlackArch/wordlistctl) | [blackarch.org](https://blackarch.org/tools.html))
 
 ### X
-- **XSS Hunter**: XSS Hunter allows you to find all kinds of cross-site scripting vulnerabilities, including the often-missed blind XSS ([xsshunter.com](https://xsshunter.com/))
+- **XSS Hunter**: allows you to find all kinds of cross-site scripting vulnerabilities, including the often-missed blind XSS ([xsshunter.com](https://xsshunter.com/))
 - **XSS Payloads**: The wonderland of JavaScript unexpected usages, and more ([xss-payloads.com](http://www.xss-payloads.com/))
 
 ### Y
