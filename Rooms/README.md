@@ -132,7 +132,7 @@
 - [ ] [**`investigatingwindows3/`**](investigatingwindows3/) - **Investigating Windows 3.x**: Find the artifacts resident on the endpoint and sift through captured data to determine what type attack occurred on the endpoint ([tryhackme.com](https://tryhackme.com/room/investigatingwindows3))
 
 ### J
-- [ ] [**`johntheripper0/`**](johntheripper0/) - **John The Ripper**: Learn how to use John the Ripper. An extremely powerful and adaptable hash cracking tool ([tryhackme.com](https://tryhackme.com/room/johntheripper0))
+- [x] [**`johntheripper0/`**](johntheripper0/) - **John The Ripper**: Learn how to use John the Ripper. An extremely powerful and adaptable hash cracking tool ([tryhackme.com](https://tryhackme.com/room/johntheripper0))
 - [x] ♻️[^1] [**`jupyter101/`**](jupyter101/) - **Jupyter 101**: A friendly introduction into using the Jupyter Notebook environment. Learn to process and visualise data ([tryhackme.com](https://tryhackme.com/room/jupyter101))
 
 ### K
