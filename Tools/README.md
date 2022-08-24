@@ -55,6 +55,7 @@
 ### F
 - **Ffuf**: ffuf is a fest web fuzzer written in Go that allows typical directory discovery, virtual host discovery (without DNS records) and GET and POST parameter fuzzing ([kali.org](https://www.kali.org/tools/ffuf/) | [github.com](https://github.com/ffuf/ffuf))
 - **FoxProxy**: FoxyProxy simplifies configuring browsers to access proxy-servers ([getfoxyproxy.org](https://getfoxyproxy.org/))
+- [**`fuzzdb/`**](fuzzdb/) - **FuzzDB**: Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery ([github.com](https://github.com/fuzzdb-project/fuzzdb))
 
 ### G
 - **Gobuster**: Gobuster is a tool used to brute-force URIs including directories and files as well as DNS subdomains ([kali.org](https://www.kali.org/tools/gobuster/) | [github.com](https://github.com/OJ/gobuster))
@@ -106,7 +107,7 @@
 - **OWASP favicon database**: favicon database in wiki format ([owasp.org](https://wiki.owasp.org/index.php/OWASP_favicon_database))
 
 ### P
-- **Payloads All The Things - swisskyrepo**: A list of useful payloads and bypass for Web Application Security and Pentest/CTF ([github.com](https://github.com/swisskyrepo/PayloadsAllTheThings))
+- [**`PayloadsAllTheThings/`**](PayloadsAllTheThings/) - **Payloads All The Things, swisskyrepo**: A list of useful payloads and bypass for Web Application Security and Pentest/CTF ([github.com](https://github.com/swisskyrepo/PayloadsAllTheThings))
 - **PeopleFinder**: Police Records, Background Checks, Social Media, Photos, Assets, Contact Information and Much More ([peoplefinder.com](https://www.peoplefinder.com/))
 - **Pentestmonkey**: Cheat sheets, Web shells, User Enumeration, Audit, etc. ([github.com](https://github.com/pentestmonkey) | [pentestmonkey.net](https://pentestmonkey.net/category/tools))
 - [**`pnwgen/`**](pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
