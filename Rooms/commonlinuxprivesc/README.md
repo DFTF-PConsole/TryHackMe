@@ -291,14 +291,14 @@ nc -lvnp 8888
 
 <br>
 
+### Task 9.5
+
 (Terminal 2/ssh:)
 ```shell
 	chmod +x ls
 ```
 
 <br>
-
-### Task 9.5
 
 > chmod +x ls
 
