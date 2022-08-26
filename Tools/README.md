@@ -84,7 +84,7 @@
 - [**`KaliWordlists/`**](KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
 
 ### L
-- **LinEnum**: Scripted Local Linux Enumeration & Privilege Escalation Checks ([github.com](https://github.com/rebootuser/LinEnum))
+- [**`LinEnum/`**](LinEnum/) - **LinEnum**: Scripted Local Linux Enumeration & Privilege Escalation Checks ([github.com](https://github.com/rebootuser/LinEnum))
 - **Linux man pages**: documents the Linux kernel and C library interfaces that are employed by user-space programs ([linux.die.net](https://linux.die.net/man/))
 - **Linux-smart-enumeration**: Linux enumeration tool for pentesting and CTFs with verbosity levels ([github.com](https://github.com/diego-treitos/linux-smart-enumeration))
 - **LOLBAS project**: The goal of the LOLBAS project is to document every binary, script, and library that can be used for Living Off The Land techniques ([lolbas-project.github.io](https://lolbas-project.github.io/))
