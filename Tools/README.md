@@ -84,7 +84,9 @@
 - [**`KaliWordlists/`**](KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
 
 ### L
+- **LinEnum**: Scripted Local Linux Enumeration & Privilege Escalation Checks ([github.com](https://github.com/rebootuser/LinEnum))
 - **Linux man pages**: documents the Linux kernel and C library interfaces that are employed by user-space programs ([linux.die.net](https://linux.die.net/man/))
+- **Linux-smart-enumeration**: Linux enumeration tool for pentesting and CTFs with verbosity levels ([github.com](https://github.com/diego-treitos/linux-smart-enumeration))
 - **LOLBAS project**: The goal of the LOLBAS project is to document every binary, script, and library that can be used for Living Off The Land techniques ([lolbas-project.github.io](https://lolbas-project.github.io/))
 - [**`lyricpass/`**](lyricpass/) - **Lyricpass**: Password wordlist generator using song lyrics for targeted bruteforce audits / attacks ([github.com](https://github.com/initstring/lyricpass))
 
@@ -108,6 +110,7 @@
 
 ### P
 - [**`PayloadsAllTheThings/`**](PayloadsAllTheThings/) - **Payloads All The Things, swisskyrepo**: A list of useful payloads and bypass for Web Application Security and Pentest/CTF ([github.com](https://github.com/swisskyrepo/PayloadsAllTheThings))
+- **PEASS-ng**: Privilege Escalation Awesome Scripts SUITE new generation ([github.com](https://github.com/carlospolop/PEASS-ng))
 - **PeopleFinder**: Police Records, Background Checks, Social Media, Photos, Assets, Contact Information and Much More ([peoplefinder.com](https://www.peoplefinder.com/))
 - **Pentestmonkey**: Cheat sheets, Web shells, User Enumeration, Audit, etc. ([github.com](https://github.com/pentestmonkey) | [pentestmonkey.net](https://pentestmonkey.net/category/tools))
 - [**`pnwgen/`**](pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
@@ -121,6 +124,7 @@
 - **RegExr**: is a HTML/JS based tool for creating, testing, and learning about Regular Expressions ([regexr.com](https://regexr.com/))
 - **RequestBin**: gives you a URL that will collect requests made to it and let you inspect them in a human-friendly way ([requestbin.com](https://requestbin.com/))
 - **RexEgg**: Regular Expressions Tutorial. Comprehensive resource covering basic to advanced uses of regex. Includes regex cheat sheet, tools, books and tricks ([rexegg.com](https://www.rexegg.com/))
+- **RsaCtfTool**: RSA attack tool (mainly for ctf); retreive private key from weak public key and/or uncipher data ([github.com](https://github.com/RsaCtfTool/RsaCtfTool))
 
 ### S
 - **Samba**: is the standard Windows interoperability suite of programs for Linux and Unix. Running on a Unix system, it allows Windows to share files and printers on the Unix host, and it also allows Unix users to access resources shared by Windows systems ([samba.org](https://www.samba.org/))
