@@ -124,6 +124,7 @@
 - **RegExr**: is a HTML/JS based tool for creating, testing, and learning about Regular Expressions ([regexr.com](https://regexr.com/))
 - **RequestBin**: gives you a URL that will collect requests made to it and let you inspect them in a human-friendly way ([requestbin.com](https://requestbin.com/))
 - **RexEgg**: Regular Expressions Tutorial. Comprehensive resource covering basic to advanced uses of regex. Includes regex cheat sheet, tools, books and tricks ([rexegg.com](https://www.rexegg.com/))
+- **RsaCtfTool**: RSA attack tool (mainly for ctf); retreive private key from weak public key and/or uncipher data ([github.com](https://github.com/RsaCtfTool/RsaCtfTool))
 
 ### S
 - **Samba**: is the standard Windows interoperability suite of programs for Linux and Unix. Running on a Unix system, it allows Windows to share files and printers on the Unix host, and it also allows Unix users to access resources shared by Windows systems ([samba.org](https://www.samba.org/))
