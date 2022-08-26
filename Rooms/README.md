@@ -82,7 +82,7 @@
 ### E
 - [x] ♻️[^1] [**`easyctf/`**](easyctf/) - **Simple CTF**: Beginner level ctf ([tryhackme.com](https://tryhackme.com/room/easyctf))
 - [ ] [**`easypeasyctf/`**](easypeasyctf/) - **Easy Peasy**: Practice using tools such as Nmap and GoBuster to locate a hidden directory to get initial access to a vulnerable machine. Then escalate your privileges through a vulnerable cronjob ([tryhackme.com](https://tryhackme.com/room/easypeasyctf))
-- [ ] [**`encryptioncrypto101/`**](encryptioncrypto101/) - **Encryption - Crypto 101**: An introduction to encryption, as part of a series on crypto ([tryhackme.com](https://tryhackme.com/room/encryptioncrypto101))
+- [x] [**`encryptioncrypto101/`**](encryptioncrypto101/) - **Encryption - Crypto 101**: An introduction to encryption, as part of a series on crypto ([tryhackme.com](https://tryhackme.com/room/encryptioncrypto101))
 - [ ] [**`exploitingad/`**](exploitingad/) - **Exploiting Active Directory**: Learn common AD exploitation techniques that can allow you to reach your goal in an AD environment ([tryhackme.com](https://tryhackme.com/room/exploitingad))
 - [ ] [**`exploitingavulnerabilityv2/`**](exploitingavulnerabilityv2/) - **Exploit Vulnerabilities**: Learn about some of the tools, techniques and resources to exploit vulnerabilities ([tryhackme.com](https://tryhackme.com/room/exploitingavulnerabilityv2))
 - [x] ♻️[^1] [**`extendingyournetwork/`**](extendingyournetwork/) - **Extending Your Network**: Learn about some of the technologies used to extend networks out onto the Internet and the motivations for this ([tryhackme.com](https://tryhackme.com/room/extendingyournetwork))
