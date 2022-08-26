@@ -84,7 +84,9 @@
 - [**`KaliWordlists/`**](KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
 
 ### L
+- **LinEnum**: Scripted Local Linux Enumeration & Privilege Escalation Checks ([github.com](https://github.com/rebootuser/LinEnum))
 - **Linux man pages**: documents the Linux kernel and C library interfaces that are employed by user-space programs ([linux.die.net](https://linux.die.net/man/))
+- **Linux-smart-enumeration**: Linux enumeration tool for pentesting and CTFs with verbosity levels ([github.com](https://github.com/diego-treitos/linux-smart-enumeration))
 - **LOLBAS project**: The goal of the LOLBAS project is to document every binary, script, and library that can be used for Living Off The Land techniques ([lolbas-project.github.io](https://lolbas-project.github.io/))
 - [**`lyricpass/`**](lyricpass/) - **Lyricpass**: Password wordlist generator using song lyrics for targeted bruteforce audits / attacks ([github.com](https://github.com/initstring/lyricpass))
 
@@ -108,6 +110,7 @@
 
 ### P
 - [**`PayloadsAllTheThings/`**](PayloadsAllTheThings/) - **Payloads All The Things, swisskyrepo**: A list of useful payloads and bypass for Web Application Security and Pentest/CTF ([github.com](https://github.com/swisskyrepo/PayloadsAllTheThings))
+- **PEASS-ng**: Privilege Escalation Awesome Scripts SUITE new generation ([github.com](https://github.com/carlospolop/PEASS-ng))
 - **PeopleFinder**: Police Records, Background Checks, Social Media, Photos, Assets, Contact Information and Much More ([peoplefinder.com](https://www.peoplefinder.com/))
 - **Pentestmonkey**: Cheat sheets, Web shells, User Enumeration, Audit, etc. ([github.com](https://github.com/pentestmonkey) | [pentestmonkey.net](https://pentestmonkey.net/category/tools))
 - [**`pnwgen/`**](pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
