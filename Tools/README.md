@@ -67,7 +67,7 @@
 - **Hashcat**: supports five unique modes of attack for over 300 highly-optimized hashing algorithms ([kali.org](https://www.kali.org/tools/hashcat/) | [hashcat.net](https://hashcat.net/hashcat/))
 - **Hashcat - Example hashes**: a list of hashes ([hashcat.net](https://hashcat.net/wiki/doku.php?id=example_hashes))
 - **Hashes.com**: is a hash lookup service. This allows you to input an hash and search for its corresponding plaintext in our database of already-cracked hashes ([hashes.com](https://hashes.com/))
-- **hashID**: is a tool written in Python 3 which supports the identification of over 220 unique hash types using regular expressions ([pypi.org](https://pypi.org/project/hashID/) | [github.com](https://github.com/psypanda/hashID))
+- **HashID**: is a tool written in Python 3 which supports the identification of over 220 unique hash types using regular expressions ([pypi.org](https://pypi.org/project/hashID/) | [github.com](https://github.com/psypanda/hashID))
 - **Hunter**: Get the email addresses behind any website ([hunter.io](https://hunter.io/))
 - **Hurl**: hexadecimal & URL encoder + decoder ([kali.org](https://www.kali.org/tools/hurl/) | [github.com](https://github.com/fnord0/hURL))
 - **Hydra**: is a parallelized login cracker which supports numerous protocols to attack ([kali.org](https://www.kali.org/tools/hydra/) | [github.com](https://github.com/vanhauser-thc/thc-hydra))
