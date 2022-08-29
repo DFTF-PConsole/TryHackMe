@@ -1,0 +1,22 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.7.171:3333
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                ../../Tools/KaliWordlists/dirbuster/directory-list-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/08/29 00:08:04 Starting gobuster in directory enumeration mode
+===============================================================
+/images               (Status: 301) [Size: 318] [--> http://10.10.7.171:3333/images/]
+/css                  (Status: 301) [Size: 315] [--> http://10.10.7.171:3333/css/]   
+/js                   (Status: 301) [Size: 314] [--> http://10.10.7.171:3333/js/]    
+/fonts                (Status: 301) [Size: 317] [--> http://10.10.7.171:3333/fonts/] 
+/internal             (Status: 301) [Size: 320] [--> http://10.10.7.171:3333/internal/]
+===============================================================
+2022/08/29 00:17:00 Finished
+===============================================================
