@@ -111,7 +111,7 @@
 
 ### P
 - [**`PayloadsAllTheThings/`**](PayloadsAllTheThings/) - **Payloads All The Things, swisskyrepo**: A list of useful payloads and bypass for Web Application Security and Pentest/CTF ([github.com](https://github.com/swisskyrepo/PayloadsAllTheThings))
-- **PEASS-ng**: Privilege Escalation Awesome Scripts SUITE new generation ([github.com](https://github.com/carlospolop/PEASS-ng))
+- [**`PEASS-ng/`**](PEASS-ng/) - **PEASS-ng**: Privilege Escalation Awesome Scripts SUITE new generation ([github.com](https://github.com/carlospolop/PEASS-ng))
 - **PeopleFinder**: Police Records, Background Checks, Social Media, Photos, Assets, Contact Information and Much More ([peoplefinder.com](https://www.peoplefinder.com/))
 - **Pentestmonkey**: Cheat sheets, Web shells, User Enumeration, Audit, etc. ([github.com](https://github.com/pentestmonkey) | [pentestmonkey.net](https://pentestmonkey.net/category/tools))
 - [**`pnwgen/`**](pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
