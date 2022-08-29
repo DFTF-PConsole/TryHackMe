@@ -265,7 +265,7 @@
 ### V
 - [ ] [**`vulnerabilities101/`**](vulnerabilities101/) - **Vulnerabilities 101**: Understand the flaws of an application and apply your researching skills on some vulnerability databases ([tryhackme.com](https://tryhackme.com/room/vulnerabilities101))
 - [ ] [**`vulnerabilitycapstone/`**](vulnerabilitycapstone/) - **Vulnerability Capstone**: Apply the knowledge gained throughout the Vulnerability Module in this challenge room ([tryhackme.com](https://tryhackme.com/room/vulnerabilitycapstone))
-- [ ] [**`vulnversity/`**](vulnversity/) - **Vulnversity**: Learn about active recon, web app attacks and privilege escalation ([tryhackme.com](https://tryhackme.com/room/vulnversity))
+- [x] [**`vulnversity/`**](vulnversity/) - **Vulnversity**: Learn about active recon, web app attacks and privilege escalation ([tryhackme.com](https://tryhackme.com/room/vulnversity))
 
 ### W
 - [x] ♻️[^1] [**`walkinganapplication/`**](walkinganapplication/) - **Walking An Application**: Manually review a web application for security issues using only your browsers developer tools. Hacking with just your browser, no tools or scripts ([tryhackme.com](https://tryhackme.com/room/walkinganapplication))
