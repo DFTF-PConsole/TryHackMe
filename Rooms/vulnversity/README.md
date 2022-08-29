@@ -49,8 +49,6 @@ nmap -A -sC -p- 10.10.7.171 -oN scans/nmap_2.txt
 
 🧰 https://github.com/OJ/gobuster
 
-<br>
-
 ### Task 3.1
 
 ```shell
