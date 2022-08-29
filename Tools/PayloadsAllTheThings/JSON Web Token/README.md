@@ -4,20 +4,17 @@
 
 ## Summary 
 
-- [JWT - JSON Web Token](#jwt---json-web-token)
-  - [Summary](#summary)
-  - [Tools](#tools)
-  - [JWT Format](#jwt-format)
+- [Tools](#tools)
+- [JWT Format](#jwt-format)
     - [Header](#header)
     - [Payload](#payload)
-  - [JWT Signature - None algorithm](#jwt-signature---none-algorithm)
-  - [JWT Signature - RS256 to HS256](#jwt-signature---rs256-to-hs256)
-  - [Breaking JWT's secret](#breaking-jwts-secret)
-    - [JWT tool](#jwt-tool)
+- [JWT Signature - None algorithm](#jwt-signature---none-algorithm)
+- [JWT Signature - RS256 to HS256](#jwt-signature---rs256-to-hs256)
+- [Breaking JWT's secret](#breaking-jwts-secret)
+    - [JWT Tool](#jwt-tool)
     - [JWT cracker](#jwt-cracker)
     - [Hashcat](#hashcat)
-  - [CVE](#cve)
-  - [References](#references)
+- [References](#references)
 
 ## Tools
 
@@ -244,7 +241,7 @@ Please select an option from above (1-4):
 Please enter the known key:
 > secret
 
-Please enter the key length:
+Please enter the keylength:
 [1] HMAC-SHA256
 [2] HMAC-SHA384
 [3] HMAC-SHA512

