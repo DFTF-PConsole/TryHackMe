@@ -87,7 +87,7 @@
 ### L
 - [**`LinEnum/`**](LinEnum/) - **LinEnum**: Scripted Local Linux Enumeration & Privilege Escalation Checks ([github.com](https://github.com/rebootuser/LinEnum))
 - **Linux man pages**: documents the Linux kernel and C library interfaces that are employed by user-space programs ([linux.die.net](https://linux.die.net/man/))
-- **Linux-smart-enumeration**: Linux enumeration tool for pentesting and CTFs with verbosity levels ([github.com](https://github.com/diego-treitos/linux-smart-enumeration))
+- [**`linux-smart-enumeration/`**](linux-smart-enumeration/) - **Linux-smart-enumeration**: Linux enumeration tool for pentesting and CTFs with verbosity levels ([github.com](https://github.com/diego-treitos/linux-smart-enumeration))
 - **LOLBAS project**: The goal of the LOLBAS project is to document every binary, script, and library that can be used for Living Off The Land techniques ([lolbas-project.github.io](https://lolbas-project.github.io/))
 - [**`lyricpass/`**](lyricpass/) - **Lyricpass**: Password wordlist generator using song lyrics for targeted bruteforce audits / attacks ([github.com](https://github.com/initstring/lyricpass))
 
