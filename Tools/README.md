@@ -185,10 +185,24 @@ cd Tools/KaliWordlists/
 ../../Tools/KaliWordlists/dirbuster/directory-list-2.3-small.txt
 ```
 ```shell
+../../Tools/KaliWordlists/dirbuster/directory-list-2.3-medium.txt
+```
+```shell
 ../../Tools/SecLists/Discovery/Web-Content/common.txt
 ```
 ```shell
 ../../Tools/SecLists/Passwords/Common-Credentials/10k-most-common.txt
+```
+
+### Scripts (Tools)
+```shell
+../../Tools/PEASS-ng/linpeas.sh
+```
+```shell
+../../Tools/LinEnum/LinEnum.sh
+```
+```shell
+../../Tools/linux-smart-enumeration/lse.sh
 ```
 
 ### Operating System
