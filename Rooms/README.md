@@ -35,7 +35,7 @@
 ### B
 - [x] [**`bashscripting/`**](bashscripting/) - **Bash Scripting**: A Walkthrough room to teach you the basics of bash scripting ([tryhackme.com](https://tryhackme.com/room/bashscripting))
 - [ ] [**`basicmalwarere/`**](basicmalwarere/) - **Basic Malware RE**: This room aims towards helping everyone learn about the basics of "Malware Reverse Engineering" ([tryhackme.com](https://tryhackme.com/room/basicmalwarere))
-- [ ] [**`basicpentestingjt/`**](basicpentestingjt/) - **Basic Pentesting**: This is a machine that allows you to practise web app hacking and privilege escalation ([tryhackme.com](https://tryhackme.com/room/basicpentestingjt))
+- [x] [**`basicpentestingjt/`**](basicpentestingjt/) - **Basic Pentesting**: This is a machine that allows you to practise web app hacking and privilege escalation ([tryhackme.com](https://tryhackme.com/room/basicpentestingjt))
 - [x] ♻️[^1] [**`beginnerpathintro/`**](beginnerpathintro/) - **Learning Cyber Security**: Get a short introduction to a few of the security topics you'll be learning about ([tryhackme.com](https://tryhackme.com/room/beginnerpathintro))
 - [ ] [**`binex/`**](binex/) - **Binex**: Escalate your privileges by exploiting vulnerable binaries ([tryhackme.com](https://tryhackme.com/room/binex))
 - [ ] [**`blaster/`**](blaster/) - **Blaster**: A blast from the past ([tryhackme.com](https://tryhackme.com/room/blaster))
