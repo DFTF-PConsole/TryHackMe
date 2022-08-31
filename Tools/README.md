@@ -117,6 +117,7 @@
 - **Pentestmonkey**: Cheat sheets, Web shells, User Enumeration, Audit, etc. ([github.com](https://github.com/pentestmonkey) | [pentestmonkey.net](https://pentestmonkey.net/category/tools))
 - [**`pnwgen/`**](pnwgen/) - **Pnwgen**: A very flexible phone number wordlist generator ([github.com](https://github.com/toxydose/pnwgen))
 - **PowerShell**: is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models ([docs.microsoft.com](https://docs.microsoft.com/en-us/powershell/) | [github.com](https://github.com/PowerShell/PowerShell))
+- [**`PowerSploit/`**](PowerSploit/) - **PowerSploit**: is a series of Microsoft PowerShell scripts that can be used in post-exploitation scenarios during authorized penetration tests ([kali.org](https://www.kali.org/tools/powersploit/) | [github.com](https://github.com/PowerShellMafia/PowerSploit))
 - **Pwntools**: is a CTF framework and exploit development library ([docs.pwntools.com](https://docs.pwntools.com/en/stable/) | [github.com](https://github.com/Gallopsled/pwntools))
 - **Python Package Index**: PyPI is a repository of software for the Python programming language ([pypi.org](https://pypi.org/))
 - **PythonAnywhere**: makes it easy to create and run Python programs in the cloud ([pythonanywhere.com](https://www.pythonanywhere.com/))
