@@ -137,7 +137,7 @@
 
 ### K
 - [ ] [**`kape/`**](kape/) - **KAPE**: An introduction to Kroll Artifact Parser and Extractor (KAPE) for collecting and processing forensic artifacts ([tryhackme.com](https://tryhackme.com/room/kape))
-- [ ] [**`kenobi/`**](kenobi/) - **Kenobi**: Walkthrough on exploiting a Linux machine. Enumerate Samba for shares, manipulate a vulnerable version of proftpd and escalate your privileges with path variable manipulation ([tryhackme.com](https://tryhackme.com/room/kenobi))
+- [x] [**`kenobi/`**](kenobi/) - **Kenobi**: Walkthrough on exploiting a Linux machine. Enumerate Samba for shares, manipulate a vulnerable version of proftpd and escalate your privileges with path variable manipulation ([tryhackme.com](https://tryhackme.com/room/kenobi))
 - [ ] [**`kiba/`**](kiba/) - **kiba**: Identify the critical security flaw in the data visualization dashboard, that allows execute remote code execution ([tryhackme.com](https://tryhackme.com/room/kiba))
 
 ### L
