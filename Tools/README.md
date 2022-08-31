@@ -137,6 +137,7 @@
 - **Smtp-User-Enum**: Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO ([kali.org](https://www.kali.org/tools/smtp-user-enum/) | [pentestmonkey.net](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum))
 - **Snort**: is a free open source network intrusion detection system (IDS) and intrusion prevention system (IPS) ([snort.org](https://www.snort.org/))
 - **Socat**: (for SOcket CAT) establishes two bidirectional byte streams and transfers data between them ([kali.org](https://www.kali.org/tools/socat/))
+- [**`static-binaries/`**](static-binaries/) - **Static-binaries**: Various nix tools built as statically-linked binaries ([github.com](https://github.com/andrew-d/static-binaries))
 - **Sublist3r**: Fast subdomains enumeration tool for penetration testers ([kali.org](https://www.kali.org/tools/sublist3r/) | [github.com](https://github.com/aboul3la/Sublist3r))
 
 ### T
