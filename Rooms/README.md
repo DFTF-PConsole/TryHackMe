@@ -247,7 +247,7 @@
 - [x] ♻️[^1] [**`sqlinjectionlm/`**](sqlinjectionlm/) - **SQL Injection**: Learn how to detect and exploit SQL Injection vulnerabilities ([tryhackme.com](https://tryhackme.com/room/sqlinjectionlm))
 - [x] ♻️[^1] [**`ssrfqi/`**](ssrfqi/) - **SSRF**: Learn how to exploit Server-Side Request Forgery (SSRF) vulnerabilities, allowing you to access internal server resources ([tryhackme.com](https://tryhackme.com/room/ssrfqi))
 - [x] ♻️[^1] [**`startingoutincybersec/`**](startingoutincybersec/) - **Starting Out In Cyber Sec**: Learn about the different career paths in Cyber Security and how TryHackMe can help ([tryhackme.com](https://tryhackme.com/room/startingoutincybersec))
-- [ ] [**`steelmountain/`**](steelmountain/) - **Steel Mountain**: Hack into a Mr. Robot themed Windows machine. Use metasploit for initial access, utilise powershell for Windows privilege escalation enumeration and learn a new technique to get Administrator access ([tryhackme.com](https://tryhackme.com/room/steelmountain))
+- [x] [**`steelmountain/`**](steelmountain/) - **Steel Mountain**: Hack into a Mr. Robot themed Windows machine. Use metasploit for initial access, utilise powershell for Windows privilege escalation enumeration and learn a new technique to get Administrator access ([tryhackme.com](https://tryhackme.com/room/steelmountain))
 - [x] ♻️[^1] [**`subdomainenumeration/`**](subdomainenumeration/) - **Subdomain Enumeration**: Learn the various ways of discovering subdomains to expand your attack surface of a target ([tryhackme.com](https://tryhackme.com/room/subdomainenumeration))
 - [ ] [**`sysmon/`**](sysmon/) - **Sysmon**: Learn how to utilize Sysmon to monitor and log your endpoints and environments ([tryhackme.com](https://tryhackme.com/room/sysmon))
 
