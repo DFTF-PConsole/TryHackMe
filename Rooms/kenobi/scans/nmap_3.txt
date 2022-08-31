@@ -1,0 +1,10 @@
+# Nmap 7.92 scan initiated Wed Aug 31 12:08:36 2022 as: nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount -oN scans/nmap_3.txt 10.10.190.181
+Nmap scan report for 10.10.190.181
+Host is up (0.055s latency).
+
+PORT    STATE SERVICE
+111/tcp open  rpcbind
+| nfs-showmount: 
+|_  /var *
+
+# Nmap done at Wed Aug 31 12:08:37 2022 -- 1 IP address (1 host up) scanned in 1.89 seconds
