@@ -50,6 +50,7 @@
 - **Enum4linux**: is a tool for enumerating information from Windows and Samba systems ([kali.org](https://www.kali.org/tools/enum4linux) | [github.com](https://github.com/CiscoCXSecurity/enum4linux))
 - **ExifTool**: is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files ([exiftool.org](https://exiftool.org/))
 - **Exploit Database**: is a CVE compliant archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers ([exploit-db.com](https://www.exploit-db.com/))
+- **Exploitdb**: Searchable archive from The Exploit Database ([kali.org](https://www.kali.org/tools/exploitdb/) | [exploit-db.com](https://www.exploit-db.com/))
 
 ### F
 - **Ffuf**: is a fest web fuzzer written in Go that allows typical directory discovery, virtual host discovery (without DNS records) and GET and POST parameter fuzzing ([kali.org](https://www.kali.org/tools/ffuf/) | [github.com](https://github.com/ffuf/ffuf))
