@@ -167,18 +167,243 @@
 
 <br>
 
-## Frequently Used Bash Scripts, Commands and Inputs
+## Helpful List of Bash Scripts, Commands and Inputs
 
-### Change Directory (`cd`)
+### Alias (`~/.bash_aliases`)
+#### /TryHackMe
 ```shell
-cd Documentos/GitHub/TryHackMe/Tools
+CdThm
+```
+
+#### /TryHackMe/Rooms
+```shell
+CdThmRooms
+```
+
+#### /TryHackMe/Tools
+```shell
+CdThmTools
+```
+
+#### /TryHackMe/VPN
+```shell
+CdThmVpn
+```
+
+<br>
+
+### Basic Commands
+#### Create a directory to store results of scans
+```shell
+mkdir scans
+```
+
+#### Change Directory
+```shell
+cd TryHackMe/Tools
 ```
 ```shell
-cd Documentos/GitHub/TryHackMe/Rooms
+cd TryHackMe/Rooms
 ```
 ```shell
-cd Tools/KaliWordlists/
+cd TryHackMe/VPN
 ```
+
+#### Change Mode
+```shell
+chmod 600 id_rsa
+```
+```shell
+chmod X+ lse.sh
+```
+```shell
+chmod u+s <FILENAME>
+```
+
+<br>
+
+### Directory Brute Force
+#### Gobuster
+```shell
+gobuster dir -u http://<IP>/ -w ../../Tools/KaliWordlists/dirbuster/directory-list-2.3-medium.txt -o scans/gobuster_1.txt -x .php,.html,.txt
+```
+
+#### Dirb
+```shell
+dirb http://<IP> -w ../../Tools/KaliWordlists/dirbuster/directory-list-2.3-medium.txt -w -X .php,.html,.txt | tee scans/dirb_1.txt
+```
+
+<br>
+
+### Git
+#### Associate a file in your repository with Git LFS
+```shell
+git lfs track "*.<FILETYPE>"
+```
+
+<br>
+
+### Nmap
+#### Quick Scan with Scripts Check
+```shell
+nmap -sV -sC -oN scans/nmap_1.txt <IP>
+```
+
+#### All ports
+```shell
+nmap -p- -sV -sC -oN scans/nmap_2.txt <IP>
+```
+
+#### Aggressive Scan
+```shell
+nmap -p0- -v -A -T4 -oN scans/nmap_3.txt <IP>
+```
+
+#### HTTP Script
+```shell
+nmap --script http-enum -v <IP> -p80 -oN scans/nmap_4.txt
+```
+
+#### DNS Script
+```shell
+nmap --script dns-brute -v <IP> -p80,443 -oN scans/nmap_5.txt
+```
+
+#### SMB Script
+```shell
+nmap --script smb-enum-users.nse -p445 <IP> -oN scans/nmap_6.txt
+```
+```shell
+nmap --script smb-brute.nse -p445 <IP> -oN scans/nmap_7.txt
+```
+```shell
+nmap --script smb-enum-shares -p139 <IP> -oN scans/nmap_8.txt
+```
+
+#### Vulnerability Script
+```shell
+nmap --script vulners,vulscan/vulscan.nse --script-args vulscandb=scipvuldb.csv -sV -p<PORTS> <IP> -oN scans/nmap_9.txt
+```
+
+#### LDAP Script
+```shell
+nmap -p 389 --script ldap-search <IP> -oN scans/nmap_10.txt
+```
+
+<br>
+
+### OpenVPN
+```shell
+sudo openvpn THM-DFTFPConsole-EU-Regular-1.ovpn
+```
+```shell
+sudo openvpn THM-DFTFPConsole-EU-VIP-1.ovpn
+```
+```shell
+sudo openvpn THM-DFTFPConsole-EU-VIP-2.ovpn
+```
+
+<br>
+
+### Operating System (AttackBox)
+#### To re-synchronize the package index files from their sources
+```shell
+sudo apt-get update
+```
+
+#### To install the newest versions of all packages currently installed on the system
+```shell
+sudo apt-get upgrade
+```
+
+#### In addition to performing the function of upgrade, this option also intelligently handles changing dependencies with new versions of packages
+```shell
+sudo apt-get dist-upgrade
+```
+
+#### All-in-one, combine commands with &&
+```shell
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+```
+
+#### Kali Linux Metapackages: this package includes all of the tools you are familiar with in Kali
+```shell
+sudo apt install -y kali-linux-full
+```
+
+#### Interface configuration: displays information about all network interfaces currently in operation
+```shell
+ifconfig
+```
+
+<br>
+
+### Primary Prompt String (`PS1`)
+#### `dftfpconsole@PC-DFTF-PConsole:/mnt/c/Users/dftf$ `
+```shell
+export PS1="\[$(tput bold)\]\[\033[38;5;34m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;34m\]\h\[$(tput sgr0)\]:\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+```
+
+
+#### `[12:30:01] PC-DFTF-PConsole:dftf$ `
+```shell
+export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;40m\]\h\[$(tput sgr0)\]:\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\W\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+```
+
+#### `[12:30:01] $ `
+```shell
+export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput bold)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+```
+
+#### `[12:30:01] /mnt/c/Users/dftf$ `
+```shell
+export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+```
+
+#### `/mnt/c/Users/dftf$ `
+```shell
+export PS1="\[$(tput bold)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+```
+
+#### `dftf$ `
+```shell
+export PS1="\[$(tput bold)\]\[\033[38;5;27m\]\W\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+```
+
+#### `[12:30:01] 0$ `
+```shell
+export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;13m\]\l\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+```
+
+#### `[12:30:01] dftf$ `
+```shell
+export PS1="[\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\W\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+```
+
+#### `dftfpconsole:/mnt/c/Users/dftf$ `
+```shell
+export PS1="\[$(tput bold)\]\[\033[38;5;2m\]\u\[$(tput sgr0)\]:\[$(tput sgr0)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+```
+
+#### `┌──(dftfpconsole)──[/mnt/c/Users/dftf] 0`<br>`└─$ `
+```shell
+export PS1="\n\[$(tput sgr0)\]\[\033[38;5;2m\]┌──(\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\u\[$(tput sgr0)\]\[\033[38;5;2m\])──[\[$(tput sgr0)\]\[$(tput bold)\]\w\[$(tput sgr0)\]\[\033[38;5;2m\]]\[$(tput sgr0)\] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;13m\]\l\[$(tput sgr0)\]\n\[$(tput sgr0)\]\[\033[38;5;2m\]└─\[$(tput sgr0)\]\[$(tput bold)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+```
+
+<br>
+
+### Privilege Escalation Scripts
+```shell
+../../Tools/PEASS-ng/linpeas.sh
+```
+```shell
+../../Tools/LinEnum/LinEnum.sh
+```
+```shell
+../../Tools/linux-smart-enumeration/lse.sh
+```
+
+<br>
 
 ### Wordlists
 ```shell
@@ -195,87 +420,6 @@ cd Tools/KaliWordlists/
 ```
 ```shell
 ../../Tools/SecLists/Passwords/Common-Credentials/10k-most-common.txt
-```
-
-### Scripts (Tools)
-```shell
-../../Tools/PEASS-ng/linpeas.sh
-```
-```shell
-../../Tools/LinEnum/LinEnum.sh
-```
-```shell
-../../Tools/linux-smart-enumeration/lse.sh
-```
-
-### Operating System
-```shell
-sudo apt-get update
-```
-```shell
-sudo apt-get upgrade
-```
-```shell
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
-```
-```shell
-sudo apt install -y kali-linux-default
-```
-```shell
-sudo apt install -y kali-linux-full
-```
-```shell
-ifconfig
-```
-
-### Primary Prompt String (`PS1`)
-```console
-dftfpconsole@PC-DFTF-PConsole:/mnt/c/Users/dftf$ export PS1="\[$(tput bold)\]\[\033[38;5;34m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;34m\]\h\[$(tput sgr0)\]:\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-```
-```console
-[12:30:01] PC-DFTF-PConsole:dftf$ export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;40m\]\h\[$(tput sgr0)\]:\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\W\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-```
-```console
-[12:30:01] $ export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput bold)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-```
-```console
-[12:30:01] /mnt/c/Users/dftf$ export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-```
-```console
-/mnt/c/Users/dftf$ export PS1="\[$(tput bold)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-```
-```console
-dftf$ export PS1="\[$(tput bold)\]\[\033[38;5;27m\]\W\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-```
-```console
-[12:30:01] 0$ export PS1="[\[$(tput sgr0)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;13m\]\l\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-```
-```console
-[12:30:01] dftf$ export PS1="[\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;226m\]\t\[$(tput sgr0)\]] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\W\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-```
-```console
-dftfpconsole:/mnt/c/Users/dftf$ export PS1="\[$(tput bold)\]\[\033[38;5;2m\]\u\[$(tput sgr0)\]:\[$(tput sgr0)\]\[\033[38;5;27m\]\w\[$(tput sgr0)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-```
-```console
-┌──(dftfpconsole)──[/mnt/c/Users/dftf] 0
-└─$ export PS1="\n\[$(tput sgr0)\]\[\033[38;5;2m\]┌──(\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;27m\]\u\[$(tput sgr0)\]\[\033[38;5;2m\])──[\[$(tput sgr0)\]\[$(tput bold)\]\w\[$(tput sgr0)\]\[\033[38;5;2m\]]\[$(tput sgr0)\] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;13m\]\l\[$(tput sgr0)\]\n\[$(tput sgr0)\]\[\033[38;5;2m\]└─\[$(tput sgr0)\]\[$(tput bold)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-```
-
-### OpenVPN
-```shell
-sudo openvpn TryHackMe/VPN/THM-DFTFPConsole-EU-Regular-1.ovpn
-```
-```shell
-sudo openvpn TryHackMe/VPN/THM-DFTFPConsole-EU-VIP-1.ovpn
-```
-```shell
-sudo openvpn TryHackMe/VPN/THM-DFTFPConsole-EU-VIP-2.ovpn
-```
-
-### Git
-#### Associate a file in your repository with Git LFS
-```shell
-git lfs track "*.*"
 ```
 
 
