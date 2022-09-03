@@ -158,6 +158,7 @@
 - [**`wordlistctl/`**](wordlistctl/) - **Wordlistctl**: Fetch, install and search wordlist archives from websites and torrent peers ([github.com](https://github.com/BlackArch/wordlistctl) | [blackarch.org](https://blackarch.org/tools.html))
 
 ### X
+- **XFreeRDP**: is a Remote Desktop Protocol (RDP) implementation ([kali.org](https://www.kali.org/tools/freerdp2/) | [freerdp.com](https://www.freerdp.com/))
 - **XSS Hunter**: allows you to find all kinds of cross-site scripting vulnerabilities, including the often-missed blind XSS ([xsshunter.com](https://xsshunter.com/))
 - **XSS Payloads**: The wonderland of JavaScript unexpected usages, and more ([xss-payloads.com](http://www.xss-payloads.com/))
 
