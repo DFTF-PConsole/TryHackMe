@@ -274,6 +274,7 @@
 - [x] ♻️[^1] [**`whatisnetworking/`**](whatisnetworking/) - **What is Networking?**: Begin learning the fundamentals of computer networking in this bite-sized and interactive module ([tryhackme.com](https://tryhackme.com/room/whatisnetworking))
 - [ ] [**`wifihacking101/`**](wifihacking101/) - **Wifi Hacking 101**: Learn to attack WPA(2) networks! Ideally you'll want a smartphone with you for this, preferably one that supports hosting wifi hotspots so you can follow along ([tryhackme.com](https://tryhackme.com/room/wifihacking101))
 - [ ] [**`win64assembly/`**](win64assembly/) - **Windows x64 Assembly**: Introduction to x64 Assembly on Windows ([tryhackme.com](https://tryhackme.com/room/win64assembly))
+- [x] [**`winadbasics/`**](winadbasics/) - **Active Directory Basics**: This room will introduce the basic concepts and functionality provided by Active Directory ([tryhackme.com](https://tryhackme.com/room/winadbasics))
 - [ ] [**`windowseventlogs/`**](windowseventlogs/) - **Windows Event Logs**: Introduction to Windows Event Logs and the tools to query them ([tryhackme.com](https://tryhackme.com/room/windowseventlogs))
 - [ ] [**`windowsforensics1/`**](windowsforensics1/) - **Windows Forensics 1**: Introduction to Windows Registry Forensics ([tryhackme.com](https://tryhackme.com/room/windowsforensics1))
 - [ ] [**`windowsforensics2/`**](windowsforensics2/) - **Windows Forensics 2**: Learn about common Windows file systems and forensic artifacts in the file systems ([tryhackme.com](https://tryhackme.com/room/windowsforensics2))
