@@ -47,8 +47,8 @@ Compilation of tools covered along the learning paths.
 
 <br />
 
-- [ ] [**Complete Beginner**](https://tryhackme.com/path/outline/beginner) - Basic Linux; Web Application Security; Network Security; Scripting Challenges; Privilege Escalation
-<!-- ![Certificate of Complete Beginner]() -->
+- [x] [**Complete Beginner**](https://tryhackme.com/path/outline/beginner) - Basic Linux; Web Application Security; Network Security; Scripting Challenges; Privilege Escalation
+![Certificate of Complete Beginner](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-TVIFYHDGBV.png)
 
 <br />
 
