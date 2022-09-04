@@ -192,7 +192,7 @@
 
 ### P
 - [x] ♻️[^1] [**`packetsframes/`**](packetsframes/) - **Packets & Frames**: Understand how data is divided into smaller pieces and transmitted across a network to another device ([tryhackme.com](https://tryhackme.com/room/packetsframes))
-- [ ] [**`passiverecon/`**](passiverecon/) - **Passive Reconnaissance**: Learn about the essential tools for passive reconnaissance, such as whois, nslookup, and dig ([tryhackme.com](https://tryhackme.com/room/passiverecon))
+- [x] [**`passiverecon/`**](passiverecon/) - **Passive Reconnaissance**: Learn about the essential tools for passive reconnaissance, such as whois, nslookup, and dig ([tryhackme.com](https://tryhackme.com/room/passiverecon))
 - [ ] [**`passwordattacks/`**](passwordattacks/) - **Password Attacks**: This room introduces the fundamental techniques to perform a successful password attack against various services and scenarios ([tryhackme.com](https://tryhackme.com/room/passwordattacks))
 - [x] ♻️[^1] [**`pentestingfundamentals/`**](pentestingfundamentals/) - **Pentesting Fundamentals**: Learn the important ethics and methodologies behind every pentest ([tryhackme.com](https://tryhackme.com/room/pentestingfundamentals))
 - [ ] [**`persistingad/`**](persistingad/) - **Persisting Active Directory**: Learn about common Active Directory persistence techniques that can be used post-compromise to ensure the blue team will not be able to kick you out during a red team exercise... ([tryhackme.com](https://tryhackme.com/room/persistingad))
