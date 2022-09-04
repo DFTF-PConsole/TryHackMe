@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.18.4-2-Debian <<>> @1.1.1.1 thmlabs.com txt
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50572
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;thmlabs.com.			IN	TXT
+
+;; ANSWER SECTION:
+thmlabs.com.		294	IN	TXT	"THM{a5b83929888ed36acb0272971e438d78}"
+
+;; Query time: 10 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Sun Sep 04 19:43:37 WEST 2022
+;; MSG SIZE  rcvd: 90
+

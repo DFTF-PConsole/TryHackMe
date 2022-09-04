@@ -1,0 +1,8 @@
+Server:		1.1.1.1
+Address:	1.1.1.1#53
+
+Non-authoritative answer:
+thmlabs.com	text = "THM{a5b83929888ed36acb0272971e438d78}"
+
+Authoritative answers can be found from:
+
