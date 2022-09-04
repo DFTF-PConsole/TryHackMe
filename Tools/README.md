@@ -44,7 +44,8 @@
 - **DIRB**: is a Web Content Scanner ([kali.org](https://www.kali.org/tools/dirb/) | [sourceforge.net](https://dirb.sourceforge.net/))
 - **Dirbuster**: is a multi threaded java application designed to brute force directories and files names on web/application servers ([kali.org](https://www.kali.org/tools/dirbuster))
 - **Django**: is a high-level Python web framework that encourages rapid development and clean, pragmatic design ([djangoproject.com](https://www.djangoproject.com/))
-- **Dnsrecon**: DNS Enumeration Script ([kali.org](https://www.kali.org/tools/dnsrecon/) | [github.com](https://github.com/darkoperator/dnsrecon))
+- **DNSdumpster**: is a free domain research tool that can discover hosts related to a domain ([dnsdumpster.com](https://dnsdumpster.com/))
+- **Dnsrecon**: is a simple python script that enables to gather DNS-oriented information on a given target ([kali.org](https://www.kali.org/tools/dnsrecon/) | [github.com](https://github.com/darkoperator/dnsrecon))
 
 ### E
 - **Enum4linux**: is a tool for enumerating information from Windows and Samba systems ([kali.org](https://www.kali.org/tools/enum4linux) | [github.com](https://github.com/CiscoCXSecurity/enum4linux))
@@ -134,6 +135,7 @@
 - **Scapy**: is a Python program that enables the user to send, sniff and dissect and forge network packets ([scapy.readthedocs.io](https://scapy.readthedocs.io/en/latest/) | [github.com](https://github.com/secdev/scapy))
 - [**`SecLists/`**](SecLists/) - **SecLists**: is a collection of multiple types of lists used during security assessments ([kali.org](https://www.kali.org/tools/seclists/) | [owasp.org](https://wiki.owasp.org/index.php/OWASP_SecLists_Project#tab=OWASP_SecLists))
 - **SHAttered**: SHA-1 Collision Attacks (File tester) ([shattered.io](https://shattered.io/))
+- **Shodan**: is a search engine scanning the entirety of the internet for connected devices ([shodan.io](https://www.shodan.io/))
 - **Smtp-User-Enum**: Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO ([kali.org](https://www.kali.org/tools/smtp-user-enum/) | [pentestmonkey.net](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum))
 - **Snort**: is a free open source network intrusion detection system (IDS) and intrusion prevention system (IPS) ([snort.org](https://www.snort.org/))
 - **Socat**: (for SOcket CAT) establishes two bidirectional byte streams and transfers data between them ([kali.org](https://www.kali.org/tools/socat/))
@@ -152,7 +154,8 @@
 - **Well-known Ports**: table of the 1024 common ports ([vmaxx.net](http://www.vmaxx.net/techinfo/ports.htm))
 - **Wfuzz**: is a tool designed for bruteforcing Web Applications ([kali.org](https://www.kali.org/tools/wfuzz/) | [edge-security.com](http://www.edge-security.com/wfuzz.php))
 - **Who.is**: Large database of whois information, DNS, domain names, name servers, IPs, and tools for searching and monitoring domain names ([who.is](https://who.is/))
-- **Whois**: The Whois database contains details such as the registration date of the domain name, when it expires, ownership and contact information, nameserver information of the domain, the registrar via which the domain was purchased, etc ([whois.com](https://www.whois.com/whois/))
+- **Whois.com**: The Whois database contains details such as the registration date of the domain name, when it expires, ownership and contact information, nameserver information of the domain, the registrar via which the domain was purchased, etc ([whois.com](https://www.whois.com/whois/))
+- **Whois**: provides a commandline client for the WHOIS (RFC 3912) protocol, which queries online servers for information such as contact details for domains and IP address assignments ([kali.org](https://www.kali.org/tools/whois/) | [github.com](https://github.com/rfc1036/whois))
 - **WiGLE**: Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers ([wigle.net](https://wigle.net/))
 - **Windows Subsystem for Linux**: WSL lets developers run a GNU/Linux environment - including most command-line tools, utilities, and applications - directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup ([microsoft.com](https://docs.microsoft.com/en-us/windows/wsl/))
 - [**`wordlistctl/`**](wordlistctl/) - **Wordlistctl**: Fetch, install and search wordlist archives from websites and torrent peers ([github.com](https://github.com/BlackArch/wordlistctl) | [blackarch.org](https://blackarch.org/tools.html))
