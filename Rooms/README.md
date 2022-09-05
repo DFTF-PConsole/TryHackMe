@@ -28,7 +28,7 @@
 - [ ] [**`alfred/`**](alfred/) - **Alfred**: Exploit Jenkins to gain an initial shell, then escalate your privileges by exploiting Windows authentication tokens ([tryhackme.com](https://tryhackme.com/room/alfred))
 - [x] [**`attackerkb/`**](attackerkb/) - **AttackerKB**: Learn how to leverage AttackerKB and learn about exploits in your workflow ([tryhackme.com](https://tryhackme.com/room/attackerkb))
 - [ ] [**`attackingkerberos/`**](attackingkerberos/) - **Attacking Kerberos**: Learn how to abuse the Kerberos Ticket Granting Service inside of a Windows Domain Controller ([tryhackme.com](https://tryhackme.com/room/attackingkerberos))
-- [ ] [**`attacktivedirectory/`**](attacktivedirectory/) - **Attacktive Directory**: 99% of Corporate networks run off of AD. But can you exploit a vulnerable Domain Controller? ([tryhackme.com](https://tryhackme.com/room/attacktivedirectory))
+- [x] [**`attacktivedirectory/`**](attacktivedirectory/) - **Attacktive Directory**: 99% of Corporate networks run off of AD. But can you exploit a vulnerable Domain Controller? ([tryhackme.com](https://tryhackme.com/room/attacktivedirectory))
 - [x] [**`authenticationbypass/`**](authenticationbypass/) - **Authentication Bypass**: Learn how to defeat logins and other authentication mechanisms to allow you access to unpermitted areas ([tryhackme.com](https://tryhackme.com/room/authenticationbypass))
 - [ ] [**`autopsy2ze0/`**](autopsy2ze0/) - **Disk Analysis & Autopsy**: Ready for a challenge? Use Autopsy to investigate artifacts from a disk image ([tryhackme.com](https://tryhackme.com/room/autopsy2ze0))
 
