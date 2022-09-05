@@ -50,6 +50,7 @@
 
 ### E
 - **Enum4linux**: is a tool for enumerating information from Windows and Samba systems ([kali.org](https://www.kali.org/tools/enum4linux) | [github.com](https://github.com/CiscoCXSecurity/enum4linux))
+- **Evil-Winrm**: is the ultimate Windows Remote Management shell for hacking/pentesting ([kali.org](https://www.kali.org/tools/evil-winrm/) | [github.com](https://github.com/Hackplayers/evil-winrm))
 - **ExifTool**: is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files ([exiftool.org](https://exiftool.org/))
 - **Exploit Database**: is a CVE compliant archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers ([exploit-db.com](https://www.exploit-db.com/))
 - **Exploitdb**: Searchable archive from The Exploit Database ([kali.org](https://www.kali.org/tools/exploitdb/) | [exploit-db.com](https://www.exploit-db.com/))
