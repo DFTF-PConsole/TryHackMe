@@ -4,7 +4,7 @@
 
 <p align="center">
 	<a href="https://tryhackme.com/p/DFTFPConsole" target="_blank" rel="noopener noreferrer">
-		<img src="https://tryhackme-badges.s3.amazonaws.com/DFTFPConsole.png" alt="TryHackMe Badge - DFTF@PConsole# (DFTFPConsole)"/>
+		<img src="https://tryhackme-badges.s3.amazonaws.com/DFTFPConsole.png?maxAge=2592000" alt="TryHackMe Badge - DFTF@PConsole# (DFTFPConsole)"/>
 	</a>
 </p>
 
