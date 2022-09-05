@@ -228,7 +228,7 @@
 - [ ] [**`res/`**](res/) - **Res**: Hack into a vulnerable database server with an in-memory data-structure in this semi-guided challenge ([tryhackme.com](https://tryhackme.com/room/res))
 - [ ] [**`retro/`**](retro/) - **Retro**: New high score ([tryhackme.com](https://tryhackme.com/room/retro))
 - [x] ♻️[^1] [**`rpmetasploit/`**](rpmetasploit/) - **Metasploit**: Learn to use Metasploit, a tool to probe and exploit vulnerabilities on networks and servers ([tryhackme.com](https://tryhackme.com/room/rpmetasploit))
-- [ ] [**`rpnessusredux/`**](rpnessusredux/) - **Nessus**: Learn how to set up and use Nessus, a popular vulnerability scanner ([tryhackme.com](https://tryhackme.com/room/rpnessusredux))
+- [x] [**`rpnessusredux/`**](rpnessusredux/) - **Nessus**: Learn how to set up and use Nessus, a popular vulnerability scanner ([tryhackme.com](https://tryhackme.com/room/rpnessusredux))
 - [x] ♻️[^1] [**`rptmux/`**](rptmux/) - **tmux**: Learn to use tmux, one of the most powerful multi-tasking tools on linux ([tryhackme.com](https://tryhackme.com/room/rptmux))
 - [ ] [**`rpwebscanning/`**](rpwebscanning/) - **Web Scanning**: Learn the basics of automated web scanning ([tryhackme.com](https://tryhackme.com/room/rpwebscanning))
 - [ ] [**`rust/`**](rust/) - **Learn Rust**: Learn Rust for someone who knows programming but doesn't know low level programming ([tryhackme.com](https://tryhackme.com/room/rust))
