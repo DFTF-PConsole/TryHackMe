@@ -1,0 +1,18 @@
+Impacket v0.10.1.dev1+20220720.103933.3c6713e3 - Copyright 2022 SecureAuth Corporation
+
+[-] User james doesn't have UF_DONT_REQUIRE_PREAUTH set
+$krb5asrep$23$svc-admin@SPOOKYSEC.LOCAL:9a0f8dce114bc1506a9eba3734f76c54$84f69648f1ac1abc5616514ae0aca55df62c20c6c04cac5a226591ab5dd9c2e73446d106533170230078421f8ece9a8ec8a5d07c6ce7e308877e599d1507b2ded8a70bcca3d1443c992ed83b3e17b2af54973e7495dde153e083e3362f366b4c7bfd1bb771c31fac47b63cb90254bd8eb5e686a8155f168df5320b82b6876f90a5f260c2a7c83e88d55aa837760868a39e80b46168bf7d4f714bb9897222d80a4737f8b9afcbe5abf87cb29189e09d66d634028fed321a7c0be523ac5b49d9f05755a074a654340415586b5838ee4f3e4b8906bfe48b0f9b26c5841522c22d0c1ff94a1ebd9aa2cf0556ac675a9c33d93fd4
+[-] User James doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User robin doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User darkstar doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User administrator doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User backup doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User paradox doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User JAMES doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User Robin doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User Administrator doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User Darkstar doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User Paradox doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User DARKSTAR doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User ori doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User ROBIN doesn't have UF_DONT_REQUIRE_PREAUTH set

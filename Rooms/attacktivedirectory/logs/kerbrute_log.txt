@@ -1,0 +1,19 @@
+2022/09/05 19:01:22 >  Using KDC(s):
+2022/09/05 19:01:22 >  	10.10.68.116:88
+2022/09/05 19:01:22 >  [+] VALID USERNAME:	 james@spookysec.local
+2022/09/05 19:01:23 >  [+] VALID USERNAME:	 svc-admin@spookysec.local
+2022/09/05 19:01:24 >  [+] VALID USERNAME:	 James@spookysec.local
+2022/09/05 19:01:25 >  [+] VALID USERNAME:	 robin@spookysec.local
+2022/09/05 19:01:30 >  [+] VALID USERNAME:	 darkstar@spookysec.local
+2022/09/05 19:01:33 >  [+] VALID USERNAME:	 administrator@spookysec.local
+2022/09/05 19:01:40 >  [+] VALID USERNAME:	 backup@spookysec.local
+2022/09/05 19:01:43 >  [+] VALID USERNAME:	 paradox@spookysec.local
+2022/09/05 19:02:03 >  [+] VALID USERNAME:	 JAMES@spookysec.local
+2022/09/05 19:02:15 >  [+] VALID USERNAME:	 Robin@spookysec.local
+2022/09/05 19:02:54 >  [+] VALID USERNAME:	 Administrator@spookysec.local
+2022/09/05 19:04:11 >  [+] VALID USERNAME:	 Darkstar@spookysec.local
+2022/09/05 19:04:35 >  [+] VALID USERNAME:	 Paradox@spookysec.local
+2022/09/05 19:05:56 >  [+] VALID USERNAME:	 DARKSTAR@spookysec.local
+2022/09/05 19:06:21 >  [+] VALID USERNAME:	 ori@spookysec.local
+2022/09/05 19:07:03 >  [+] VALID USERNAME:	 ROBIN@spookysec.local
+2022/09/05 19:08:50 >  Done! Tested 73317 usernames (16 valid) in 448.490 seconds

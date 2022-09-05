@@ -1,0 +1,1 @@
+[1mKerberos 5 AS-REP etype 23[0m[34m [HC: 18200][0m[32m [JtR: krb5asrep][0m
