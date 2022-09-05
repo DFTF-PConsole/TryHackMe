@@ -87,6 +87,7 @@
 ### K
 - **Kali Linux Metapackages**: metapackages allow for easy installation of certain tools in a specific field, or alternatively, for the installation of a full Kali suite ([kali.org](https://www.kali.org/blog/kali-linux-metapackages/))
 - [**`KaliWordlists/`**](KaliWordlists/) - **Wordlists**: This contains the rockyou.txt wordlist ([kali.org](https://www.kali.org/tools/wordlists/))
+- [**`kerbrute/`**](kerbrute/) - **Kerbrute**: A tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication ([github.com](https://github.com/ropnop/kerbrute))
 
 ### L
 - [**`LinEnum/`**](LinEnum/) - **LinEnum**: Scripted Local Linux Enumeration & Privilege Escalation Checks ([github.com](https://github.com/rebootuser/LinEnum))
