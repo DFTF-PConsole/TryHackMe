@@ -25,6 +25,7 @@
 
 ### B
 - **BeEF**: is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser ([beefproject.com](https://beefproject.com/))
+- **BloodHound**: uses graph theory to reveal the hidden and often unintended relationships within an Active Directory or Azure environment ([kali.org](https://www.kali.org/tools/bloodhound) | [github.com](https://github.com/BloodHoundAD/BloodHound))
 - **BuiltWith**: Find out what websites are Built With ([builtwith.com](https://builtwith.com/))
 - **Burp Suite**: is an integrated platform/graphical tool for performing security testing of web applications ([portswigger.net](https://portswigger.net/burp))
 
