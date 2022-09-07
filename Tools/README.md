@@ -13,7 +13,7 @@
 
 ## [`./`](./)
 
-#### *INDEX:* 0 1 2 3 4 5 6 7 8 9 [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) Q [R](#r) [S](#s) [T](#t) U V [W](#w) [X](#x) [Y](#y) Z
+#### *INDEX:* 0 1 2 3 4 5 6 7 8 9 [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) Q [R](#r) [S](#s) [T](#t) [U](#u) V [W](#w) [X](#x) [Y](#y) Z
 
 <br>
 
@@ -152,6 +152,9 @@
 - **Tor Browser**: prevents someone watching your connection from knowing what websites you visit ([torproject.org](https://www.torproject.org/))
 - **TTPassGen**: is a highly flexible and scriptable password dictionary generator base on Python, you can easily use various rules to generate the desired combination of words ([github.com](https://github.com/tp7309/TTPassGen))
 - **TunnelsUP - Hash Analyzer**: Tool to identify hash types ([tunnelsup.com](https://www.tunnelsup.com/hash-analyzer/))
+
+### U
+- **User-Agent Switcher and Manager**: A User-Agent spoofer browser extension that is highly configurable ([github.com](https://github.com/ray-lothian/UserAgent-Switcher) | [add0n.com](https://add0n.com/useragent-switcher.html))
 
 ### W
 - **Wappalyzer**: Find out the technology stack of any website ([wappalyzer.com](https://www.wappalyzer.com/))
