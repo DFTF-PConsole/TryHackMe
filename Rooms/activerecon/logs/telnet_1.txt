@@ -1,0 +1,13 @@
+Trying 10.10.42.232...
+Connected to 10.10.42.232.
+Escape character is '^]'.
+HTTP/1.1 200 OK
+Date: Wed, 07 Sep 2022 19:22:15 GMT
+Server: Apache/2.4.10 (Debian)
+Last-Modified: Mon, 30 Aug 2021 12:09:24 GMT
+ETag: "15-5cac5b436ddfa"
+Accept-Ranges: bytes
+Content-Length: 21
+Content-Type: text/html
+
+Telnet to port 80...
