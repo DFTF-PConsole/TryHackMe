@@ -27,6 +27,11 @@ Compilation of tools covered along the learning paths.
 
 ## Certificates ([Learning Paths](https://tryhackme.com/paths))
 
+- [ ] [**Red Teaming**](https://tryhackme.com/path/outline/redteaming) - Use diverse techniques for initial access; Enumerate and persist on targets; Evade security solutions; Exploit Active Directory
+<!-- ![Certificate of Red Teaming]() -->
+
+<br />
+
 - [x] [**Introduction to Cyber Security**](https://tryhackme.com/path/outline/introtocyber) - Careers in Cyber Security; Offensive Security: hacking your first application; Defensive Security: defending against a live cyber attack; Exploring security topics in the industry
 ![Certificate of Introduction to Cyber Security](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-YJRDBXJTKN.png)
 
