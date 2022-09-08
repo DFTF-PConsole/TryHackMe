@@ -283,7 +283,7 @@
 - [x] ♻️[^1] [**`windowsfundamentals3xzx/`**](windowsfundamentals3xzx/) - **Windows Fundamentals 3**: In part 3 of the Windows Fundamentals module, learn about the built-in Microsoft tools that help keep the device secure, such as Windows Updates, Windows Security, BitLocker, and more... ([tryhackme.com](https://tryhackme.com/room/windowsfundamentals3xzx))
 - [ ] [**`windowsprivesc20/`**](windowsprivesc20/) - **Windows Privilege Escalation**: Learn the fundamentals of Windows privilege escalation techniques ([tryhackme.com](https://tryhackme.com/room/windowsprivesc20))
 - [ ] [**`windowsreversingintro/`**](windowsreversingintro/) - **Windows Reversing Intro**: Introduction to reverse engineering x64 Windows software ([tryhackme.com](https://tryhackme.com/room/windowsreversingintro))
-- [ ] [**`wireshark/`**](wireshark/) - **Wireshark 101**: Learn the basics of Wireshark and how to analyze various protocols and PCAPs ([tryhackme.com](https://tryhackme.com/room/wireshark))
+- [x] [**`wireshark/`**](wireshark/) - **Wireshark 101**: Learn the basics of Wireshark and how to analyze various protocols and PCAPs ([tryhackme.com](https://tryhackme.com/room/wireshark))
 - [ ] [**`wonderland/`**](wonderland/) - **Wonderland**: Fall down the rabbit hole and enter wonderland ([tryhackme.com](https://tryhackme.com/room/wonderland))
 - [ ] [**`wreath/`**](wreath/) - **Wreath**: Learn how to pivot through a network by compromising a public facing web machine and tunnelling your traffic to access other machines in Wreath's network ([tryhackme.com](https://tryhackme.com/room/wreath))
 
