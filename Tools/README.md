@@ -107,6 +107,8 @@
 ### N
 - **National Vulnerability Database**: The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP) ([nvd.nist.gov](https://nvd.nist.gov/vuln/search))
 - **Nessus**: is a remote security scanning tool, which scans a computer and raises an alert if it discovers any vulnerabilities that malicious hackers could use to gain access to any computer you have connected to a network ([tenable.com](https://www.tenable.com/products/nessus))
+- **NetWitness Platform**: is a network security company that provides real-time network forensics automated threat detection, response, and analysis solutions ([netwitness.com](https://www.netwitness.com/))
+- **NetworkMiner**: is a Network Forensic Analysis Tool (NFAT) for Windows ([netresec.com](https://www.netresec.com/?page=NetworkMiner))
 - **Nikto**: is a pluggable web server and CGI scanner written in Perl, using rfp’s LibWhisker to perform fast security or informational checks ([kali.org](https://www.kali.org/tools/nikto/) | [github.com](https://github.com/sullo/nikto))
 - **Nmap**: is a utility for network exploration or security auditing ([kali.org](https://www.kali.org/tools/nmap/) | [nmap.org](https://nmap.org/))
 
