@@ -166,6 +166,7 @@
 - **Whois**: provides a commandline client for the WHOIS (RFC 3912) protocol, which queries online servers for information such as contact details for domains and IP address assignments ([kali.org](https://www.kali.org/tools/whois/) | [github.com](https://github.com/rfc1036/whois))
 - **WiGLE**: Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers ([wigle.net](https://wigle.net/))
 - **Windows Subsystem for Linux**: WSL lets developers run a GNU/Linux environment - including most command-line tools, utilities, and applications - directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup ([microsoft.com](https://docs.microsoft.com/en-us/windows/wsl/))
+- **Wireshark**: is the world's foremost and widely-used network protocol analyzer. It lets you see what's happening on your network at a microscopic level ([kali.org](https://www.kali.org/tools/wireshark/) | [wireshark.org](https://www.wireshark.org/))
 - [**`wordlistctl/`**](wordlistctl/) - **Wordlistctl**: Fetch, install and search wordlist archives from websites and torrent peers ([github.com](https://github.com/BlackArch/wordlistctl) | [blackarch.org](https://blackarch.org/tools.html))
 
 ### X
